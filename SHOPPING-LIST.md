@@ -60,7 +60,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 
 | # | Item | Qty | Est. Price | Where to Buy |
 |---|------|-----|-----------|--------------|
-| 19 | Pinecil V2 soldering iron | 1 | $26 | Pine64 store, Amazon |
+| 19 | [Pinecil V2 soldering iron](https://eleshop.eu/pinecil-smart-mini-portable-soldering-iron.html) | 1 | $26 | Pine64 store, Amazon |
 | 20 | USB-C PD power supply (65W+) | 1 | $20 | Amazon |
 | 21 | Kester 44 solder 63/37 0.8mm (1oz) | 1 | $12 | Amazon |
 | 22 | MG Chemicals no-clean flux paste | 1 | $10 | Amazon |
@@ -111,7 +111,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 
 | # | Item | Qty | Est. Price | Where to Buy |
 |---|------|-----|-----------|--------------|
-| 19 | Pinecil V2 soldering iron | 1 | $26 | Pine64, Amazon |
+| 19 | [Pinecil V2 soldering iron](https://eleshop.eu/pinecil-smart-mini-portable-soldering-iron.html) | 1 | $26 | Pine64, Amazon |
 | 20 | USB-C PD power supply (65W+) | 1 | $20 | Amazon |
 | 21 | Kester 44 solder 63/37 0.8mm (4oz) | 1 | $18 | Amazon |
 | 22 | Amtech NC-559-V2 flux | 1 | $12 | Amazon |

@@ -15,7 +15,7 @@ Everything you need to know about soldering your own FPV drone — tools, materi
 | **TS100/TS101** | Portable | 65W | 10 seconds | $50-70 | Well-established, huge tip library, barrel jack | No USB-C native (TS100), pricier |
 | **Hakko FX-888D** | Station | 70W | 15 seconds | $105-120 | Rock-solid temp control, massive tip library, lasts forever | Not portable, overkill for occasional use |
 
-**Recommendation:** Pinecil V2 — best value, portable for field repairs, heats in 6 seconds.
+**Recommendation:** [Pinecil V2](https://eleshop.eu/pinecil-smart-mini-portable-soldering-iron.html) — best value, portable for field repairs, heats in 6 seconds.
 
 ### Soldering Iron Tips
 
