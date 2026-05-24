@@ -248,7 +248,8 @@ Ardupilot is the most capable flight controller firmware — used for mapping, s
 
 ```
 Week 1-2:   Soldering videos (#1 Section 1) + Radio arrives → Sim setup (Section 2)
-Week 2-4:   Fly simulator daily (10-20 hours total)
+Week 1-2:   Optional: Buy a Tiny Whoop for indoor practice (Section 11 in docs)
+Week 2-4:   Fly simulator daily (10-20 hours total) + whoop indoors
 Week 3-4:   Parts arrive → Watch build videos (Section 3) before starting
 Week 4-5:   Build the quad (re-watch Section 3 as you go)
 Week 5:     ELRS binding (Section 4) → Betaflight config (Section 6)
