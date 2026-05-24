@@ -27,6 +27,24 @@ The 5-inch propeller quadcopter is the standard first DIY build because:
 - **Outdoor capable** — handles wind, has enough power for altitude, 3-8 min flight times
 - **Learning platform** — skills transfer to all other sizes (3", 7", long-range)
 
+## IMPORTANT: Simulator First
+
+**Before you build, buy your radio and practice in a simulator.**
+
+| Simulator | Price | Platform | Notes |
+|-----------|-------|----------|-------|
+| **Velocidrone** | $20 | PC | Most realistic physics, competitive community |
+| **Liftoff** | $20 | PC/Console | Good graphics, beginner friendly |
+| **TRYP FPV** | $20 | PC | Modern, good freestyle feel |
+
+**Why this matters:**
+- 10-20 hours in a simulator teaches you to fly without breaking anything
+- Your RadioMaster radio connects via USB as a game controller
+- Muscle memory transfers directly to real flying
+- **Saves $200-500+ in crashed parts** during your first month
+
+Buy your radio first, fly the sim for 2-4 weeks while the rest of your parts ship.
+
 ## Build Order (Recommended Assembly Sequence)
 
 1. Mount motors to frame arms
@@ -48,15 +66,17 @@ The 5-inch propeller quadcopter is the standard first DIY build because:
 | **4S vs 6S battery** | 4S = lighter, cheaper, more forgiving. 6S = more efficient, more power. |
 | **Analog vs Digital FPV** | Analog = cheap entry ($80-150). Digital = expensive ($350-500) but far better image. |
 | **Freestyle vs Long-range** | Determines motor KV, battery size, prop pitch, and radio frequency. |
-| **BetaFlight vs iNav** | BetaFlight = acro/freestyle. iNav = GPS waypoints, return-to-home, long-range. |
+| **BetaFlight vs iNav** | BetaFlight = acro/freestyle (now with altitude/position hold). iNav = GPS waypoints, return-to-home, long-range. |
 
 ## Firmware Quick Reference
 
 | Firmware | Best For | GPS Support | Waypoints |
 |----------|----------|-------------|-----------|
-| **Betaflight** | Freestyle, racing | Basic rescue only | No |
-| **iNav** | Long-range, autonomous | Full (RTH, position hold) | Yes |
+| **Betaflight 2025.12** | Freestyle, racing | **Altitude hold, position hold, GPS rescue** | No |
+| **iNav** | Long-range, autonomous | Full (RTH, position hold, cruise) | Yes |
 | **Ardupilot** | Mapping, commercial, complex | Full | Yes |
+
+**Note:** Betaflight 2025.12 added altitude hold and position hold — a massive improvement for beginners. Add a GPS module ($12-18) to unlock these safety features. Configure via the new Progressive Web App (no desktop download needed).
 
 ---
 

@@ -118,7 +118,7 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 | Analog 200mW | 500m-1.5km | Short range outdoor |
 | Analog 800mW | 1-3 km | Standard outdoor |
 | **Analog 1.6W** | **2-5 km** | Maximum analog |
-| DJI O3 (standard) | 8-13 km | Best digital range |
+| DJI O4 (standard) | 10-13 km | Best digital range, current gen |
 | HDZero | 3-5 km | Lower power digital |
 | Walksnail | 5-8 km | Mid-range digital |
 
@@ -161,7 +161,7 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 | Props | Bi-blade 5030-5035 | Most efficient |
 | Frame | Lightweight, GPS mount | Every gram counts |
 | Radio | ELRS 900MHz | Maximum control range |
-| VTX | DJI O3 (10km+) or analog 1.6W | Video is the range limit |
+| VTX | DJI O4 (10km+) or analog 1.6W | Video is the range limit |
 | Firmware | iNav | GPS return-to-home safety |
 
 **Result:** 80-100 km/h cruise, 8-15 min flights, 5-15 km usable range
@@ -174,8 +174,8 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 | Battery | 1500-1800mAh 6S | Compensate for extra weight |
 | Props | Tri or quad-blade, low pitch | Smooth, stable |
 | Frame | Deadcat (props out of camera view) | Clean footage |
-| VTX | DJI O3 (4K recording) | Onboard 4K footage |
-| Camera | GoPro or naked GoPro (additional) | Better footage than DJI O3 camera |
+| VTX | DJI O4 (4K recording) | Onboard 4K footage |
+| Camera | GoPro or naked GoPro (additional) | Better footage than DJI O4 camera |
 
 **Result:** Smooth, stable, 4-6 min with good footage, 5-10 km range
 
@@ -208,11 +208,11 @@ What do you primarily want to do?
 
 | Change | Speed Impact | Flight Time Impact | Range Impact | Cost Impact |
 |--------|-------------|-------------------|--------------|-------------|
-| 4S → 6S | Same (reKV) | +15-25% | +15-25% | +$10-15/pack |
+| 4S → 6S | Same (match KV to voltage) | +15-25% | +15-25% | +$10-15/pack |
 | 2700KV → 1900KV | -30% top speed | +30% | +30% | Same |
 | 1300mAh → 1800mAh | -5% (weight) | +20-30% | +20-30% | +$8-12/pack |
 | Tri-blade → Bi-blade | -10% acceleration | +15-20% | +15-20% | Same |
-| Analog → DJI O3 | No change | -5% (weight) | +200-400% video range | +$300-400 |
+| Analog → DJI O4 | No change | -5% (weight) | +200-400% video range | +$350-450 |
 | High-pitch → Low-pitch | -15% top speed | +10-15% | +10-15% | Same |
 | Add GPS + iNav | No change | -2% (weight) | Infinite (RTH) | +$12-20 |
 | ELRS 2.4 → 900MHz | No change | No change | +100-200% control | +$15-25 |
@@ -230,7 +230,7 @@ What do you primarily want to do?
 6. VTX system weight (2-5%)
 
 **Ranked by impact on usable range:**
-1. Video system (analog 1km vs DJI 10km — 10x difference)
+1. Video system (analog 1km vs DJI O4 10km — 10x difference)
 2. Radio protocol (FrSky 2km vs ELRS 900MHz 50km)
 3. Battery capacity (more flight time = more distance possible)
 4. Motor efficiency (extends cruise distance)

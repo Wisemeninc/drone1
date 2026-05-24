@@ -1,6 +1,6 @@
 # Shopping Lists — Ready to Order
 
-Copy-paste shopping lists for each budget tier. Check current prices before ordering — these are approximate as of 2025.
+Copy-paste shopping lists for each budget tier. Check current prices before ordering — these are approximate as of 2025-2026 (see [2026-UPDATES.md](./2026-UPDATES.md) for latest changes).
 
 ---
 
@@ -36,11 +36,14 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 7 | HappyModel EP2 ELRS 2.4GHz receiver | 1 | $13 | GetFPV, BangGood |
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | GetFPV, RDQ |
 | 9 | CNHL Black Series 1300mAh 4S 100C (XT60) | 3 | $66 | Amazon, AliExpress |
-| 10 | XT60 pigtail (male, 12AWG, 10cm) | 2 | $5 | Amazon |
-| 11 | M3 standoff hardware kit (20mm + 25mm) | 1 | $6 | Amazon |
-| 12 | Battery strap (20mm × 250mm) | 5 | $5 | Amazon |
-| 13 | Zip ties + heat shrink assortment | 1 | $8 | Amazon |
-| | **Subtotal (Quad)** | | **~$324** | |
+| 10 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Amazon |
+| 11 | BN-220 GPS module | 1 | $14 | Amazon, BangGood |
+| 12 | Buzzer (5V, with wire) | 1 | $3 | Amazon |
+| 13 | XT60 pigtail (male, 12AWG, 10cm) | 2 | $5 | Amazon |
+| 14 | M3 standoff hardware kit (20mm + 25mm) | 1 | $6 | Amazon |
+| 15 | Battery strap (20mm × 250mm) | 5 | $5 | Amazon |
+| 16 | Zip ties + heat shrink assortment | 1 | $8 | Amazon |
+| | **Subtotal (Quad)** | | **~$355** | |
 
 ### Support Equipment ($210-275)
 
@@ -63,9 +66,10 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 22 | MG Chemicals no-clean flux paste | 1 | $10 | Amazon |
 | 23 | Solder wick 2.5mm | 1 | $5 | Amazon |
 | 24 | Brass wool tip cleaner | 1 | $6 | Amazon |
-| | **Subtotal (Solder)** | | **~$79** | |
+| 25 | Smoke stopper (XT60 inline) | 1 | $12 | Amazon, GetFPV |
+| | **Subtotal (Solder)** | | **~$91** | |
 
-### **BUDGET TOTAL: ~$615**
+### **BUDGET TOTAL: ~$658**
 
 ---
 
@@ -87,19 +91,21 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 10 | GNB 1500mAh 6S 120C (XT60) | 4 | $130 | Amazon, GetFPV |
 | 11 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Amazon |
 | 12 | XT60 pigtail + M3 hardware + straps | 1 kit | $15 | Amazon |
-| 13 | BN-220 GPS module (optional, for iNav) | 1 | $14 | Amazon, BangGood |
-| | **Subtotal (Quad)** | | **~$485** | |
+| 13 | BN-220 GPS module (for altitude/position hold) | 1 | $14 | Amazon, BangGood |
+| 14 | Buzzer (5V, with wire) | 1 | $3 | Amazon |
+| | **Subtotal (Quad)** | | **~$505** | |
 
 ### Support Equipment ($250-370)
 
 | # | Item | Qty | Est. Price | Where to Buy |
 |---|------|-----|-----------|--------------|
-| 14 | RadioMaster Zorro (ELRS, hall gimbals) | 1 | $100 | RadioMaster, GetFPV |
+| 14 | RadioMaster TX15 Max (ELRS, hall gimbals, color screen) | 1 | $139 | RadioMaster, GetFPV |
 | 15 | Skyzone Cobra X V2 goggles (OLED, analog) | 1 | $180 | GetFPV, RDQ |
 | 16 | ToolkitRC M7 charger (200W) | 1 | $50 | GetFPV, Amazon |
 | 17 | XT60 DC power supply (24V/10A) | 1 | $25 | Amazon |
 | 18 | LiPo safe bag (large) | 1 | $12 | Amazon |
-| | **Subtotal (Support)** | | **~$367** | |
+| 19 | Smoke stopper (XT60 inline) | 1 | $12 | Amazon, GetFPV |
+| | **Subtotal (Support)** | | **~$418** | |
 
 ### Soldering Kit ($90-110)
 
@@ -116,7 +122,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 27 | Kapton tape (10mm) | 1 | $5 | Amazon |
 | | **Subtotal (Solder)** | | **~$129** | |
 
-### **MID-RANGE TOTAL: ~$981**
+### **MID-RANGE TOTAL: ~$1,052**
 
 ---
 
@@ -132,7 +138,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 4 | T-Motor Velox V2 2306 1900KV motors | 4 | $80 | T-Motor, GetFPV |
 | 5 | HQProp 5x4.3x3 V2S (5 pack) | 3 packs | $25 | GetFPV |
 | 6 | Ethix S5 props (5 pack) | 2 packs | $20 | GetFPV |
-| 7 | DJI O3 Air Unit (VTX + camera + 4K recording) | 1 | $120 | DJI, GetFPV |
+| 7 | DJI O4 Air Unit (VTX + camera + 4K recording) | 1 | $130 | DJI, GetFPV |
 | 8 | RadioMaster RP3 ELRS 2.4GHz receiver (diversity) | 1 | $20 | RadioMaster |
 | 9 | TBS Triumph Pro antenna (RHCP) | 1 | $18 | GetFPV |
 | 10 | Tattu R-Line V4 1300mAh 6S 130C (XT60) | 5 | $190 | GetFPV, Amazon |
@@ -141,7 +147,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 13 | TPU 3D-printed mounts (antenna, GPS, GoPro) | 1 set | $15 | GetFPV or print own |
 | 14 | Premium M3 titanium hardware kit | 1 | $15 | GetFPV |
 | 15 | Battery straps (Ethix power strap) | 3 | $9 | GetFPV |
-| | **Subtotal (Quad)** | | **~$740** | |
+| | **Subtotal (Quad)** | | **~$750** | |
 
 ### Support Equipment ($500-650)
 
@@ -171,7 +177,7 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 | 31 | Smoke stopper (XT60 inline) | 1 | $12 | Amazon, GetFPV |
 | | **Subtotal (Solder)** | | **~$196** | |
 
-### **PREMIUM TOTAL: ~$1,571**
+### **PREMIUM TOTAL: ~$1,581**
 
 ---
 
@@ -201,7 +207,7 @@ If you can't buy everything at once:
 | Priority | Buy First | Why |
 |----------|-----------|-----|
 | 1 | Soldering kit | Practice before parts arrive |
-| 2 | Radio TX (RadioMaster Pocket/Zorro) | Use in simulator immediately (Velocidrone, Liftoff) |
+| 2 | Radio TX (RadioMaster Pocket/TX15 Max) | Use in simulator immediately (Velocidrone, Liftoff) |
 | 3 | Frame + FC + ESC + Motors + Props | Core quad |
 | 4 | Battery + Charger + LiPo bag | Power system |
 | 5 | VTX + Camera + Goggles | Video system |

@@ -1,6 +1,8 @@
 # 2026 Updates — What Changed
 
-Last updated: May 2026. Apply these corrections on top of the main documentation.
+> **Note (May 2026):** All corrections below have been inlined into the base documentation files (COMPONENTS.md, BUILD-GUIDE.md, BUDGET-TIERS.md, SHOPPING-LIST.md, TRADE-OFFS.md, REGULATIONS.md). This file now serves as a changelog explaining *why* things changed. Each base doc is accurate standalone — you don't need to cross-reference this file.
+
+Last updated: May 2026.
 
 ---
 

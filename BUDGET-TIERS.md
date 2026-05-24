@@ -4,7 +4,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Budget Build (~$320-400)
+## Budget Build (~$500-630 all-in)
 
 **Philosophy:** Learn to fly without crying when you crash. Cheap replacements, proven reliability, analog video.
 
@@ -44,7 +44,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Mid-Range Build (~$600-900)
+## Mid-Range Build (~$800-1,160 all-in)
 
 **Philosophy:** Good experience without breaking the bank. Digital video optional, better components that last.
 
@@ -57,7 +57,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Receiver | RadioMaster RP1 (ELRS 2.4GHz) | $15-18 |
 | Antenna | Foxeer Lollipop V4 (RHCP) | $12-15 |
 | Battery (×4) | GNB 1500mAh 6S 120C | $120-140 |
-| **Radio TX** | RadioMaster Zorro (ELRS, hall gimbals) | $90-110 |
+| **Radio TX** | RadioMaster TX15 Max (ELRS, hall gimbals, color screen) | $130-145 |
 | **Charger** | ToolkitRC M7 (200W) | $45-55 |
 | **Soldering kit** | Pinecil V2 full setup + extras | $90-110 |
 | Hardware | Standoffs, zip ties, XT60, heatshrink, GPS mount | $15-20 |
@@ -90,7 +90,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Premium Build (~$1,000-1,400)
+## Premium Build (~$1,200-1,600 all-in)
 
 **Philosophy:** Best experience possible. Digital HD video, premium components, longest lifespan, 4K recording capability.
 
@@ -102,7 +102,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Props (×15 sets) | HQProp 5x4.3x3 V2S + Ethix S5 (mixed) | $35-45 |
 | Receiver | RadioMaster RP3 (ELRS 2.4GHz, diversity) | $18-22 |
 | Antenna | TBS Triumph Pro (RHCP) | $15-18 |
-| FPV System | DJI O3 Air Unit (4K recording + VTX + camera) | $110-140 |
+| FPV System | DJI O4 Air Unit (4K recording + VTX + camera) | $110-140 |
 | Goggles | DJI Goggles 2 | $280-350 |
 | Battery (×5) | Tattu R-Line V4 1300mAh 6S 130C | $175-200 |
 | GPS | BN-220 GPS module | $12-15 |
@@ -115,7 +115,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | *(Quad only)* | *(without radio/goggles/charger/tools)* | *$620-780* |
 
 ### What You Get (over Mid-Range)
-- 4K onboard recording (DJI O3)
+- 4K onboard recording (DJI O4)
 - 1080p/100fps FPV feed with 10km+ range
 - Best-in-class motor smoothness and efficiency
 - Premium frame (5mm T700 carbon, optimized flex)
@@ -130,8 +130,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ```
 Month 1-3:  Budget analog build → learn to fly, crash a lot, learn repairs
-Month 3-6:  Upgrade radio (Pocket → Zorro or TX16S) if needed
-Month 6-12: Upgrade to digital video (DJI O3 or Walksnail)
+Month 3-6:  Upgrade radio (Pocket → TX15 Max or TX16S) if needed
+Month 6-12: Upgrade to digital video (DJI O4 or Walksnail)
 Month 12+:  Build second quad with premium components
             Keep budget quad as "beater" for risky spots
 ```
@@ -149,7 +149,7 @@ Month 12+:  Build second quad with premium components
 | **ESC firmware** | BLHeli_S (flash Bluejay) | BL32 | BL32 | RPM filtering, smooth throttle |
 | **Motor bearings** | Standard steel | Quality steel | EZO/NSK Japanese | Lifespan, smoothness, noise |
 | **Motor magnets** | Standard | N52H | N52SH (high temp) | Consistency, heat resistance |
-| **Video** | Analog 800mW | Analog 1.6W or entry digital | DJI O3 (4K + digital link) | Image quality, range, recording |
+| **Video** | Analog 800mW | Analog 1.6W or entry digital | DJI O4 (4K + digital link) | Image quality, range, recording |
 | **Radio gimbals** | Potentiometer | Hall sensor | Hall sensor / AG | Precision, zero drift, lifespan |
 | **Battery cells** | Budget (CNHL) | Mid (GNB) | Premium (Tattu R-Line) | Voltage sag, cycle life, consistency |
 | **Goggles** | Box (heavy, basic) | Compact OLED | DJI digital (1080p+) | Comfort, image, features |

@@ -57,16 +57,16 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 
 ### Processor Comparison
 
-| Spec | F4 (STM32F405) | F7 (STM32F722) | H7 (STM32H743) |
+| Spec | F4 (STM32F405) | F7 (STM32F722) | **H7 (STM32H743)** |
 |------|----------------|----------------|-----------------|
-| Clock Speed | 168 MHz | 216 MHz | 480 MHz |
+| Clock Speed | 168 MHz | 216 MHz | **480 MHz** |
 | Flash Storage | 1 MB | 512 KB–1 MB | 2 MB |
 | Blackbox Logging | Limited | Good | Excellent (high-rate) |
-| PID Loop Rate | 8K max | 8K comfortable | 32K capable |
+| PID Loop Rate | **4K max (BF 2025.12 limit)** | 8K comfortable | 32K capable |
 | UART Count | 3-5 | 4-6 | 6-8 |
-| Future-proofing | Being phased out | Good for 2-3 years | Best long-term |
+| Future-proofing | **Legacy — being phased out** | Good | **Best — buy this in 2026** |
 | Price Range | $25-40 | $35-60 | $45-80 |
-| Betaflight Support | Being deprecated | Full | Full |
+| Betaflight Support | Limited (4kHz cap) | Full | Full |
 | iNav Support | Full | Full | Full |
 
 ### Key FC Features to Look For
@@ -81,26 +81,24 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 
 | FC | Processor | UARTs | Price | Pros | Cons |
 |----|-----------|-------|-------|------|------|
-| **SpeedyBee F405 V4** | F4 | 6 | $30-35 | Bluetooth config from phone, great docs | F4 being phased out |
-| **SpeedyBee F7 V3** | F7 | 6 | $40-50 | WiFi blackbox download, solid | Slightly more expensive |
+| **SpeedyBee F405 V4** | F4 | 6 | $30-35 | Bluetooth config from phone, cheapest | F4 legacy — 4kHz PID cap in BF 2025.12 |
+| **SpeedyBee F7 V3** | F7 | 6 | $40-50 | WiFi blackbox download, solid | Being surpassed by H7 |
 | **Mamba F722 MK4** | F7 | 5 | $35-45 | Proven reliable, Diatone support | No wireless config |
+| **SpeedyBee F7 H7 stack** | H7 | 7 | $50-65 | Latest gen, full BF 2025.12 features | Newer, fewer build guides |
 | **GEPRC Span F722-BT-HD** | F7 | 6 | $45-55 | DJI connector built-in, Bluetooth | Proprietary connectors |
-| **Foxeer Reaper F7** | F7 | 6 | $40-50 | Good analog/digital support | Newer, less community testing |
 
 ### FC+ESC Stacks (Buy Together)
 
 | Stack | FC + ESC | Price | Pros |
 |-------|----------|-------|------|
-| **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Best beginner deal, guaranteed compatibility |
+| **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Cheapest beginner deal, guaranteed compatibility |
 | **Mamba F722 + F50 Pro** | F7 + BL32 50A | $75-95 | Reliable combo |
-| **GEPRC Span + 60A** | F7 + BL32 60A | $90-110 | Good for 6S builds |
+| **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, full BF 2025.12 features |
 
-### Beginner Pick: SpeedyBee F405 V4 Stack
+### Beginner Pick: SpeedyBee F405 V4 Stack (budget) or H7 stack (recommended)
 
-- FC + ESC matched and guaranteed compatible
-- Bluetooth configuration from SpeedyBee phone app
-- Well-documented, YouTube build guides available
-- One purchase, no compatibility issues
+- **If budget is tight:** F405 V4 stack ($65-80) — Bluetooth config, great docs, works fine for learning
+- **If you can spend $20 more:** Get an H7 or F7 stack — unlocks 8K PID loops, altitude/position hold in Betaflight 2025.12, better blackbox logging, and won't need replacing as firmware advances
 
 ---
 
@@ -306,28 +304,31 @@ The radio link is your control connection to the drone. Range, latency, and reli
 
 ### Protocol Comparison
 
-| Feature | ExpressLRS (ELRS) | TBS Crossfire | FrSky ACCESS |
+| Feature | ExpressLRS (ELRS 4.x) | TBS Crossfire | FrSky ACCESS |
 |---------|-------------------|---------------|--------------|
 | Frequency | 2.4GHz or 900MHz | 900MHz | 2.4GHz |
 | Range (2.4GHz) | 10-30+ km | — | 1-2 km |
 | Range (900MHz) | 30-100+ km | 30-40+ km | — |
-| Latency | **250us-500us (best)** | ~4ms | ~9-18ms |
-| Refresh Rate | Up to 1000Hz | 150Hz | 50-100Hz |
+| Latency | **250us at 1000Hz (best)** | ~4ms | ~9-18ms |
+| Refresh Rate | Up to **1000Hz (K1000 mode)** | 150Hz | 50-100Hz |
 | Open Source | **Yes** | No (proprietary) | No |
 | TX Module Price | $25-40 (or built into radio) | $150-200 | Built into radio |
 | RX Price | $10-20 | $50-70 | $20-40 |
 | Community | Massive, rapidly growing | Established, loyal | Declining |
 | Telemetry | Yes (CRSF protocol) | Yes (CRSF) | Yes |
-| **2025 Verdict** | **Clear winner — use this** | Still excellent, expensive | Avoid for new builds |
+| **2026 Verdict** | **Clear winner — use this** | Still excellent, expensive | Avoid for new builds |
 
-### Why ExpressLRS Wins in 2025
+### Why ExpressLRS Wins in 2026
 
-1. **Lowest latency** — 250us at 500Hz vs 4ms for Crossfire
+1. **Lowest latency** — 250us at 1000Hz (K1000 mode in ELRS 4.0) vs 4ms for Crossfire
 2. **Longest range** — 900MHz ELRS at 1W exceeds Crossfire range
 3. **Cheapest** — $12 receivers vs $50-70 for Crossfire
 4. **Open source** — community-driven updates, no vendor lock-in
 5. **Built into modern radios** — no external module needed
-6. **Massive community** — any problem has a solution online
+6. **ELRS 4.0 features** — automatic antenna diversity, adaptive power, direct GPS input on RX
+7. **Massive community** — any problem has a solution online
+
+**Note:** ELRS 4.0 is NOT backward-compatible with 3.x. Both TX and RX must run 4.x. All current RadioMaster/HappyModel/BetaFPV hardware is ESP-based and fully supported.
 
 ### Radio Transmitters (TX)
 
@@ -365,28 +366,28 @@ The video system is what you see through while flying. This is the biggest cost 
 
 ### System Comparison
 
-| Feature | Analog | DJI O3 | HDZero | Walksnail Avatar |
-|---------|--------|--------|--------|-----------------|
-| Latency | **~10ms (best)** | 28-40ms | **~15ms** | 22-35ms |
-| Resolution | 480-720p (noisy) | 1080p/100fps | 720p/90fps | 1080p/60fps |
-| Range | 1-3 km | 10+ km | 3-5 km | 5-8 km |
-| VTX Weight | 3-8g | ~36g | ~25g | ~30g |
-| VTX Price | $15-30 | $90-110 | $80-100 | $70-90 |
-| Goggle Price | $50-150 | $230-350 | $350-530 | $280-400 |
-| **Total System** | **$80-180** | **$350-500** | **$450-630** | **$370-490** |
-| Onboard Recording | No (external DVR) | **4K onboard** | No (external DVR) | 1080p onboard |
-| Ecosystem | Open (any brand) | Closed (DJI only) | Open (multiple VRX) | Semi-open |
-| Penetration | Good (analog handles interference) | Moderate | Moderate | Moderate |
+| Feature | Analog | **DJI O4** | DJI O3 (prev gen) | HDZero | Walksnail Avatar |
+|---------|--------|-----------|-------------------|--------|-----------------|
+| Latency | **~10ms (best)** | 25-38ms | 28-40ms | **~15ms** | 22-35ms |
+| Resolution | 480-720p (noisy) | 1080p/100fps | 1080p/100fps | 720p/90fps | 1080p/60fps |
+| Range | 1-3 km | **10-13 km** | 8-13 km | 3-5 km | 5-8 km |
+| VTX Weight | 3-8g | ~35g | ~36g | ~25g | ~30g |
+| VTX Price | $15-30 | $100-130 | $80-100 (discounted) | $80-100 | $70-90 |
+| Goggle Price | $50-150 | $250-350 (Goggles 2/3) | $230-300 (Goggles 2) | $350-530 | $280-400 |
+| **Total System** | **$80-180** | **$380-500** | **$320-420** | **$450-630** | **$370-490** |
+| Onboard Recording | No (external DVR) | **4K onboard** | 4K onboard | No (external DVR) | 1080p onboard |
+| Ecosystem | Open (any brand) | Closed (DJI only) | Closed (DJI only) | Open (multiple VRX) | Semi-open |
 
 ### Decision Matrix
 
 | If you want... | Choose | Why |
 |----------------|--------|-----|
 | Cheapest entry to learn | **Analog** | $80-150 total, upgrade later |
-| Best image + recording | **DJI O3** | 4K onboard recording, best range |
+| Best image + recording | **DJI O4** | 4K onboard recording, best range, current gen |
+| Good digital on a budget | **DJI O3 (discounted)** | Previous gen, still excellent, cheaper now |
 | Lowest latency digital | **HDZero** | 15ms, closest to analog feel |
 | Best value digital | **Walksnail** | Cheaper than DJI, good image |
-| Maximum range | **DJI O3** | 10+ km reliable link |
+| Maximum range | **DJI O4** | 10-13 km reliable link |
 | Open ecosystem | **HDZero** | No vendor lock-in |
 
 ### Analog Components
@@ -404,7 +405,8 @@ The video system is what you see through while flying. This is the biggest cost 
 
 | System | VTX + Camera | Goggles | Total | Notes |
 |--------|-------------|---------|-------|-------|
-| **DJI O3 Air Unit** | $90-110 | $230-350 (Goggles 2/3) | $350-500 | Best overall, locked ecosystem |
+| **DJI O4 Air Unit** | $100-130 | $250-350 (Goggles 2/3) | $380-500 | Current gen, best overall, locked ecosystem |
+| **DJI O3 Air Unit** | $80-100 | $230-300 (Goggles 2) | $320-420 | Previous gen, discounted, still excellent |
 | **HDZero Freestyle** | $80-100 | $350-530 (Goggles) | $450-630 | Best latency, most expensive |
 | **Walksnail Avatar HD** | $70-90 | $280-400 (Goggles X) | $370-490 | Good balance of price/quality |
 
@@ -412,7 +414,9 @@ The video system is what you see through while flying. This is the biggest cost 
 
 **Option A — Budget start:** Buy analog ($80-120), learn to fly, upgrade to digital later. You'll crash a lot learning; analog VTX weighs nothing and costs nothing to replace.
 
-**Option B — Invest once:** Buy DJI Goggles 2 + O3 Air Unit ($400-500). Better experience from day 1, goggles work across all future builds. The premium is worth it if you know you'll stick with the hobby.
+**Option B — Invest once:** Buy DJI Goggles 2 + O4 Air Unit ($380-500). Better experience from day 1, goggles work across all future builds. The premium is worth it if you know you'll stick with the hobby.
+
+**Option C — Value digital:** Buy DJI O3 (now discounted as previous gen) + Goggles 2 ($320-420). Nearly as good as O4 for less money.
 
 ---
 
@@ -438,16 +442,23 @@ Pitch = how far forward the prop moves in one revolution (in inches). Higher pit
 | **4.0-4.5"** | Balanced, responsive | **5040, 5043** | **All-around** |
 | 4.5-5.1" | Aggressive, fast, current-hungry | 5045, 5051 | Racing, punch-outs |
 
-### Reading Prop Names: 51466
+### Reading Prop Names
 
-- **51** = 5.1 inch diameter
-- **4** = 4.0 inch pitch (some use 46 = 4.6 pitch)
-- **6** = number of blades... wait no. Actually:
-  - **5** = diameter (5 inches)
-  - **14** = pitch (but read as 4.0-4.6 depending on brand notation)
-  - **66** = blade design identifier
+There are two common naming conventions:
 
-More commonly: **5x4.3x3** = 5" diameter, 4.3" pitch, 3 blades. This is the clearest notation.
+**Convention 1 — Combined number (e.g., "51466"):**
+- **5** = 5 inch diameter
+- **14** = design series identifier
+- **66** = variant/revision number
+- The pitch is NOT directly encoded — check the spec sheet
+
+**Convention 2 — Explicit notation (e.g., "5x4.3x3"):**
+- **5** = diameter in inches
+- **4.3** = pitch in inches
+- **3** = number of blades
+- This is the clearest notation — always check this when comparing
+
+**Example:** Gemfan 51466 V2 = a 5.1" diameter, 4.6" pitch, 3-blade prop. The "51466" is Gemfan's product code; the actual specs are on the packaging.
 
 ### Material
 

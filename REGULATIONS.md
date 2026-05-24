@@ -54,9 +54,15 @@ If you fly for any commercial purpose (paid work, business use, YouTube monetiza
 
 - All drones 250g+ must broadcast Remote ID
 - Options: Built-in module (firmware/hardware) OR fly at FAA-Recognized Identification Areas (FRIAs)
-- Betaflight/iNav are adding Remote ID broadcast support
-- External Remote ID modules available ($30-50)
+- **Betaflight 2025.12 supports Remote ID broadcast** via serial-connected module or direct ESP32 broadcast
+- **iNav supports Remote ID broadcast** natively
+- External Remote ID modules available ($30-50) — mounts on frame, broadcasts your registration ID
 - **FRIAs:** AMA flying fields and some community areas are exempt — check FAA FRIA map
+
+**Practical advice for your build:**
+- Easiest option: buy an external Remote ID module ($30-50, e.g., DroneTag Mini, HolyBro Remote ID) and velcro it to your frame
+- Advanced option: configure Betaflight/iNav built-in broadcast (requires ESP32 on FC or external module on UART)
+- If you only fly at AMA fields or FRIAs, you're exempt — but having a module gives you freedom to fly anywhere legal
 
 ---
 
