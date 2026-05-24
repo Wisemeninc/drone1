@@ -46,6 +46,53 @@ The 5-inch propeller quadcopter is the standard first DIY build because:
 
 Buy your radio first, fly the sim for 2-4 weeks while the rest of your parts ship.
 
+## Build Order (Recommended Assembly Sequence)
+
+1. Mount motors to frame arms
+2. Solder motor wires to ESC pads (or connect via plugs)
+3. Mount FC+ESC stack to frame with standoffs
+4. Solder battery lead (XT60) to ESC power pads
+5. Solder receiver to FC UART pads
+6. Mount and solder VTX + antenna
+7. Mount and connect camera
+8. Flash firmware (Betaflight / iNav)
+9. Configure radio link (bind TX to RX)
+10. Set up PID tuning (start with defaults)
+11. Mount props (LAST — never power up with props until ready to fly)
+
+## Key Decisions Before You Buy
+
+| Decision | Impact |
+|----------|--------|
+| **4S vs 6S battery** | 4S = lighter, cheaper, more forgiving. 6S = more efficient, more power. |
+| **Analog vs Digital FPV** | Analog = cheap entry ($80-150). Digital = expensive ($350-500) but far better image. |
+| **Freestyle vs Long-range** | Determines motor KV, battery size, prop pitch, and radio frequency. |
+| **BetaFlight vs iNav** | BetaFlight = acro/freestyle (now with altitude/position hold). iNav = GPS waypoints, return-to-home, long-range. |
+
+## Firmware Quick Reference
+
+| Firmware | Best For | GPS Support | Waypoints |
+|----------|----------|-------------|-----------|
+| **Betaflight 2025.12** | Freestyle, racing | **Altitude hold, position hold, GPS rescue** | No |
+| **iNav** | Long-range, autonomous | Full (RTH, position hold, cruise) | Yes |
+| **Ardupilot** | Mapping, commercial, complex | Full | Yes |
+
+**Note:** Betaflight 2025.12 added altitude hold and position hold — a massive improvement for beginners. Add a GPS module ($12-18) to unlock these safety features. Configure via the new Progressive Web App (no desktop download needed).
+
+---
+
+## Safety Essentials
+
+- **Never arm with props on indoors**
+- **Always do a pre-flight check** (props tight, battery secure, antenna attached)
+- **Set a failsafe** in Betaflight/iNav (motor stop or RTH on signal loss)
+- **Use a smoke stopper** on first power-up (a current-limiting inline fuse that prevents magic smoke)
+- **Fly in open areas** away from people until comfortable
+- **Set a battery voltage alarm** (3.5V per cell minimum)
+- **Carry a LiPo-safe bag** for battery transport and storage
+
+---
+
 ## Optional: Indoor Training Drone (Tiny Whoop)
 
 A **Tiny Whoop** is a 65-75mm ducted micro quad (25-35g) that flies indoors safely. It bounces off walls, won't hurt people/pets/furniture, and builds real stick skills faster than a simulator alone.
@@ -108,48 +155,3 @@ Tiny Whoops use 1S 300-450mAh batteries (2-3 min flights). Buy 6-8 batteries ($3
 | GNB 1S 450mAh 80C (PH2.0) | 8 | $24 |
 | 6-port 1S USB charger | 1 | $10 |
 | **Total** | | **~$34** |
-
-## Build Order (Recommended Assembly Sequence)
-
-1. Mount motors to frame arms
-2. Solder motor wires to ESC pads (or connect via plugs)
-3. Mount FC+ESC stack to frame with standoffs
-4. Solder battery lead (XT60) to ESC power pads
-5. Solder receiver to FC UART pads
-6. Mount and solder VTX + antenna
-7. Mount and connect camera
-8. Flash firmware (Betaflight / iNav)
-9. Configure radio link (bind TX to RX)
-10. Set up PID tuning (start with defaults)
-11. Mount props (LAST — never power up with props until ready to fly)
-
-## Key Decisions Before You Buy
-
-| Decision | Impact |
-|----------|--------|
-| **4S vs 6S battery** | 4S = lighter, cheaper, more forgiving. 6S = more efficient, more power. |
-| **Analog vs Digital FPV** | Analog = cheap entry ($80-150). Digital = expensive ($350-500) but far better image. |
-| **Freestyle vs Long-range** | Determines motor KV, battery size, prop pitch, and radio frequency. |
-| **BetaFlight vs iNav** | BetaFlight = acro/freestyle (now with altitude/position hold). iNav = GPS waypoints, return-to-home, long-range. |
-
-## Firmware Quick Reference
-
-| Firmware | Best For | GPS Support | Waypoints |
-|----------|----------|-------------|-----------|
-| **Betaflight 2025.12** | Freestyle, racing | **Altitude hold, position hold, GPS rescue** | No |
-| **iNav** | Long-range, autonomous | Full (RTH, position hold, cruise) | Yes |
-| **Ardupilot** | Mapping, commercial, complex | Full | Yes |
-
-**Note:** Betaflight 2025.12 added altitude hold and position hold — a massive improvement for beginners. Add a GPS module ($12-18) to unlock these safety features. Configure via the new Progressive Web App (no desktop download needed).
-
----
-
-## Safety Essentials
-
-- **Never arm with props on indoors**
-- **Always do a pre-flight check** (props tight, battery secure, antenna attached)
-- **Set a failsafe** in Betaflight/iNav (motor stop or RTH on signal loss)
-- **Use a smoke stopper** on first power-up (a current-limiting inline fuse that prevents magic smoke)
-- **Fly in open areas** away from people until comfortable
-- **Set a battery voltage alarm** (3.5V per cell minimum)
-- **Carry a LiPo-safe bag** for battery transport and storage
