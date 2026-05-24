@@ -17,6 +17,8 @@ Everything you need to know about soldering your own FPV drone — tools, materi
 
 **Recommendation:** [Pinecil V2](https://eleshop.eu/pinecil-smart-mini-portable-soldering-iron.html) — best value, portable for field repairs, heats in 6 seconds.
 
+**Recommended tip upgrade:** [Pinecil Short Tip Set (fine)](https://eleshop.eu/pinecil-short-soldering-tip-set-fine.html) — includes ST-BC2 (2.1mm bevel, ideal for FC pads), ST-C1 (1mm conical for detail), ST-ILS (ultra-fine), and ST-KU (knife for drag soldering). Shorter tips = more precise + faster heat-up than stock.
+
 ### Soldering Iron Tips
 
 | Tip Type | When to Use | Drone Application |
