@@ -6,17 +6,20 @@ Copy-paste shopping lists for each budget tier. Check current prices before orde
 
 ## Recommended Vendors
 
+> **EU buyers:** See [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md) for clickable AliExpress/Amazon.de search links and EU FPV shop recommendations for every component.
+
 | Vendor | Best For | Ships From | Notes |
 |--------|----------|-----------|-------|
-| **GetFPV** | Everything FPV | US | Good stock, fast shipping |
-| **RaceDayQuads** | Everything FPV | US | Great customer service |
-| **Pyrodrone** | Everything FPV | US | Good selection |
-| **BangGood** | Budget components | China | Slow shipping (2-4 weeks), cheapest |
-| **AliExpress** | Budget components | China | Same as BangGood, more sellers |
-| **Amazon** | Tools, accessories, basic parts | Varies | Fast shipping, easy returns |
-| **SpeedyBee store** | SpeedyBee products | China/US | Direct from manufacturer |
+| **n-Factory.de** | Everything FPV (EU) | Germany | Free shipping >€100, 1-3 day DE delivery |
+| **Rotorama** | Frames, stacks, batteries (EU) | Czech Republic | Ships EU-wide, loyalty program |
+| **FlyingMachines.de** | Goggles, DJI, chargers (EU) | Germany | Free shipping >€100 |
+| **Amazon.de** | Tools, batteries, power supplies | Germany | 1-2 day Prime, easy returns |
+| **AliExpress** | Budget components | China | 20-40% cheaper, 2-4 week shipping |
+| **GetFPV** | Everything FPV (US) | US | Good stock, fast US shipping |
+| **RaceDayQuads** | Everything FPV (US) | US | Great customer service |
+| **Team BlackSheep** | TBS products, Source One frames | EU/HK | Direct from manufacturer |
+| **SpeedyBee store** | SpeedyBee products | China/EU | Direct from manufacturer |
 | **RadioMaster store** | Radios, receivers | China | Direct, sometimes cheaper |
-| **NewBeeDrone** | Premium parts, tiny whoop | US | Quality focused |
 | **iFlight store** | iFlight products | China | Direct from manufacturer |
 
 ---
