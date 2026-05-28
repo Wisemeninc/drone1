@@ -43,7 +43,7 @@ Since virtually all FPV drones have cameras, **you must register**.
 
 ### How to Register
 
-1. Go to: https://droneregister.trafikstyrelsen.dk
+1. Go to: https://www.droneregler.dk/fritidsdroneflyvning/registrer-dig-som-privat-droneoperatoer
 2. Create an account (NemID/MitID login)
 3. Register as **UAS operator**
 4. Receive your **operator registration number**
@@ -206,7 +206,7 @@ If you want fewer restrictions (fly in A1 near people, simpler rules), a sub-250
 
 | Resource | URL |
 |----------|-----|
-| Trafikstyrelsen Drone Portal | https://droneregister.trafikstyrelsen.dk |
+| Trafikstyrelsen Drone Registration | https://www.droneregler.dk/fritidsdroneflyvning/registrer-dig-som-privat-droneoperatoer |
 | Dronezoner (airspace map) | https://www.droneregler.dk/dronezoner |
 | Droneregler (rules info) | https://www.droneregler.dk |
 | EASA Drone Rules | https://www.easa.europa.eu/en/domains/civil-drones |

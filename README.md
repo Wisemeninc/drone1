@@ -28,7 +28,7 @@ Covers everything from component selection to soldering, budget planning, range 
 3. **Pick a budget tier** from [BUDGET-TIERS.md](./BUDGET-TIERS.md)
 4. **Order parts** using [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md)
 5. **Build** following [BUILD-GUIDE.md](./BUILD-GUIDE.md) and [SOLDERING-GUIDE.md](./SOLDERING-GUIDE.md)
-6. **Register** at [droneregister.trafikstyrelsen.dk](https://droneregister.trafikstyrelsen.dk) and check [droneregler.dk/dronezoner](https://www.droneregler.dk/dronezoner) before flying
+6. **Register** at [droneregler.dk](https://www.droneregler.dk/fritidsdroneflyvning/registrer-dig-som-privat-droneoperatoer) and check [droneregler.dk/dronezoner](https://www.droneregler.dk/dronezoner) before flying
 
 ## Key Specs (Standard 5" Build)
 
