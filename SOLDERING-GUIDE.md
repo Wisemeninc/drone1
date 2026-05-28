@@ -287,7 +287,57 @@ GOOD joint:              BAD joint (cold):       BAD joint (too much):
 
 ---
 
-## Practice Progression
+## Practice Kits & Training Boards
+
+Practice on cheap kits before touching your flight controller. These build real muscle memory for pad sizes, wire gauges, and thermal management you'll encounter in a drone build.
+
+### Recommended Practice Kits
+
+| Kit | What It Is | Why It's Useful | Price | Where |
+|-----|-----------|-----------------|-------|-------|
+| **Rotorama Soldering Practice Board** | PCB with drone-size pads (UART, motor, battery) | Simulates real FC pad layout — practice on identical pad sizes before the real thing | ~€5 | [Rotorama](https://www.rotorama.de) |
+| **Generic SMD Practice PCB** | Board with various pad sizes (SOT-23, 0805, SOIC) | Teaches fine work; good prep for receiver/VTX pads | €2-5 | [AliExpress](https://www.aliexpress.com/w/wholesale-SMD-soldering-practice-board.html) / [Amazon.de](https://www.amazon.de/s?k=SMD+L%C3%B6t%C3%BCbungsplatine) |
+| **LED Practice Kit** | Through-hole LED circuit you assemble | Easiest intro — learn how solder flows, tin wires, make joints | €3-8 | [AliExpress](https://www.aliexpress.com/w/wholesale-LED-soldering-practice-kit.html) / [Amazon.de](https://www.amazon.de/s?k=L%C3%B6t%C3%BCbungsset+LED) |
+| **Clock / Radio DIY Kit** | Through-hole electronics kit (FM radio, digital clock) | More joints = more reps; teaches component orientation | €5-12 | [AliExpress](https://www.aliexpress.com/w/wholesale-DIY-soldering-kit-clock.html) / [Amazon.de](https://www.amazon.de/s?k=L%C3%B6tbausatz+Uhr+DIY) |
+| **XT60 Connector Practice Set** | 5-10 pairs of XT60 connectors + silicone wire | Practice the hardest drone joint (high thermal mass) before doing it for real | €8-12 | [AliExpress](https://www.aliexpress.com/w/wholesale-XT60-connector-male-female-set.html) / [Amazon.de](https://www.amazon.de/s?k=XT60+Stecker+Set+Silikon+Kabel) |
+
+### Training Progression (Recommended Order)
+
+| Stage | Kit / Exercise | What You Learn | Time |
+|-------|---------------|----------------|------|
+| 1 | LED or clock kit | Through-hole basics: heating pads, feeding solder, component placement | 30 min |
+| 2 | Tin 20 wire ends (various AWG) | Wire prep, solder wicking into strands, temperature feel | 15 min |
+| 3 | SMD practice board | Small-pad technique, flux usage, avoiding bridges, wick desoldering | 30 min |
+| 4 | **Rotorama / drone practice PCB** | FC-specific pads — UART wires, motor pads, battery pads at real scale | 45 min |
+| 5 | XT60 connector set | High thermal mass joints, filling cups, heat management | 20 min |
+| 6 | Desolder & redo stages 3-4 | Rework skills, solder wick, dealing with old solder | 30 min |
+| 7 | **Build your drone** | All skills combined | — |
+
+### What Makes Drone Soldering Different
+
+Practice kits help, but drone soldering has specific challenges to prepare for:
+
+- **Mixed pad sizes in one build** — You go from 12AWG battery pads to 28AWG signal wires on the same board. Practice switching between tip sizes and temperatures.
+- **Vertical soldering** — Some joints (motor wires, antenna) are done with the board mounted in the frame. Practice soldering at angles with helping hands.
+- **Space constraints** — Real FPV stacks are cramped. Practice in tight quarters (tape two PCBs close together and solder between them).
+- **Desoldering under pressure** — You WILL swap motor wires or fix a receiver. Practice clean removal without pad lift.
+
+### DIY Practice Board (Free)
+
+If you don't want to buy a kit, make your own:
+
+1. Take any dead electronics PCB (old router, TV remote board, etc.)
+2. Desolder all components (great wick practice)
+3. Re-tin the empty pads
+4. Solder short wire segments to pads (simulates signal wires)
+5. Practice desoldering them again
+6. Repeat until joints are consistently shiny and concave
+
+> **Budget tip:** Ask your local electronics repair shop for dead PCBs — they usually throw them away and will happily give you a box.
+
+---
+
+## Practice Progression (Summary)
 
 | Stage | Exercise | What You Learn |
 |-------|----------|----------------|
