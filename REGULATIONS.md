@@ -103,9 +103,10 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 
 ### Checking Airspace Before Flying
 
-- **Droneluftrum.dk** — Official Danish drone airspace map (https://www.droneluftrum.dk)
+- **Dronezoner (droneregler.dk/dronezoner)** — Official Danish drone zone map (https://www.droneregler.dk/dronezoner)
 - Shows no-fly zones, restricted areas, altitude caps
 - **Always check before every flight**
+- General drone rules info: https://www.droneregler.dk
 
 ---
 
@@ -129,7 +130,7 @@ Starting January 1, 2024, Remote ID requirements apply:
 1. **Stay below 120m AGL** — hard limit in Open category
 2. **Keep visual line of sight (VLOS)** — if you can't see it, bring it back
 3. **Don't fly over people** — props at 40,000+ RPM are dangerous
-4. **Don't fly near airports** — check Droneluftrum.dk
+4. **Don't fly near airports** — check droneregler.dk/dronezoner
 5. **Don't fly in bad weather** — wind >20 km/h is risky for smaller quads
 6. **Don't fly over private property at low altitude** without permission (privacy law applies in Denmark)
 7. **Don't fly near power lines** — interference + physical danger
@@ -166,7 +167,7 @@ Starting January 1, 2024, Remote ID requirements apply:
 
 ### Pre-Flight Checklist
 
-- [ ] Check Droneluftrum.dk for your location
+- [ ] Check droneregler.dk/dronezoner for your location
 - [ ] Verify you're 150m from residential/commercial areas (A3 requirement)
 - [ ] Battery charged and not puffed
 - [ ] Props tight, correct direction (CW/CCW matched)
@@ -206,7 +207,8 @@ If you want fewer restrictions (fly in A1 near people, simpler rules), a sub-250
 | Resource | URL |
 |----------|-----|
 | Trafikstyrelsen Drone Portal | https://droneregister.trafikstyrelsen.dk |
-| Droneluftrum (airspace map) | https://www.droneluftrum.dk |
+| Dronezoner (airspace map) | https://www.droneregler.dk/dronezoner |
+| Droneregler (rules info) | https://www.droneregler.dk |
 | EASA Drone Rules | https://www.easa.europa.eu/en/domains/civil-drones |
 | Modelflyvning Danmark | https://www.telemodel.dk |
 | EU Drone Regulation 2019/947 | EUR-Lex (search "Commission Implementing Regulation 2019/947") |
