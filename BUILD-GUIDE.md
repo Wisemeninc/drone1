@@ -11,7 +11,7 @@ A complete reference for building your own FPV drone from scratch, optimized for
 | [BUDGET-TIERS.md](./BUDGET-TIERS.md) | Budget / Mid-Range / Premium complete build breakdowns |
 | [TRADE-OFFS.md](./TRADE-OFFS.md) | Distance vs Speed vs Flight Time analysis and decision matrix |
 | [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) | How far you can fly — range limits by build type, video system, and battery |
-| [REGULATIONS.md](./REGULATIONS.md) | US FAA and EU EASA rules for outdoor flying |
+| [REGULATIONS.md](./REGULATIONS.md) | Danish and EU EASA rules for outdoor flying |
 | [SHOPPING-LIST.md](./SHOPPING-LIST.md) | Copy-paste shopping lists for each budget tier |
 | [VIDEOS.md](./VIDEOS.md) | Curated YouTube tutorials — soldering, building, flying, iNav, Ardupilot, inspiration |
 | [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — DJI O4, ELRS 4.0, Betaflight 2025.12 |

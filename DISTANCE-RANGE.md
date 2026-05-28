@@ -134,23 +134,21 @@ Flying beyond visual line of sight (BVLOS) requires additional precautions:
 
 ---
 
-## Legal Considerations for Distance Flying
+## Legal Considerations for Distance Flying (Denmark / EU)
 
-| Country | VLOS Rule | Max Legal Distance (without waiver) |
-|---------|-----------|-------------------------------------|
-| **US (FAA)** | Must maintain visual line of sight | ~500m-1km (practical eye limit) |
-| **EU (EASA)** | VLOS required in Open category | ~500m-1km |
-| **UK (CAA)** | VLOS at all times | ~500m-1km |
+| Jurisdiction | VLOS Rule | Max Legal Distance (without waiver) |
+|--------------|-----------|-------------------------------------|
+| **EU (EASA) / Denmark** | VLOS required in Open category | ~500m–1km (practical eye limit) |
 
-**Reality:** Visual line of sight for a 5" quad is approximately 500m-1km depending on conditions. Beyond that, you cannot see orientation or obstacles.
+**Reality:** Visual line of sight for a 5" quad is approximately 500m–1km depending on conditions. Beyond that, you cannot see orientation or obstacles.
 
 **Legal long-range options:**
-- **US:** Part 107 BVLOS waiver (difficult to obtain, commercial only)
-- **EU:** Specific category authorization (SORA risk assessment)
+- **EU Specific category:** Authorization via SORA risk assessment (apply to Trafikstyrelsen in Denmark)
+- **PDRA (Pre-Defined Risk Assessment):** Standardized scenarios that simplify Specific category approval
 - **Spotter:** A second person watching the drone extends legal VLOS
-- **FPV with spotter:** One person flies FPV, another maintains VLOS (legal in most jurisdictions)
+- **FPV with spotter:** One person flies FPV, another maintains VLOS (accepted practice in EU Open category)
 
-**Practical note:** Most long-range FPV pilots fly in remote, unpopulated areas and accept regulatory risk. This is common in the hobby but technically non-compliant without a waiver.
+**Practical note:** Most long-range FPV pilots fly in remote, unpopulated areas and accept regulatory risk. This is common in the hobby but technically non-compliant without Specific category authorization. In Denmark, enforcement exists — Trafikstyrelsen can issue fines.
 
 ---
 

@@ -124,7 +124,7 @@ Betaflight switched to **calendar-based versioning** (YYYY.M.PATCH) with release
 - **HDZero/Walksnail** — no major confirmed 2026 products (may have updates I couldn't verify)
 - **Budget tier pricing** — still approximately $500-600 all-in for a budget build
 - **ExpressLRS dominance** — still the clear winner for radio protocol
-- **Regulations** — no major 2026 FAA/EASA changes confirmed (Remote ID still required)
+- **Regulations** — no major 2026 EASA/Danish changes confirmed (Remote ID requirements evolving, C-class marking transition ongoing)
 
 ---
 
