@@ -12,6 +12,7 @@ Covers everything from component selection to soldering, budget planning, range 
 | [COMPONENTS.md](./COMPONENTS.md) | Every component category with specific models, pros/cons, and recommendations |
 | [BUDGET-TIERS.md](./BUDGET-TIERS.md) | Budget / Mid-Range / Premium complete builds ($500–$1500+) |
 | [SHOPPING-LIST.md](./SHOPPING-LIST.md) | Copy-paste shopping lists for each budget tier |
+| [SHOPPING-LIST-ALIEXPRESS-QUAD.md](./SHOPPING-LIST-ALIEXPRESS-QUAD.md) | Quad-only (no batteries/support/soldering), direct AliExpress links per tier |
 | [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md) | EU-based FPV shops, Amazon.de, and AliExpress links |
 | [SOLDERING-GUIDE.md](./SOLDERING-GUIDE.md) | Tools, techniques, joint types, and beginner tips |
 | [TRADE-OFFS.md](./TRADE-OFFS.md) | Distance vs Speed vs Flight Time decision matrix |
