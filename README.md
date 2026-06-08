@@ -18,6 +18,7 @@ Covers everything from component selection to soldering, budget planning, range 
 | [TRADE-OFFS.md](./TRADE-OFFS.md) | Distance vs Speed vs Flight Time decision matrix |
 | [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) | Range limits by build type, video system, and battery |
 | [7-INCH-LONG-RANGE.md](./7-INCH-LONG-RANGE.md) | 7" long range builds — 30–60km range, Li-Ion packs, efficiency |
+| [BVLOS-RELAY-DRONE.md](./BVLOS-RELAY-DRONE.md) | Relay drone design — BVLOS via aerial signal repeater, mesh radios, regulatory |
 | [REGULATIONS.md](./REGULATIONS.md) | Danish and EU EASA drone rules, registration, airspace |
 | [VIDEOS.md](./VIDEOS.md) | Curated YouTube tutorials — soldering, building, flying, iNav |
 | [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — DJI O4, ELRS 4.0, Betaflight 2025.12 |
