@@ -100,10 +100,10 @@ The relay needs to **loiter for hours**, ideally over a single point. Multirotor
 
 | Platform | Wingspan | Endurance | Why |
 |----------|---------:|----------:|-----|
-| [Skywalker X8](https://www.skywalkermodel.com/en/22.html) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform |
-| [Reptile S800 V2](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-PNP-p-1117173.html) | 0.82 m | 30–60 min | Compact, easy hand-launch |
-| [Foxtech Nimbus VTOL](https://www.foxtechfpv.com/foxtech-nimbus-vtol.html) | 1.8 m | 60–90 min | VTOL — no runway needed |
-| [Believer 1960mm](https://www.banggood.com/Believer-1960mm-Wingspan-EPO-Portable-Aerial-Survey-Aircraft-KIT-RC-Airplane-p-1138995.html) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay |
+| Skywalker X8 ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2008005)) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform — clones widely available on AliExpress |
+| Reptile S800 V2 ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2725906)) | 0.82 m | 30–60 min | Compact, easy hand-launch — search AliExpress for current stock |
+| [Foxtech Nimbus VTOL](https://www.foxtechfpv.com/) | 1.8 m | 60–90 min | VTOL — no runway needed (search "Nimbus" on foxtechfpv.com) |
+| Believer 1960mm ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2932582)) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay — search AliExpress |
 
 ### When to use a multirotor
 
@@ -129,12 +129,12 @@ A single product family handles both legs of the link via mesh routing. Cleanest
 
 | Vendor / Product | Band | Range per hop | Notes |
 |------------------|------|--------------:|-------|
-| [Doodle Labs Helix](https://doodlelabs.com/products/private-cellular/helix-mesh-rider/) | 2.2 / 2.4 / 5.1–5.9 GHz | 5–20 km | Industry standard for UAV mesh, MIMO |
-| [Doodle Labs Mesh Rider](https://doodlelabs.com/products/mesh-rider-radio/) | Multiple bands | 5–50 km | Proven on Skydio, Teal, Parrot UAVs |
-| [Microhard pDDL](https://www.microhardcorp.com/pDDL2450.php) | 2.4 / 900 MHz | 20–80 km | IP mesh, ruggedised |
+| [Doodle Labs](https://doodlelabs.com/) Helix Mesh Rider | 2.2 / 2.4 / 5.1–5.9 GHz | 5–20 km | Industry standard for UAV mesh, MIMO |
+| [Doodle Labs](https://doodlelabs.com/) Mesh Rider Radio | Multiple bands | 5–50 km | Proven on Skydio, Teal, Parrot UAVs |
+| [Microhard](https://www.microhardcorp.com/) pDDL series | 2.4 / 900 MHz | 20–80 km | IP mesh, ruggedised |
 | [Silvus StreamCaster](https://silvustechnologies.com/products/) | L/S/C-band | 50+ km | Military MANET, expensive |
-| [Rajant Kinetic Mesh](https://rajant.com/products/breadcrumb/) | Multiple | Variable | Industrial multi-radio mesh |
-| [persistent systems Wave Relay](https://www.persistentsystems.com/mpu5/) | Multiple | 10+ km | Military MANET |
+| [Rajant](https://rajant.com/) Kinetic Mesh (BreadCrumb) | Multiple | Variable | Industrial multi-radio mesh |
+| [Persistent Systems Wave Relay MPU5](https://www.persistentsystems.com/mpu5/) | Multiple | 10+ km | Military MANET |
 
 ### Option B — Dual-Radio Bridge (DIY-friendly)
 
@@ -151,19 +151,19 @@ Common radio choices for the legs:
 
 | Radio | Band | Range | Use case |
 |-------|------|------:|----------|
-| [RFD900x / RFD900x-US](https://store.rfdesign.com.au/rfd900x-modem/) | 868/915 MHz | 40+ km | Telemetry workhorse, EU 868 variant |
-| [RFD868x](https://store.rfdesign.com.au/rfd-868x-modem/) | 868 MHz | 40+ km | EU-legal long-range telemetry |
+| RFD900x / RFD900x-US ([RFDesign](https://store.rfdesign.com.au/)) | 868/915 MHz | 40+ km | Telemetry workhorse, EU 868 variant |
+| RFD868x ([RFDesign](https://store.rfdesign.com.au/)) | 868 MHz | 40+ km | EU-legal long-range telemetry |
 | [TBS Crossfire](https://www.team-blacksheep.com/products/prod:crossfire_tx) | 868/915 MHz | 40+ km | Control link, low latency |
 | [ExpressLRS (ELRS) 868/915](https://www.expresslrs.org/) | 868/915 MHz, 2.4 GHz | 30+ km | Open-source control link |
-| [Dragon Link Advanced](http://www.dragonlinkrc.com/) | 433/915 MHz | 40+ km | Long-range UHF control |
+| Dragon Link Advanced ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=1773494)) | 433/915 MHz | 40+ km | Long-range UHF control |
 | [Ubiquiti Bullet AC / Rocket M](https://www.ui.com/) | 2.4/5 GHz | Variable | Cheap IP backhaul, repurposed |
 
 For video specifically:
 
 | Product | Use | Notes |
 |---------|-----|-------|
-| [DJI O4 Air Unit Pro](https://www.dji.com/dk/o4-air-unit-pro) | Digital FPV video | 20+ km claimed, EU module limits apply |
-| [Walksnail Avatar HD](https://caddxfpv.com/pages/walksnail) | Digital FPV video | Open-ish, repeater-friendly |
+| [DJI O4 Air Unit Pro](https://www.dji.com/) | Digital FPV video | 20+ km claimed, EU module limits apply (search "O4 Air Unit" on dji.com) |
+| [Walksnail Avatar HD](https://caddxfpv.com/) | Digital FPV video | Open-ish, repeater-friendly (search "Walksnail" on caddxfpv.com) |
 | [HDZero](https://www.hd-zero.com/) | Digital FPV video | Low latency, line-of-sight |
 | Analog 5.8 GHz VTX + RX | Legacy video | Easy to repeat, very tolerant |
 
@@ -177,10 +177,10 @@ The SBC's job: **route packets between the two radios**, optionally do MAVLink r
 |-------|------:|----------|
 | [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4/) | 3–7 W | Best general-purpose, mature ecosystem |
 | [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) | 1–2 W | Minimum viable, light builds |
-| [NVIDIA Jetson Orin Nano](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-developer-kit/) | 7–15 W | Video transcoding, onboard AI |
+| [NVIDIA Jetson Orin Nano](https://developer.nvidia.com/embedded-computing) | 7–15 W | Video transcoding, onboard AI |
 | [Khadas VIM4](https://www.khadas.com/vim4) | 5–10 W | Powerful, good video HW accel |
 | [BeagleBone Blue](https://www.beagleboard.org/boards/beaglebone-blue) | 2–4 W | Designed for robotics, has IMU built in |
-| [Holybro Pixhawk RPi CM4 Baseboard](https://holybro.com/collections/autopilot-peripherals/products/pixhawk-rpi-cm4-baseboard) | n/a | Integrates CM4 directly with Pixhawk |
+| [Holybro Pixhawk RPi CM4 Baseboard](https://holybro.com/) | n/a | Integrates CM4 directly with Pixhawk (search "CM4 baseboard" on holybro.com) |
 | [ModalAI VOXL 2](https://www.modalai.com/products/voxl-2) | 5–10 W | Purpose-built autonomy SBC |
 
 **OS:** Raspberry Pi OS Lite, Ubuntu Server, or Armbian. Disable everything you don't need (desktop, audio, Bluetooth) to reduce RF noise and power draw.
@@ -212,10 +212,10 @@ This is where most amateur relay projects fail. Two physically-close transceiver
 **Vendors:**
 
 - [TrueRC](https://www.truerc.com/) — circular polarised FPV antennas (Singularity, AXII)
-- [Menace RC](https://menacerc.com/) — fold-over patch and helical
+- Menace RC — fold-over patch and helical (search "Menace RC" via AliExpress / Banggood)
 - [VAS / VideoAerialSystems](https://videoaerialsystems.com/) — IBCrazy designs, long-range
-- [Maple RF / Maple Wireless](https://maplewireless.com/) — IBCrazy / Andrew Newton designs
-- [Pulse Larsen](https://www.pulselarsenantennas.com/) — industrial UAV antennas
+- Maple RF / Maple Wireless — IBCrazy / Andrew Newton designs (often sold via VAS resellers)
+- Pulse Larsen — industrial UAV antennas (search "Pulse Larsen UAV" — vendor consolidated under [Pulse Electronics](https://www.pulseelectronics.com/))
 - [PCTEL](https://www.pctel.com/) — UAV omnis and patches
 
 ### Practical layout for a fixed-wing relay
@@ -239,7 +239,7 @@ This is where most amateur relay projects fail. Two physically-close transceiver
 
 The relay needs to forward MAVLink between operator and mission drone, possibly while injecting its own telemetry stream.
 
-**[mavlink-router](https://github.com/intel/mavlink-router)** — the canonical relay. Example config:
+**[mavlink-router](https://github.com/mavlink-router/mavlink-router)** — the canonical relay. Example config:
 
 ```ini
 [General]
@@ -300,7 +300,7 @@ The SBC should run a watchdog:
 - If leg B (mission link) goes down for > 5 s → notify operator via leg A, optionally climb 100 m
 - If both legs go down for > 30 s → return to home
 
-Implement with [`systemd` timers](https://www.freedesktop.org/software/systemd/man/systemd.timer.html) + small Python script monitoring MAVLink heartbeat counters.
+Implement with [`systemd` timers](https://systemd.io/) + small Python script monitoring MAVLink heartbeat counters.
 
 ### Ground station software
 
@@ -327,7 +327,7 @@ For a fixed-wing relay carrying ~300 g of payload, a 6S 10 Ah Li-Ion pack (≈ 8
 
 **Solar augmentation** is feasible on > 2 m wingspan platforms — see [Skysun](https://www.skysunpower.com/) and DIY projects on [DIY Drones](https://diydrones.com/).
 
-**Tethering** (for stationary persistent relay) — pure mains power via a thin conductor cable, weights covered by ground winch. See [Elistair Safe-T](https://elistair.com/safe-t-2/).
+**Tethering** (for stationary persistent relay) — pure mains power via a thin conductor cable, weights covered by ground winch. See [Elistair](https://elistair.com/) Safe-T product line.
 
 ---
 
@@ -346,18 +346,17 @@ For a fixed-wing relay carrying ~300 g of payload, a 6S 10 Ah Li-Ion pack (≈ 8
 Key EASA docs:
 
 - [EASA Drone Regulations Hub](https://www.easa.europa.eu/en/domains/civil-drones-rpas)
-- [SORA (Specific Operations Risk Assessment) v2.5](https://www.easa.europa.eu/en/document-library/general-publications/specific-operations-risk-assessment-sora)
-- [Predefined Risk Assessments (PDRA)](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu) — pre-approved BVLOS scenarios
-- [Standard Scenarios (STS-01, STS-02)](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu) — STS-02 covers BVLOS in sparsely populated areas
+- [EASA Easy Access Rules (UAS Regulation EU)](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu) — includes SORA, PDRA, STS guidance
+- Predefined Risk Assessments (PDRA) — pre-approved BVLOS scenarios — see Easy Access Rules above
+- Standard Scenarios (STS-01, STS-02) — STS-02 covers BVLOS in sparsely populated areas — see Easy Access Rules above
 
 **For Denmark specifically:** apply via [droneregler.dk](https://www.droneregler.dk/) and the [Trafikstyrelsen](https://www.trafikstyrelsen.dk/) for Specific category authorisations.
 
 ### USA / FAA
 
-- [Part 107](https://www.faa.gov/uas/commercial_operators/part_107_summary) requires waiver for BVLOS
+- [FAA UAS hub](https://www.faa.gov/uas) — Part 107, waivers, Remote ID, BVLOS resources
 - [Remote ID rule](https://www.faa.gov/uas/getting_started/remote_id) — all drones over 250 g must broadcast ID
-- [Proposed Part 108](https://www.faa.gov/uas/advanced_operations/beyond_visual_line_of_sight) — emerging dedicated BVLOS framework
-- [BVLOS Aviation Rulemaking Committee (ARC) report](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/document/information/documentID/5183) — the basis for future rulemaking
+- [FAA BVLOS ARC report (2022)](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/document/information/documentID/5183) — the basis for future Part 108 rulemaking
 
 ### Frequency / spectrum
 
@@ -428,7 +427,7 @@ A pragmatic phased build that de-risks as you go:
 - [RFDesign (RFD900x, RFD868x)](https://store.rfdesign.com.au/)
 - [Team BlackSheep (Crossfire, Tracer)](https://www.team-blacksheep.com/)
 - [ExpressLRS open-source project](https://www.expresslrs.org/)
-- [Dragon Link](http://www.dragonlinkrc.com/)
+- Dragon Link — see [RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=1773494) (vendor site intermittent)
 - [Ubiquiti airMAX](https://www.ui.com/airmax) — Bullet, Rocket, NanoStation
 - [MikroTik](https://mikrotik.com/) — wAP, LHG, SXTsq cheap IP backhaul
 
@@ -441,27 +440,28 @@ A pragmatic phased build that de-risks as you go:
 - [Auterion Skynode](https://auterion.com/product/skynode/) — integrated autopilot + companion computer
 - [ModalAI VOXL 2](https://www.modalai.com/products/voxl-2) — autonomy SBC + flight controller
 - [Raspberry Pi](https://www.raspberrypi.com/) — Pi 4, Pi 5, CM4
-- [NVIDIA Jetson](https://developer.nvidia.com/embedded-computing) — Orin Nano, Orin NX
+- [NVIDIA Embedded](https://developer.nvidia.com/embedded-computing) — Jetson Orin Nano, Orin NX
 - [Khadas](https://www.khadas.com/) — VIM4, Edge2
 - [BeagleBoard](https://www.beagleboard.org/) — BeagleBone Blue
 
 ### Hardware — airframes
 
-- [Skywalker Technology](https://www.skywalkermodel.com/) — X8, X7, EVE
+- Skywalker X8 — vendor site offline; community thread on [RCGroups](https://www.rcgroups.com/forums/showthread.php?t=2008005); clones widely available via AliExpress
 - [Foxtech](https://www.foxtechfpv.com/) — Nimbus VTOL, Hover series
-- [QuantumSystems](https://quantum-systems.com/) — Trinity Pro (commercial VTOL)
+- [Quantum Systems](https://quantum-systems.com/) — Trinity Pro (commercial VTOL)
 - [Wingtra](https://wingtra.com/) — WingtraOne (commercial)
-- [Tarot RC](http://www.tarot-rc.com/) — multirotor frames
-- [Holybro X500 V2](https://holybro.com/products/x500-v2-kits) — pre-built quad development platform
+- Tarot RC — multirotor frames (vendor site intermittent — buy via [GetFPV](https://www.getfpv.com/) or AliExpress resellers)
+- [Holybro X500 V2](https://holybro.com/) — pre-built quad development platform (search "X500" on holybro.com)
+- Reptile S800 V2 / Believer 1960mm — see [RCGroups Reptile thread](https://www.rcgroups.com/forums/showthread.php?t=2725906) and [Believer thread](https://www.rcgroups.com/forums/showthread.php?t=2932582); clones widely available
 
 ### Hardware — antennas
 
-- [TrueRC Canada](https://www.truerc.com/)
-- [Menace RC](https://menacerc.com/)
+- [TrueRC Canada](https://www.truerc.com/) — circular polarised FPV, Singularity, AXII
+- Menace RC — search via [AliExpress](https://www.aliexpress.com/wholesale?SearchText=menace+rc+antenna) (direct site intermittent)
 - [Video Aerial Systems (IBCrazy)](https://videoaerialsystems.com/)
-- [Maple Wireless](https://maplewireless.com/)
-- [Pulse Larsen Antennas](https://www.pulselarsenantennas.com/)
-- [PCTEL](https://www.pctel.com/) — industrial UAV antennas
+- Maple Wireless — distributed via [VAS](https://videoaerialsystems.com/) and resellers
+- Pulse / Pulse Larsen — now under [Pulse Electronics](https://www.pulseelectronics.com/) — industrial UAV antennas
+- [PCTEL](https://www.pctel.com/) — UAV omnis and patches
 - [Mobile Mark](https://www.mobilemark.com/) — broadband UAV antennas
 
 ### Software — autopilots and middleware
@@ -482,9 +482,8 @@ A pragmatic phased build that de-risks as you go:
 - [GStreamer](https://gstreamer.freedesktop.org/)
 - [FFmpeg](https://ffmpeg.org/)
 - [OpenHD project](https://openhdfpv.org/) — open-source long-range digital FPV
-- [Ruby (long-range Wi-Fi video)](https://github.com/rubywirelessvideo/Ruby) — OpenHD predecessor
-- [PixelPilot](https://github.com/OpenHD/PixelPilot) — OpenHD video receiver
-- [WFB-NG](https://github.com/svpcom/wfb-ng) — Wi-Fi broadcast for video links
+- [OpenHD on GitHub](https://github.com/OpenHD) — full source repos including PixelPilot
+- [WFB-NG](https://github.com/svpcom/wfb-ng) — Wi-Fi broadcast for video links (OpenHD predecessor)
 
 ### Software — mesh networking
 
@@ -500,18 +499,18 @@ A pragmatic phased build that de-risks as you go:
 - [UgCS](https://www.sphengineering.com/flight-planning/ugcs)
 - [Auterion Mission Control](https://auterion.com/product/auterion-mission-control/)
 - [DroneDeploy](https://www.dronedeploy.com/) — survey-focused commercial
-- [Skydio Cloud](https://www.skydio.com/skydio-cloud) — enterprise
+- [Skydio](https://www.skydio.com/) — enterprise drones + cloud
 
 ### Regulatory
 
 - [EASA Civil Drones Hub](https://www.easa.europa.eu/en/domains/civil-drones-rpas)
-- [EASA SORA documentation](https://www.easa.europa.eu/en/document-library/general-publications/specific-operations-risk-assessment-sora)
+- [EASA Easy Access Rules (UAS Regulation)](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu) — full SORA / PDRA / STS guidance
 - [EU Drone Regulation 2019/947 (consolidated)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02019R0947-20220804)
 - [Danish droneregler.dk](https://www.droneregler.dk/)
-- [German LBA drone rules](https://www.lba.de/DE/Regulierung-Aufsicht/UAS/UAS_node.html)
+- [Trafikstyrelsen (Danish CAA)](https://www.trafikstyrelsen.dk/)
+- [German LBA](https://www.lba.de/) — search "UAS" for current drone rules
 - [UK CAA drones](https://www.caa.co.uk/drones/)
-- [FAA UAS](https://www.faa.gov/uas)
-- [FAA Part 107](https://www.faa.gov/uas/commercial_operators/part_107_summary)
+- [FAA UAS](https://www.faa.gov/uas) — hub for Part 107, Remote ID, BVLOS
 - [FAA Remote ID](https://www.faa.gov/uas/getting_started/remote_id)
 - [ETSI EN 300 220 (sub-GHz ISM)](https://www.etsi.org/deliver/etsi_en/300200_300299/30022001/)
 - [ETSI EN 300 328 (2.4 GHz)](https://www.etsi.org/deliver/etsi_en/300300_300399/300328/)
@@ -542,8 +541,7 @@ A pragmatic phased build that de-risks as you go:
 
 - [Coverdrone (EU)](https://www.coverdrone.com/)
 - [Skywatch.AI (US/global)](https://skywatch.ai/)
-- [Verifly / Avion Insurance](https://www.verifly.com/)
-- [BNSF UAS](https://www.bnsf.com/about-bnsf/communications/uas/) — example commercial BVLOS ops program
+- [Verifly](https://www.verifly.com/) — short-term drone insurance
 
 ### Related documents in this repo
 
@@ -556,3 +554,5 @@ A pragmatic phased build that de-risks as you go:
 ---
 
 *Last updated: 2026-06-08. This is a design reference, not legal advice. BVLOS without authorisation is illegal in most jurisdictions — see [Regulatory](#regulatory) before building.*
+
+*Link policy: vendor homepages and project sites are preferred over specific SKU/product pages, which rot quickly in the hobby drone space. Where a product page is critical (e.g. EU regulatory documents), it's linked directly. When a vendor goes dark, search RCGroups, AliExpress, or the [Wayback Machine](https://web.archive.org/) for current stock and clones.*
