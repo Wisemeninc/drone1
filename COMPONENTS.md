@@ -344,19 +344,21 @@ The radio link is your control connection to the drone. Range, latency, and reli
 
 | Receiver | Frequency | Price | Pros | Cons |
 |----------|-----------|-------|------|------|
-| **HappyModel EP1/EP2** | 2.4GHz | $10-15 | Cheapest ELRS RX, tiny | Basic antenna |
+| **HappyModel EP1** | 2.4GHz | $12-16 | Cheap ELRS RX, external dipole antenna | Tiny, basic build quality |
+| **HappyModel EP2** | 2.4GHz | $10-15 | Cheapest, ultra-light (0.44g) | **Onboard antenna only — short range** |
 | **BetaFPV SuperD** | 2.4GHz | $12-18 | Diversity antenna, reliable | Slightly bigger |
-| **RadioMaster RP1** | 2.4GHz | $15-18 | Ceramic antenna, clean mount | No external antenna |
-| **RadioMaster RP3** | 2.4GHz | $18-22 | Diversity, T-antenna | Slightly expensive |
+| **RadioMaster RP1 V2** | 2.4GHz | $15-18 | External dipole antenna, clean mount | Single antenna |
+| **RadioMaster RP3 V2** | 2.4GHz | $18-22 | True antenna diversity, T-antenna | Slightly more expensive |
 | **HappyModel ES900RX** | 900MHz | $18-25 | Long range (900MHz) | Larger, needs 900MHz TX |
 | **BetaFPV Nano 900** | 900MHz | $20-28 | Small 900MHz | Need 900MHz TX module |
 
-### Beginner Pick: RadioMaster Pocket ELRS + HappyModel EP2
+### Beginner Pick: RadioMaster Pocket ELRS + RadioMaster RP3 V2
 
 - Radio: $65 — hall sensor gimbals, built-in ELRS, EdgeTX firmware
-- Receiver: $12 — tiny, reliable, proven
-- **Total: $77** for a control link that exceeds 10km range
+- Receiver: $20 — true antenna diversity (2x external T-antennas) for reliable link in any orientation
+- **Total: $85** for a control link that exceeds 10km range and resists signal dropouts on a 5" quad
 - Can upgrade to TX16S later if you want a bigger radio (same protocol)
+- Avoid the EP2 on a 5" build — its onboard ceramic antenna sacrifices ~30-50% of range vs. RXs with external antennas, and the size/weight savings don't matter on a 5"
 
 ---
 

@@ -12,7 +12,7 @@ Just the **flying quad** components, all with direct AliExpress search links. Pi
 
 ---
 
-## Budget Quad — ~$289
+## Budget Quad — ~$294
 
 A solid 5" analog 4S build. Most beginner-friendly tier.
 
@@ -21,10 +21,10 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 1 | TBS Source One V6 FPV Frame (5") | 1 | $35 | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Source-One-V6-frame-5-inch.html) |
 | 2 | SpeedyBee F405 V4 Stack (FC + 50A ESC) | 1 | $70 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F405-V4-stack.html) |
 | 3 | Emax Eco II 2306 2400KV motors | 4 | $48 | [AliExpress](https://www.aliexpress.com/w/wholesale-Emax-Eco-II-2306-2400KV.html) |
-| 4 | DAL Cyclone T5040C props (5 pack CW+CCW) | 2 packs | $16 | [AliExpress](https://www.aliexpress.com/w/wholesale-DAL-Cyclone-T5040C.html) |
+| 4 | Gemfan Hurricane 51466 props (5 pack CW+CCW) | 2 packs | $8 | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-Hurricane-51466.html) |
 | 5 | SpeedyBee TX800 VTX | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-TX800-VTX.html) |
 | 6 | Foxeer Razer Mini camera | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Razer-Mini-FPV-camera.html) |
-| 7 | HappyModel EP2 ELRS 2.4GHz receiver | 1 | $13 | [AliExpress](https://www.aliexpress.com/w/wholesale-HappyModel-EP2-ELRS-2.4GHz.html) |
+| 7 | RadioMaster RP3 V2 ELRS 2.4GHz receiver (antenna diversity, 2x ext. ant.) | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP3-V2-ELRS-2.4GHz-receiver.html) |
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Triumph-antenna-RHCP-SMA.html) |
 | 9 | Low ESR capacitor (35V 1000uF) | 2 | $4 | [AliExpress](https://www.aliexpress.com/w/wholesale-low-ESR-capacitor-35V-1000uF.html) |
 | 10 | BN-220 GPS module | 1 | $14 | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) |
@@ -33,11 +33,12 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 13 | M3 standoff hardware kit (20mm + 25mm) | 1 | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-M3-standoff-kit-FPV-drone.html) |
 | 14 | Battery strap (20mm × 250mm) | 5 | $5 | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-battery-strap-20mm-250mm.html) |
 | 15 | Zip ties + heat shrink assortment | 1 | $8 | [AliExpress](https://www.aliexpress.com/w/wholesale-heat-shrink-tubing-assortment-kit.html) |
-| | **Budget Quad Subtotal** | | **~$289** | |
+| 16 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-PET-expandable-braided-sleeve-assortment.html) |
+| | **Budget Quad Subtotal** | | **~$294** | |
 
 ---
 
-## Mid-Range Quad — ~$375
+## Mid-Range Quad — ~$381
 
 5" HD-ready 6S build. Sweet spot for performance per dollar.
 
@@ -56,11 +57,12 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 11 | XT60 pigtail + M3 hardware + straps | 1 kit | $15 | [AliExpress](https://www.aliexpress.com/w/wholesale-XT60-M3-hardware-strap-FPV-kit.html) |
 | 12 | BN-220 GPS module (altitude/position hold) | 1 | $14 | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) |
 | 13 | Buzzer (5V, with wire) | 1 | $3 | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-buzzer-5V-drone.html) |
-| | **Mid-Range Quad Subtotal** | | **~$375** | |
+| 14 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-PET-expandable-braided-sleeve-assortment.html) |
+| | **Mid-Range Quad Subtotal** | | **~$381** | |
 
 ---
 
-## Premium Quad — ~$560
+## Premium Quad — ~$566
 
 5" DJI O4 digital HD 6S build. Top-tier components, best video quality.
 
@@ -80,7 +82,8 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 12 | TPU 3D-printed mounts (antenna, GPS, GoPro) | 1 set | $15 | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-TPU-mount-set-antenna-GPS-GoPro.html) |
 | 13 | Premium M3 titanium hardware kit | 1 | $15 | [AliExpress](https://www.aliexpress.com/w/wholesale-M3-titanium-screw-kit-FPV.html) |
 | 14 | Ethix power strap (battery strap) | 3 | $9 | [AliExpress](https://www.aliexpress.com/w/wholesale-Ethix-power-strap.html) |
-| | **Premium Quad Subtotal** | | **~$560** | |
+| 15 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-PET-expandable-braided-sleeve-assortment.html) |
+| | **Premium Quad Subtotal** | | **~$566** | |
 
 ---
 

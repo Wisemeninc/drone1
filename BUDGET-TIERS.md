@@ -16,7 +16,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Props (×10 sets) | DAL Cyclone T5040C | $15-20 |
 | VTX | SpeedyBee TX800 (800mW) | $18-22 |
 | Camera | Foxeer Razer Mini | $18-22 |
-| Receiver | HappyModel EP2 (ELRS 2.4GHz) | $12-15 |
+| Receiver | RadioMaster RP3 V2 (ELRS 2.4GHz, antenna diversity) | $18-22 |
 | Antenna | TBS Triumph (RHCP) | $10-12 |
 | Battery (×3) | CNHL Black Series 1300mAh 4S 100C | $60-75 |
 | **Radio TX** | RadioMaster Pocket (ELRS) | $65-80 |
@@ -25,8 +25,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | **Soldering kit** | Pinecil V2 + solder + flux + basics | $55-70 |
 | Hardware | Standoffs, zip ties, XT60, heatshrink | $10-15 |
 | | | |
-| **TOTAL** | | **$500-630** |
-| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$280-340* |
+| **TOTAL** | | **$506-637** |
+| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$286-347* |
 
 ### What You Get
 - Reliable control link (ELRS exceeds 10km)

@@ -56,7 +56,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 4 | DAL Cyclone T5040C props (5 pack CW+CCW) | 2 packs | $16 | Rotorama, AliExpress |
 | 5 | SpeedyBee TX800 VTX | 1 | $20 | SpeedyBee official, n-Factory.de, AliExpress |
 | 6 | Foxeer Razer Mini camera | 1 | $20 | n-Factory.de, AliExpress |
-| 7 | HappyModel EP2 ELRS 2.4GHz receiver | 1 | $13 | Rotorama, BangGood, AliExpress |
+| 7 | RadioMaster RP3 V2 ELRS 2.4GHz receiver (antenna diversity, 2x ext. ant.) | 1 | $20 | Rotorama, BangGood, AliExpress |
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | TBS direct, n-Factory.de |
 | 9 | CNHL Black Series 1300mAh 4S 100C (XT60) | 3 | $66 | n-Factory.de, Amazon.de |
 | 10 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Reichelt.de, Amazon.de, AliExpress |
@@ -66,7 +66,8 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 14 | M3 standoff hardware kit (20mm + 25mm) | 1 | $6 | AliExpress, Amazon.de |
 | 15 | Battery strap (20mm × 250mm) | 5 | $5 | AliExpress, Amazon.de |
 | 16 | Zip ties + heat shrink assortment | 1 | $8 | Amazon.de, AliExpress |
-| | **Subtotal (Quad)** | | **~$355** | |
+| 17 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | Amazon.de, AliExpress |
+| | **Subtotal (Quad)** | | **~$368** | |
 
 ### Support Equipment ($210–275)
 
