@@ -100,10 +100,10 @@ The relay needs to **loiter for hours**, ideally over a single point. Multirotor
 
 | Platform | Wingspan | Endurance | Why |
 |----------|---------:|----------:|-----|
-| [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2008005) for tuning. |
-| [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) | 0.82 m | 30–60 min | Compact, easy hand-launch. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2725906). |
+| [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?1840543-Skywalker-X8-FPV) for tuning. |
+| [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) | 0.82 m | 30–60 min | Compact, easy hand-launch. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?3426643-Reptile-skyshadow-S800-build). |
 | [Foxtech Nimbus VTOL](https://www.foxtechfpv.com/) | 1.8 m | 60–90 min | VTOL — no runway needed (search "Nimbus" on foxtechfpv.com) |
-| [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay. MakeFlyEasy original airframe — listings rotate often; see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2932582) for setup. |
+| [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay. MakeFlyEasy original airframe — listings rotate often; see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?2984973-Believer-Twin-tractor-1960mm-Mapping-FPV-Plane-full-review-mods-owner-s-thread) for setup. |
 
 ### When to use a multirotor
 
@@ -155,8 +155,8 @@ Common radio choices for the legs:
 | RFD868x ([RFDesign](https://store.rfdesign.com.au/)) | 868 MHz | 40+ km | EU-legal long-range telemetry |
 | [TBS Crossfire](https://www.team-blacksheep.com/products/prod:crossfire_tx) | 868/915 MHz | 40+ km | Control link, low latency |
 | [ExpressLRS (ELRS) 868/915](https://www.expresslrs.org/) | 868/915 MHz, 2.4 GHz | 30+ km | Open-source control link |
-| Dragon Link Advanced ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=1773494)) | 433/915 MHz | 40+ km | Long-range UHF control |
-| [Ubiquiti Bullet AC / Rocket M](https://www.ui.com/) | 2.4/5 GHz | Variable | Cheap IP backhaul, repurposed |
+| Dragon Link Advanced ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?2557039-Dragon-Link-Advanced-Bi-Directional-Long-Range-UHF)) | 433/915 MHz | 40+ km | Long-range UHF control |
+| [Ubiquiti Bullet AC / Rocket M](https://store.ui.com/us/en/category/wireless-airmax-5ghz) | 2.4/5 GHz | Variable | Cheap IP backhaul, repurposed |
 
 For video specifically:
 
@@ -215,7 +215,7 @@ This is where most amateur relay projects fail. Two physically-close transceiver
 - Menace RC — fold-over patch and helical (search "Menace RC" via AliExpress / Banggood)
 - [VAS / VideoAerialSystems](https://videoaerialsystems.com/) — IBCrazy designs, long-range
 - Maple RF / Maple Wireless — IBCrazy / Andrew Newton designs (often sold via VAS resellers)
-- Pulse Larsen — industrial UAV antennas (search "Pulse Larsen UAV" — vendor consolidated under [Pulse Electronics](https://www.pulseelectronics.com/))
+- Pulse Larsen — industrial UAV antennas (search "Pulse Larsen UAV" — vendor consolidated under [Yageo Group (Pulse Electronics)](https://yageogroup.com/products/Antennas,%20RF%20&%20Microwave))
 - [PCTEL](https://www.pctel.com/) — UAV omnis and patches
 
 ### Practical layout for a fixed-wing relay
@@ -286,7 +286,7 @@ If using IP-based mesh radios, the relay is just an IP router — but you need a
 | Protocol | Layer | Notes |
 |----------|-------|-------|
 | [B.A.T.M.A.N.-adv](https://www.open-mesh.org/projects/batman-adv/wiki/Wiki) | L2 | Transparent Ethernet, simplest |
-| [OLSRv2](http://www.olsr.org/) | L3 | Mature, IP-based |
+| [OLSRv2](https://www.olsr.org/) | L3 | Mature, IP-based |
 | [Babel](https://www.irif.fr/~jch/software/babel/) | L3 | Robust, good for lossy links |
 | [802.11s](https://en.wikipedia.org/wiki/IEEE_802.11s) | MAC | Built into Wi-Fi, limited |
 
@@ -307,9 +307,9 @@ Implement with [`systemd` timers](https://systemd.io/) + small Python script mon
 | Software | Use |
 |----------|-----|
 | [Mission Planner](https://ardupilot.org/planner/) | Windows, the original ArduPilot GCS |
-| [QGroundControl](http://qgroundcontrol.com/) | Cross-platform, PX4 default |
+| [QGroundControl](https://qgroundcontrol.com/) | Cross-platform, PX4 default |
 | [UgCS](https://www.sphengineering.com/flight-planning/ugcs) | Commercial, advanced mission planning |
-| [Auterion Mission Control](https://auterion.com/product/auterion-mission-control/) | PX4-enterprise GCS |
+| [Auterion Mission Control](https://auterion.com/product/mission-control/) | PX4-enterprise GCS |
 
 ---
 
@@ -325,7 +325,7 @@ Implement with [`systemd` timers](https://systemd.io/) + small Python script mon
 
 For a fixed-wing relay carrying ~300 g of payload, a 6S 10 Ah Li-Ion pack (≈ 850 g, 220 Wh) yields ~90 minutes endurance.
 
-**Solar augmentation** is feasible on > 2 m wingspan platforms — see [Skysun](https://www.skysunpower.com/) and DIY projects on [DIY Drones](https://diydrones.com/).
+**Solar augmentation** is feasible on > 2 m wingspan platforms — see [Skydweller Aero](https://www.skydweller.aero/) (persistent solar UAV) and DIY projects on [DIY Drones](https://diydrones.com/).
 
 **Tethering** (for stationary persistent relay) — pure mains power via a thin conductor cable, weights covered by ground winch. See [Elistair](https://elistair.com/) Safe-T product line.
 
@@ -356,7 +356,7 @@ Key EASA docs:
 
 - [FAA UAS hub](https://www.faa.gov/uas) — Part 107, waivers, Remote ID, BVLOS resources
 - [Remote ID rule](https://www.faa.gov/uas/getting_started/remote_id) — all drones over 250 g must broadcast ID
-- [FAA BVLOS ARC report (2022)](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/document/information/documentID/5183) — the basis for future Part 108 rulemaking
+- [FAA BVLOS ARC report (2022)](https://www.faa.gov/regulations_policies/rulemaking/committees/documents/index.cfm/document/information/documentID/5424) — the basis for future Part 108 rulemaking
 
 ### Frequency / spectrum
 
@@ -420,15 +420,15 @@ A pragmatic phased build that de-risks as you go:
 - [Persistent Systems](https://www.persistentsystems.com/) — Wave Relay MPU5
 - [Rajant Corporation](https://rajant.com/) — Kinetic Mesh
 - [Trellisware](https://www.trellisware.com/) — TSM MANET radios
-- [Domo Tactical (Cobham)](https://www.domotactical.com/) — Solo7 IP mesh
+- [DTC, a Codan Company (formerly Domo Tactical)](https://www.dtccodan.com/sectors/unmanned-uxv) — Solo7 IP mesh
 
 ### Hardware vendors — P2P long-range radios
 
 - [RFDesign (RFD900x, RFD868x)](https://store.rfdesign.com.au/)
 - [Team BlackSheep (Crossfire, Tracer)](https://www.team-blacksheep.com/)
 - [ExpressLRS open-source project](https://www.expresslrs.org/)
-- Dragon Link — see [RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=1773494) (vendor site intermittent)
-- [Ubiquiti airMAX](https://www.ui.com/airmax) — Bullet, Rocket, NanoStation
+- Dragon Link — see [RCGroups thread](https://www.rcgroups.com/forums/showthread.php?2557039-Dragon-Link-Advanced-Bi-Directional-Long-Range-UHF) (vendor site intermittent)
+- [Ubiquiti airMAX](https://store.ui.com/us/en/category/wireless-airmax-5ghz) — Bullet, Rocket, NanoStation
 - [MikroTik](https://mikrotik.com/) — wAP, LHG, SXTsq cheap IP backhaul
 
 ### Hardware — flight controllers and SBCs
@@ -437,7 +437,7 @@ A pragmatic phased build that de-risks as you go:
 - [CubePilot](https://www.cubepilot.com/) — Cube Orange, Cube Black
 - [Matek Systems](http://www.mateksys.com/) — H743 series, mini autopilots
 - [mRo Robotics](https://store.mrobotics.io/) — Pixracer Pro, Control Zero
-- [Auterion Skynode](https://auterion.com/product/skynode/) — integrated autopilot + companion computer
+- [Auterion Skynode X](https://auterion.com/product/skynode-x/) — integrated autopilot + companion computer
 - [ModalAI VOXL 2](https://www.modalai.com/products/voxl-2) — autonomy SBC + flight controller
 - [Raspberry Pi](https://www.raspberrypi.com/) — Pi 4, Pi 5, CM4
 - [NVIDIA Embedded](https://developer.nvidia.com/embedded-computing) — Jetson Orin Nano, Orin NX
@@ -446,13 +446,13 @@ A pragmatic phased build that de-risks as you go:
 
 ### Hardware — airframes
 
-- [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) — also see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2008005); many clones on AliExpress
+- [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) — also see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?1840543-Skywalker-X8-FPV); many clones on AliExpress
 - [Foxtech](https://www.foxtechfpv.com/) — Nimbus VTOL, Hover series
 - [Quantum Systems](https://quantum-systems.com/) — Trinity Pro (commercial VTOL)
 - [Wingtra](https://wingtra.com/) — WingtraOne (commercial)
 - Tarot RC — multirotor frames (vendor site intermittent — buy via [GetFPV](https://www.getfpv.com/) or AliExpress resellers)
 - [Holybro X500 V2](https://holybro.com/) — pre-built quad development platform (search "X500" on holybro.com)
-- [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) and [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) — see [RCGroups Reptile build thread](https://www.rcgroups.com/forums/showthread.php?t=2725906) and [Believer build thread](https://www.rcgroups.com/forums/showthread.php?t=2932582); Believer listings rotate frequently across AliExpress sellers
+- [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) and [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) — see [RCGroups Reptile build thread](https://www.rcgroups.com/forums/showthread.php?3426643-Reptile-skyshadow-S800-build) and [Believer build thread](https://www.rcgroups.com/forums/showthread.php?2984973-Believer-Twin-tractor-1960mm-Mapping-FPV-Plane-full-review-mods-owner-s-thread); Believer listings rotate frequently across AliExpress sellers
 
 ### Hardware — antennas
 
@@ -460,7 +460,7 @@ A pragmatic phased build that de-risks as you go:
 - Menace RC — search via [AliExpress](https://www.aliexpress.com/wholesale?SearchText=menace+rc+antenna) (direct site intermittent)
 - [Video Aerial Systems (IBCrazy)](https://videoaerialsystems.com/)
 - Maple Wireless — distributed via [VAS](https://videoaerialsystems.com/) and resellers
-- Pulse / Pulse Larsen — now under [Pulse Electronics](https://www.pulseelectronics.com/) — industrial UAV antennas
+- Pulse / Pulse Larsen — now under [Yageo Group (Pulse Electronics)](https://yageogroup.com/products/Antennas,%20RF%20&%20Microwave) — industrial UAV antennas
 - [PCTEL](https://www.pctel.com/) — UAV omnis and patches
 - [Mobile Mark](https://www.mobilemark.com/) — broadband UAV antennas
 
@@ -475,7 +475,7 @@ A pragmatic phased build that de-risks as you go:
 - [MAVSDK](https://mavsdk.mavlink.io/) — modern MAVLink SDK
 - [MAVLink protocol spec](https://mavlink.io/)
 - [ROS 2](https://docs.ros.org/) — robot middleware for advanced autonomy
-- [PX4 ROS 2 bridge (uXRCE-DDS)](https://docs.px4.io/main/en/ros2/user_guide.html)
+- [PX4 ROS 2 bridge (uXRCE-DDS)](https://docs.px4.io/main/en/ros2/user_guide)
 
 ### Software — video and streaming
 
@@ -488,16 +488,16 @@ A pragmatic phased build that de-risks as you go:
 ### Software — mesh networking
 
 - [B.A.T.M.A.N.-adv](https://www.open-mesh.org/projects/batman-adv/wiki/Wiki)
-- [OLSR](http://www.olsr.org/) / [OLSRv2](https://tools.ietf.org/html/rfc7181)
+- [OLSR](https://www.olsr.org/) / [OLSRv2](https://datatracker.ietf.org/doc/html/rfc7181)
 - [Babel routing protocol](https://www.irif.fr/~jch/software/babel/)
 - [LibreMesh](https://libremesh.org/) — community mesh OS
 
 ### Software — ground stations
 
 - [Mission Planner (ArduPilot)](https://ardupilot.org/planner/)
-- [QGroundControl](http://qgroundcontrol.com/)
+- [QGroundControl](https://qgroundcontrol.com/)
 - [UgCS](https://www.sphengineering.com/flight-planning/ugcs)
-- [Auterion Mission Control](https://auterion.com/product/auterion-mission-control/)
+- [Auterion Mission Control](https://auterion.com/product/mission-control/)
 - [DroneDeploy](https://www.dronedeploy.com/) — survey-focused commercial
 - [Skydio](https://www.skydio.com/) — enterprise drones + cloud
 
@@ -505,7 +505,7 @@ A pragmatic phased build that de-risks as you go:
 
 - [EASA Civil Drones Hub](https://www.easa.europa.eu/en/domains/civil-drones-rpas)
 - [EASA Easy Access Rules (UAS Regulation)](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu) — full SORA / PDRA / STS guidance
-- [EU Drone Regulation 2019/947 (consolidated)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02019R0947-20220804)
+- [EU Drone Regulation 2019/947 (consolidated)](https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj/eng)
 - [Danish droneregler.dk](https://www.droneregler.dk/)
 - [Trafikstyrelsen (Danish CAA)](https://www.trafikstyrelsen.dk/)
 - [German LBA](https://www.lba.de/) — search "UAS" for current drone rules
@@ -518,10 +518,10 @@ A pragmatic phased build that de-risks as you go:
 ### Reference designs and academic resources
 
 - [Auterion documentation hub](https://docs.auterion.com/) — Skynode reference architecture
-- [PX4 system architecture](https://docs.px4.io/main/en/concept/architecture.html)
+- [PX4 system architecture](https://docs.px4.io/main/en/concept/architecture)
 - [ArduPilot developer wiki](https://ardupilot.org/dev/)
-- [DARPA OFFSET program](https://www.darpa.mil/program/offensive-swarm-enabled-tactics) — multi-drone swarm research
-- [DARPA Subterranean Challenge](https://www.darpa.mil/program/darpa-subterranean-challenge) — comms-denied autonomy lessons
+- [DARPA OFFSET program](https://www.darpa.mil/research/programs/offensive-swarm-enabled-tactics) — multi-drone swarm research
+- [DARPA Subterranean Challenge](https://www.darpa.mil/research/challenges/subterranean) — comms-denied autonomy lessons
 - [IEEE Xplore (search "BVLOS UAV relay")](https://ieeexplore.ieee.org/Xplore/home.jsp)
 - [Google Scholar (BVLOS UAV relay)](https://scholar.google.com/scholar?q=BVLOS+UAV+relay+drone)
 - [arXiv robotics section](https://arxiv.org/list/cs.RO/recent)
@@ -541,7 +541,7 @@ A pragmatic phased build that de-risks as you go:
 
 - [Coverdrone (EU)](https://www.coverdrone.com/)
 - [Skywatch.AI (US/global)](https://skywatch.ai/)
-- [Verifly](https://www.verifly.com/) — short-term drone insurance
+- [Thimble (US, formerly Verifly)](https://www.thimble.com/) — note: Thimble retired drone-specific coverage in 2023; use SkyWatch.AI for hourly drone policies
 
 ### Related documents in this repo
 
