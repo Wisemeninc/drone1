@@ -100,10 +100,10 @@ The relay needs to **loiter for hours**, ideally over a single point. Multirotor
 
 | Platform | Wingspan | Endurance | Why |
 |----------|---------:|----------:|-----|
-| Skywalker X8 ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2008005)) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform — clones widely available on AliExpress |
-| Reptile S800 V2 ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2725906)) | 0.82 m | 30–60 min | Compact, easy hand-launch — search AliExpress for current stock |
+| [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) | 2.12 m | 60–120 min | Cheap, huge payload bay, proven UAV platform. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2008005) for tuning. |
+| [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) | 0.82 m | 30–60 min | Compact, easy hand-launch. See [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2725906). |
 | [Foxtech Nimbus VTOL](https://www.foxtechfpv.com/) | 1.8 m | 60–90 min | VTOL — no runway needed (search "Nimbus" on foxtechfpv.com) |
-| Believer 1960mm ([RCGroups thread](https://www.rcgroups.com/forums/showthread.php?t=2932582)) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay — search AliExpress |
+| [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) | 1.96 m | 90+ min | Designed for aerial survey, big payload bay. MakeFlyEasy original airframe — listings rotate often; see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2932582) for setup. |
 
 ### When to use a multirotor
 
@@ -446,13 +446,13 @@ A pragmatic phased build that de-risks as you go:
 
 ### Hardware — airframes
 
-- Skywalker X8 — vendor site offline; community thread on [RCGroups](https://www.rcgroups.com/forums/showthread.php?t=2008005); clones widely available via AliExpress
+- [Skywalker X8](https://www.banggood.com/Skywalker-X8-2120mm-Wingspan-EPO-FPV-RC-Airplane-Flying-Wing-KIT-p-1104501.html) — also see [RCGroups build thread](https://www.rcgroups.com/forums/showthread.php?t=2008005); many clones on AliExpress
 - [Foxtech](https://www.foxtechfpv.com/) — Nimbus VTOL, Hover series
 - [Quantum Systems](https://quantum-systems.com/) — Trinity Pro (commercial VTOL)
 - [Wingtra](https://wingtra.com/) — WingtraOne (commercial)
 - Tarot RC — multirotor frames (vendor site intermittent — buy via [GetFPV](https://www.getfpv.com/) or AliExpress resellers)
 - [Holybro X500 V2](https://holybro.com/) — pre-built quad development platform (search "X500" on holybro.com)
-- Reptile S800 V2 / Believer 1960mm — see [RCGroups Reptile thread](https://www.rcgroups.com/forums/showthread.php?t=2725906) and [Believer thread](https://www.rcgroups.com/forums/showthread.php?t=2932582); clones widely available
+- [Reptile S800 V2 / Sky Shadow](https://www.banggood.com/Reptile-S800-SKY-SHADOW-820mm-Wingspan-FPV-EPP-Flying-Wing-Racer-RC-Airplane-KIT-p-1108279.html) and [Believer 1960mm](https://www.aliexpress.com/wholesale?SearchText=Believer+1960mm+UAV) — see [RCGroups Reptile build thread](https://www.rcgroups.com/forums/showthread.php?t=2725906) and [Believer build thread](https://www.rcgroups.com/forums/showthread.php?t=2932582); Believer listings rotate frequently across AliExpress sellers
 
 ### Hardware — antennas
 
