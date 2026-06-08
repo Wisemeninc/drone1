@@ -18,7 +18,7 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 
 | # | Item | Qty | Est. Price | AliExpress |
 |---|------|-----|-----------|------------|
-| 1 | Source One V5 Frame Kit (5") | 1 | $35 | [AliExpress](https://www.aliexpress.com/w/wholesale-Source-One-V5-frame-5-inch.html) |
+| 1 | TBS Source One V6 FPV Frame (5") | 1 | $35 | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Source-One-V6-frame-5-inch.html) |
 | 2 | SpeedyBee F405 V4 Stack (FC + 50A ESC) | 1 | $70 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F405-V4-stack.html) |
 | 3 | Emax Eco II 2306 2400KV motors | 4 | $48 | [AliExpress](https://www.aliexpress.com/w/wholesale-Emax-Eco-II-2306-2400KV.html) |
 | 4 | DAL Cyclone T5040C props (5 pack CW+CCW) | 2 packs | $16 | [AliExpress](https://www.aliexpress.com/w/wholesale-DAL-Cyclone-T5040C.html) |
