@@ -62,7 +62,7 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 14 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-PET-expandable-braided-sleeve-assortment.html) |
 | | **Mid-Range Quad Subtotal** | | **~$381** | |
 
-> **Note (September 2026):** the Mamba F50 Pro is still stocked on AliExpress, which is why it stays in this AliExpress-only list — but no EU FPV shop checked still carries it. The rest of the guide substitutes the T-Motor F55A Pro II (55A, BL32 preloaded). The same applies to the Rush Tank Ultimate Plus VTX below — still on AliExpress, but substituted with the TBS Unify Pro32 Nano V1.1 elsewhere in the guide. See [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md).
+> **Note (September 2026):** the Mamba F50 Pro is still stocked on AliExpress, which is why it stays in this AliExpress-only list — but no EU FPV shop checked still carries it. The rest of the guide substitutes the T-Motor F55A Pro II (55A, BL32 preloaded). The same applies to the Rush Tank Ultimate Plus VTX above — still on AliExpress, but substituted with the TBS Unify Pro32 Nano V1.1 elsewhere in the guide. See [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md).
 
 ---
 

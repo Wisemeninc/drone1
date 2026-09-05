@@ -4,7 +4,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Budget Build (~$500-630 all-in)
+## Budget Build (~$511-643 all-in)
 
 **Philosophy:** Learn to fly without crying when you crash. Cheap replacements, proven reliability, analog video.
 
@@ -44,14 +44,14 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Mid-Range Build (~$800-1,160 all-in)
+## Mid-Range Build (~$885-1,229 all-in)
 
 **Philosophy:** Good experience without breaking the bank. Digital video optional, better components that last.
 
 | Category | Component | Price |
 |----------|-----------|-------|
 | Frame | GEPRC Mark5 or Diatone Roma F5 V2 | $45-60 |
-| FC + ESC | SpeedyBee F7 V3 + T-Motor F55A Pro II (55A BL32) | $95-120 |
+| FC + ESC | SpeedyBee F7 V3 + T-Motor F55A Pro II (55A BL32) | $110-130 |
 | Motors (×4) | iFlight XING2 2306 2555KV (4S) or 1900KV (6S) | $55-65 |
 | Props (×10 sets) | Gemfan 51466 V2 | $22-25 |
 | Receiver | RadioMaster RP1 (ELRS 2.4GHz) | $15-18 |
@@ -67,19 +67,19 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | VTX | TBS Unify Pro32 Nano V1.1 (switchable — run at 25mW in EU; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V) | $35-38 |
 | Camera | Caddx Ratel 2 | $25-35 |
 | Goggles | Skyzone Cobra X V2 (OLED, compact) | $160-200 |
-| *Subtotal A* | | **$870-1,052** |
+| *Subtotal A* | | **$885-1,062** |
 | | | |
 | **Video Option B: Digital (Walksnail)** | | |
 | VTX + Camera | Walksnail Avatar HD Kit | $70-90 |
 | Goggles | Walksnail Avatar HD Goggles X | $280-350 |
-| *Subtotal B* | | **$1,000-1,219** |
+| *Subtotal B* | | **$1,015-1,229** |
 
 ### What You Get (over Budget)
 - F7 processor (future-proof, better blackbox)
 - Better motors (smoother, quieter, more efficient bearings)
 - 6S efficiency (longer flights, less heat)
 - Hall sensor gimbals on radio (precise, no drift)
-- Higher VTX power (better video range)
+- Better VTX (TBS Unify — SmartAudio, cleaner output); *not* more legal range — everything runs at 25mW in the EU
 - GPS capable (iNav return-to-home if desired)
 - Optional digital video (720p-1080p clean feed)
 
@@ -91,7 +91,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Premium Build (~$1,200-1,600 all-in)
+## Premium Build (~$1,240-1,560 all-in)
 
 **Philosophy:** Best experience possible. Digital HD video, premium components, longest lifespan, 4K recording capability.
 
@@ -112,8 +112,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | **Soldering kit** | TS101 or Hakko + full accessories | $100-130 |
 | Hardware | Premium standoffs, TPU mounts (3D printed), XT60 | $20-30 |
 | | | |
-| **TOTAL** | | **$1,240-1,600** |
-| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$620-780* |
+| **TOTAL** | | **$1,240-1,560** |
+| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$635-800* |
 
 ### What You Get (over Mid-Range)
 - 4K onboard recording (DJI O4)
@@ -150,7 +150,7 @@ Month 12+:  Build second quad with premium components
 | **ESC firmware** | BLHeli_S (flash Bluejay) | BL32 | BL32 | RPM filtering, smooth throttle |
 | **Motor bearings** | Standard steel | Quality steel | EZO/NSK Japanese | Lifespan, smoothness, noise |
 | **Motor magnets** | Standard | N52H | N52SH (high temp) | Consistency, heat resistance |
-| **Video** | Analog 800mW | Analog 1.6W or entry digital | DJI O4 (4K + digital link) | Image quality, range, recording |
+| **Video** | Analog (TX800, run at 25mW) | Analog (TBS Unify, 25mW) or entry digital | DJI O4 (4K + digital link) | Image quality, recording; legal range only via certified digital |
 | **Radio gimbals** | Potentiometer | Hall sensor | Hall sensor / AG | Precision, zero drift, lifespan |
 | **Battery cells** | Budget (CNHL) | Mid (GNB) | Premium (Tattu R-Line) | Voltage sag, cycle life, consistency |
 | **Goggles** | Box (heavy, basic) | Compact OLED | DJI digital (1080p+) | Comfort, image, features |

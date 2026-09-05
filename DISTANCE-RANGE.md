@@ -8,7 +8,7 @@ How far can you fly a drone? It depends on your build, video system, battery, an
 >
 > **The ranges in this guide are what the hardware can do, not what you may legally transmit in Denmark or the EU.**
 >
-> 5.8GHz video is capped at **25mW e.i.r.p.** for licence-free use — ERC Recommendation 70-03, Annex 1 (ETSI EN 300 440). At 25mW an analog VTX gives roughly **200–500m** of usable range — not the kilometres quoted below. The allowance applies only inside **5725–5875 MHz** — Raceband R1/R2/R7/R8 and Bands E and L are outside it (channel table in [REGULATIONS.md](./REGULATIONS.md)). An amateur radio licence does not lift the limit for bought FPV gear: it licenses the operator, not the equipment.
+> 5.8GHz video is capped at **25mW e.i.r.p.** for licence-free use — ERC Recommendation 70-03, Annex 1 (ETSI EN 300 440). At 25mW an analog VTX gives roughly **200–500m** of usable range — not the kilometres quoted below. The allowance applies only inside **5725–5875 MHz** — Raceband R1/R2/R7/R8 and Bands E and L are outside it (channel table in [REGULATIONS.md](./REGULATIONS.md)). An amateur licence is not a reliable workaround — the amateur allocation excludes most FPV channels (see [REGULATIONS.md](./REGULATIONS.md)).
 >
 > **That cap applies to everyone, DJI included.** The DJI O4 in CE mode is limited to the same 25mW on 5.8GHz (DJI spec: <14 dBm). It still reaches about **6 km in CE mode** (vs 10 km on FCC firmware) because of a far better link budget — OFDM, error correction, receive sensitivity — and because it also operates on **5.1GHz at up to 23 dBm (CE)**, a band a bare analog VTX cannot legally use. Certification is what lets a system be sold to use those bands and modes; it does not buy a power exemption.
 >
@@ -47,7 +47,7 @@ Range is limited by whichever system fails first. Ranked by what typically kills
 | Battery (5" long-range, 1800mAh 6S) | 8-12 km round trip | n/a — not power-limited | Purpose-built for distance |
 | Battery (7" long-range, 2500mAh 6S) | 15-30 km round trip | n/a — not power-limited | Large props, maximum efficiency |
 
-> **On "900MHz":** the 902-928MHz band ELRS uses at 1W is a US allocation. The EU equivalent is **868MHz at 25-500mW with duty-cycle limits** (ETSI EN 300 220), so EU long-range links are materially shorter than the figures above. 2.4GHz is capped at 100mW EIRP (ETSI EN 300 328). None of this usually matters in practice — the video link fails long before the control link does.
+> **On "900MHz":** the 902-928MHz band ELRS uses at 1W is a US allocation. The EU equivalent is **868MHz at 25 mW e.r.p. with a 1 % duty cycle** for the sub-bands ELRS EU868 actually uses (ETSI EN 300 220; the 500 mW allowance exists only in the narrow 869.4–869.65 MHz sub-band), so EU long-range links are materially shorter than the figures above. 2.4GHz is capped at 100mW EIRP (ETSI EN 300 328). None of this usually matters in practice — the video link fails long before the control link does.
 
 ---
 
@@ -62,7 +62,7 @@ Range is limited by whichever system fails first. Ranked by what typically kills
 | **7" long-range build** | **20-40 km** | ~6 km with DJI O4 — but VLOS | VLOS | $1,000-1,500 |
 | **Extreme long-range (custom)** | **50-100+ km** | Not legally achievable in the Open category | Regulatory | $1,500+ |
 
-> **VLOS binds before any of this.** Denmark's Open category requires visual line of sight at all times — in practice a few hundred metres, whatever your video link reaches. The column above is the *equipment* ceiling — what the gear may legally emit — not a distance you may fly; VLOS is the *operational* ceiling, and it is stricter. Flying to 6 km on a DJI O4 is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [BVLOS-RELAY-DRONE.md](./BVLOS-RELAY-DRONE.md).
+> **VLOS binds before any of this.** Denmark's Open category requires unaided visual line of sight at all times. Trafikstyrelsen publishes the formula: **327 × (propeller-tip-to-tip diagonal in metres) + 20 m** — about **134 m for a 5" quad** and ~184 m for a 7", whatever your video link reaches. The column above is the *equipment* ceiling — what the gear may legally emit — not a distance you may fly; VLOS is the *operational* ceiling, and it is stricter. Flying to 6 km on a DJI O4 is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [BVLOS-RELAY-DRONE.md](./BVLOS-RELAY-DRONE.md).
 
 ---
 
@@ -161,8 +161,7 @@ Flying beyond visual line of sight (BVLOS) requires additional precautions:
 **Legal long-range options:**
 - **EU Specific category:** Authorization via SORA risk assessment (apply to Trafikstyrelsen in Denmark)
 - **PDRA (Pre-Defined Risk Assessment):** Standardized scenarios that simplify Specific category approval
-- **Spotter:** A second person watching the drone extends legal VLOS
-- **FPV with spotter:** One person flies FPV, another maintains VLOS (accepted practice in EU Open category)
+- **FPV with an observer:** the *only* way FPV is legal in the Open category — `UAS.OPEN.060(4)` / Art. 4(1)(d) of 2019/947. The observer must stand **alongside** the pilot, keep the aircraft in **unaided** visual line of sight, and be able to warn the pilot. This is law, not "accepted practice", and it does **not** extend VLOS — the ~134 m limit above still applies; the observer merely lets you wear the goggles.
 
 **Practical note:** Most long-range FPV pilots fly in remote, unpopulated areas and accept regulatory risk. This is common in the hobby but technically non-compliant without Specific category authorization. In Denmark, enforcement exists — Trafikstyrelsen can issue fines.
 

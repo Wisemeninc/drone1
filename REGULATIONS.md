@@ -4,7 +4,7 @@ Rules for flying your DIY drone outdoors. These apply regardless of whether you 
 
 Denmark follows the **EU-wide EASA drone regulations** implemented through the Danish Transport Authority (Trafikstyrelsen). The rules are harmonized across all EU/EEA member states.
 
-> **Checked: September 2026.** Two changes since this guide was first written: the DK-STS-03 declaration expired on 1 January 2026, and Denmark has a proposal in flight to require Remote-ID on **all drones over 250 g from 1 January 2027**. Both are covered below. Regulations move faster than this document — always confirm at [droneregler.dk](https://www.droneregler.dk).
+> **Checked: September 2026.** Two changes since this guide was first written: the DK-STS-03 declaration expired on 1 January 2026, and Denmark has a proposal in flight to require Remote-ID on **all drones of 250 g or more from 1 January 2027**. Both are covered below. Regulations move faster than this document — always confirm at [droneregler.dk](https://www.droneregler.dk).
 
 ---
 
@@ -32,9 +32,9 @@ Most DIY-built drones and older commercial drones do NOT have a C-class marking.
 
 This means your DIY 5" quad (no C-class) must follow A3 rules regardless of its weight.
 
-**Danish change — the DK-STS-03 declaration expired January 1, 2026.** That transition previously let pilots holding older Danish drone licences fly heavier, non-C-marked drones in urban areas under rules matching their licence. It is gone. Legacy and privately built drones without a C-marking are now restricted to flying well away from buildings and people unless you complete a specific course *and* obtain permission from Trafikstyrelsen. If you read older Danish guidance that describes flying a DIY drone in town on a legacy licence, that guidance is out of date.
+**Danish change — the DK-STS-03 declaration expired January 1, 2026 — but it does not affect you.** DK-STS-03 was a *Specific-category* standard scenario operated under a declaration, used mainly by commercial operators flying legacy drones in built-up areas. It was never an Open-category privilege, so its expiry changes nothing for a hobby A3 flyer. It is mentioned here only because older Danish guidance written for STS operators still circulates and can read as if it applies to everyone. It does not.
 
-**EASA framework for privately built drones — pending.** EASA has been working on a dedicated framework for privately built drones that would treat them broadly like the C4 class: A3 areas only, under 25 kg, pilot holding at least an A1/A3 certificate. The final rule was expected in Q3 2026, and the current transitional treatment of privately built drones is expected to end after 2026. This underpins the "DIY means A3, no class mark needed" premise of this entire guide, so it is worth re-checking before you buy.
+**Privately built drones — the rule is permanent, not transitional.** Regulation 2019/947, `UAS.OPEN.040(4)(a)`, allows a privately built UAS of under 25 kg MTOM to fly in subcategory A3 with an A1/A3 certificate. That provision has no expiry. The transitional period that *did* expire — Article 22, on 31 December 2023 — applied to non-compliant *commercial* drones placed on the market before the class-marking regime, not to home builds. Privately built drones are excluded from class marking altogether (Regulation 2019/945, Article 2(1)(a)), so a home build can never be C4 and never needs to be. The "DIY means A3, no class mark needed" premise of this guide rests on `UAS.OPEN.040(4)(a)`, and it is stable. (An earlier version of this page described a pending EASA "privately built framework" due in 2026; no such EASA rulemaking could be found and the claim has been removed.)
 
 ---
 
@@ -123,26 +123,26 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 | Setting | Legal licence-free? | Realistic range |
 |---------|--------------------|-----------------|
 | **25mW** | ✅ **Yes** — the CEPT limit | 200-500m |
-| 200mW / 400mW / 800mW / 1.6W | ❌ No — and an amateur licence does **not** make bought FPV gear legal (see below) | 1-5 km |
+| 200mW / 400mW / 800mW / 1.6W | ❌ No — and an amateur licence is not the workaround it sounds like (see below) | 1-5 km |
 
 The cap is **25mW e.i.r.p.** for non-specific short-range devices in 5725–5875 MHz under **ERC Recommendation 70-03, Annex 1** (harmonised standard ETSI EN 300 440), and e.i.r.p. means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
 
 **25mW is necessary but not sufficient — the channel matters just as much.** The 25mW allowance exists only inside **5725–5875 MHz**. Standard FPV channel banks spill out of it on both sides, and what lies outside is not "grey": the FPV channels that fall below 5725 MHz (R1/R2, low Band E, Band L) sit in **5470–5725 MHz**, an RLAN band in which UAS operation is **not permitted** — Decision (EU) 2022/179 as amended by 2022/2307, which bars UAS from 5250–5350 and 5470–5725 MHz; above 5875 MHz is the **road-safety ITS band** (Decision (EU) 2020/1426). (The same Decision *does* permit UAS in 5170–5250 MHz at up to 23 dBm — that is the 5.1 GHz carve-out a certified DJI O4 uses, see point 2 below. No analog FPV VTX operates there.) A VTX set to 25mW on Raceband R7 is illegal on two counts.
 
-| Band | ✅ Inside 5725–5875 (usable) | ⚠️ Within ~10 MHz of an edge — avoid | ❌ Outside — prohibited |
+| Band | ✅ ≥10 MHz inside 5725–5875 (usable) | ⚠️ <10 MHz from an edge — avoid | ❌ Outside — prohibited |
 |------|------------------------------|--------------------------------------|-------------------------|
-| **Raceband (R)** | **R3 5732 · R4 5769 · R5 5806 · R6 5843** | — | R1 5658 · R2 5695 (RLAN, UAS not permitted) · R7 5880 · R8 5917 (ITS) |
-| **Band A** | A2 5845 · A3 5825 · A4 5805 · A5 5785 · A6 5765 · A7 5745 | A8 5725 · A1 5865 | — |
-| **Band B** | B1 5733 · B2 5752 · B3 5771 · B4 5790 · B5 5809 · B6 5828 · B7 5847 | B8 5866 | — |
+| **Raceband (R)** | **R4 5769 · R5 5806 · R6 5843** | R3 5732 (7 MHz) | R1 5658 · R2 5695 (RLAN, UAS not permitted) · R7 5880 · R8 5917 (ITS) |
+| **Band A** | A2 5845 · A3 5825 · A4 5805 · A5 5785 · A6 5765 · A7 5745 | A8 5725 (0 MHz) · A1 5865 (10 MHz, borderline) | — |
+| **Band B** | B2 5752 · B3 5771 · B4 5790 · B5 5809 · B6 5828 · B7 5847 | B1 5733 (8 MHz) · B8 5866 (9 MHz) | — |
 | **Band E** | — | — | E1–E4 (5645–5705, RLAN) · E5–E8 (5885–5945, ITS) |
-| **Band F / Fatshark** | F1 5740 · F2 5760 · F3 5780 · F4 5800 · F5 5820 · F6 5840 | F7 5860 | F8 5880 (ITS) |
+| **Band F / Fatshark** | F1 5740 · F2 5760 · F3 5780 · F4 5800 · F5 5820 · F6 5840 · F7 5860 | — | F8 5880 (ITS) |
 | **Band L** | — | — | all (5362–5621, RLAN) |
 
-Analog FPV video is roughly 20 MHz wide, so a channel centred within ~10 MHz of a band edge spills over it. **Stick to R3–R6, A2–A7, B1–B7 or F1–F6.** Digital systems (DJI, Walksnail, HDZero) manage this in firmware in CE mode; analog does not — you have to pick the channel yourself.
+Analog FPV video occupies roughly 20 MHz (±10 MHz around the centre), so a channel centred less than 10 MHz from a band edge spills over it — the ⚠️ column applies that one rule uniformly, with each channel's distance from the nearest edge shown. **Stick to R4–R6, A2–A7, B2–B7 or F1–F7.** Digital systems (DJI, Walksnail, HDZero) manage this in firmware in CE mode; analog does not — you have to pick the channel yourself.
 
 **Two practical consequences:**
 
-1. **Set your VTX to 25mW on a channel from the ✅ column, and leave it there.** Almost every VTX supports 25mW, usually as the lowest power setting. **An amateur radio licence does not change this for bought FPV gear.** It licenses the *operator*, not the *equipment*: a commercially sold, CE-marked VTX must itself comply with EN 300 440 (25mW) regardless of who is holding the radio — the Radio Equipment Directive exempts only equipment amateurs build or modify themselves. And the amateur 6 cm allocation (5650–5850 MHz) excludes A1, F7/F8, R7/R8 and upper Band E anyway. Treat "legal with a ham licence" as a myth for this hobby.
+1. **Set your VTX to 25mW on a channel from the ✅ column, and leave it there.** Almost every VTX supports 25mW, usually as the lowest power setting. An amateur radio licence does not help in practice: the amateur 6 cm allocation (5650–5850 MHz) excludes A1, F7/F8, R7/R8 and upper Band E — most of what an FPV VTX offers — and whether a licensed amateur may run commercially made FPV equipment above 25mW on the channels that remain is a national spectrum-use question for the Danish authority, not something this guide can promise. Plan on 25mW.
 2. **If you want real range legally, buy a good digital system — but understand why it works.** The DJI O4 is held to the **same 25mW on 5.8GHz as everyone else** (DJI's own spec: <14 dBm in CE mode). It reaches roughly 6 km in CE mode anyway, for two reasons neither of which is a power allowance: a far better link budget (OFDM modulation, error correction, receive sensitivity — the same reason a phone gets data where a walkie-talkie gets static), and access to the **5.1GHz band at up to 23 dBm (CE)**, which a bare analog VTX cannot legally use. RED type-approval is what allows a system to be sold using those bands and modes; it does **not** raise the 5.8GHz power cap for anyone. The practical conclusion still holds — digital is the route to legal range here — but it holds because of engineering, not because certification buys an exemption.
 
 Note that **VLOS still applies** regardless of what your video link can do. See the Open category rules above.
@@ -158,16 +158,19 @@ Since January 1, 2024:
 - Drones in class C1, C2, C3 must have **direct remote identification** (broadcast via Wi-Fi/Bluetooth)
 - DIY drones without C-class marking: Remote ID **not currently required** in the A3 subcategory
 
-### Coming January 1, 2027 (Denmark) — this affects your build
+### Proposed for January 1, 2027 (Denmark) — this affects your build
+
+> **Status: a proposal that has been through consultation, not yet law.** Dates and thresholds below are from the draft (Høringsportalen sag 71261) and can still move.
 
 **This is the single most important change for anyone building a 5" quad right now.**
 
-In June 2026 Trafikstyrelsen sent an amended drone declaration to public consultation. It requires **Remote-ID or another form of remote identification on every drone over 250 g** — described by the authority as an "electronic number plate" that lets drone operations be detected and identified.
+In June 2026 Trafikstyrelsen sent an amended drone declaration to public consultation. It requires **Remote-ID or another form of remote identification on every drone of 250 g or more** (the draft says *mindst 250 g* — at least 250 g, so a 250 g drone is caught) — described by the authority as an "electronic number plate" that lets drone operations be detected and identified.
 
 | Detail | Status |
 |--------|--------|
 | **Requirement** | Remote-ID or equivalent remote identification |
-| **Applies to** | **All drones over 250 g** — including privately built, no C-class marking |
+| **Applies to** | **All drones of 250 g or more** (*mindst 250 g*) — including privately built, no C-class marking |
+| **Exemption** | Flying at a **model-flying field, meet or competition** (draft §4 stk. 2) — directly relevant if you fly at a Modelflyvning Danmark club |
 | **Under 250 g** | Only when flying in security-critical drone zones with sensors such as a camera |
 | **Consultation deadline** | August 21, 2026 (now closed) |
 | **Expected in force** | **January 1, 2027** |

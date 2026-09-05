@@ -60,14 +60,14 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | TBS direct, n-Factory.de |
 | 9 | CNHL Black Series 1300mAh 4S 100C (XT60) | 3 | $66 | n-Factory.de, Amazon.de |
 | 10 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Reichelt.de, Amazon.de, AliExpress |
-| 11 | BN-220 GPS module | 1 | $14 | Rotorama, BangGood, AliExpress |
+| 11 | BN-220 GPS module | 1 | $14 | Amazon.de, AliExpress (no EU FPV shop checked stocks it) |
 | 12 | Buzzer (5V, with wire) | 1 | $3 | AliExpress, Amazon.de |
 | 13 | XT60 pigtail (male, 12AWG, 10cm) | 2 | $5 | n-Factory.de, AliExpress |
 | 14 | M3 standoff hardware kit (20mm + 25mm) | 1 | $6 | AliExpress, Amazon.de |
 | 15 | Battery strap (20mm × 250mm) | 5 | $5 | AliExpress, Amazon.de |
 | 16 | Zip ties + heat shrink assortment | 1 | $8 | Amazon.de, AliExpress |
 | 17 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | Amazon.de, AliExpress |
-| | **Subtotal (Quad)** | | **~$368** | |
+| | **Subtotal (Quad)** | | **~$366** | |
 
 ### Support Equipment ($210–275)
 
@@ -93,7 +93,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 28 | Smoke stopper (XT60 inline) | 1 | $12 | n-Factory.de, AliExpress |
 | | **Subtotal (Solder)** | | **~$91** | |
 
-### **BUDGET TOTAL: ~$658**
+### **BUDGET TOTAL: ~$669**
 
 ---
 
@@ -105,7 +105,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 |---|------|-----|-----------|--------------|
 | 1 | GEPRC Mark5 Frame (5", HD compatible) | 1 | $50 | n-Factory.de, AliExpress |
 | 2 | SpeedyBee F7 V3 Flight Controller | 1 | $45 | SpeedyBee official, n-Factory.de |
-| 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | 1 | $62 | FlyingMachines, Amazon.de, AliExpress |
+| 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32, 30.5×30.5) | 1 | $75 | FlyingMachines (backorder), AliExpress — not Amazon.de, not n-Factory (stocks the AM32 Pro III) |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | iFlight official, n-Factory.de, AliExpress |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | n-Factory.de, AliExpress |
 | 6 | TBS Unify Pro32 Nano V1.1 VTX (run at 25mW on a legal channel; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V) | 1 | $36 | FPV24 (in stock), FlyingMachines (listed), Amazon.de |
@@ -116,9 +116,9 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 10 | GNB 1500mAh 6S 120C (XT60) | 4 | $130 | n-Factory.de, Amazon.de |
 | 11 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Reichelt.de, Amazon.de, AliExpress |
 | 12 | XT60 pigtail + M3 hardware + straps | 1 kit | $15 | n-Factory.de, AliExpress |
-| 13 | BN-220 GPS module (for altitude/position hold) | 1 | $14 | Rotorama, BangGood, AliExpress |
+| 13 | BN-220 GPS module (for altitude/position hold) | 1 | $14 | Amazon.de, AliExpress (no EU FPV shop checked stocks it) |
 | 14 | Buzzer (5V, with wire) | 1 | $3 | AliExpress, Amazon.de |
-| | **Subtotal (Quad)** | | **~$509** | |
+| | **Subtotal (Quad)** | | **~$522** | |
 
 ### Support Equipment ($250–370)
 
@@ -147,7 +147,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 29 | Kapton tape (10mm) | 1 | $5 | Amazon.de, AliExpress |
 | | **Subtotal (Solder)** | | **~$129** | |
 
-### **MID-RANGE TOTAL: ~$1,056**
+### **MID-RANGE TOTAL: ~$1,069**
 
 ---
 
@@ -168,7 +168,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 9 | TBS Triumph Pro antenna (RHCP) | 1 | $18 | TBS direct, n-Factory.de |
 | 10 | Tattu R-Line V4 1300mAh 6S 130C (XT60) | 5 | $190 | n-Factory.de, FlyingMachines.de, Amazon.de |
 | 11 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Reichelt.de, Amazon.de, AliExpress |
-| 12 | BN-220 GPS module | 1 | $14 | Rotorama, BangGood, AliExpress |
+| 12 | BN-220 GPS module | 1 | $14 | Amazon.de, AliExpress (no EU FPV shop checked stocks it) |
 | 13 | TPU 3D-printed mounts (antenna, GPS, GoPro) | 1 set | $15 | AliExpress (or print own) |
 | 14 | Premium M3 titanium hardware kit | 1 | $15 | n-Factory.de, AliExpress |
 | 15 | Battery straps (Ethix power strap) | 3 | $9 | n-Factory.de, AliExpress |

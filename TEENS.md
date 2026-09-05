@@ -232,7 +232,7 @@ That's typically **6-12 months** after starting the simulator.
 
 | What | Price (incremental) | Notes |
 |------|-------------------:|-------|
-| Frame, FC, ESC, motors, props, VTX, camera | $200-280 | The actual quad |
+| Frame, FC, ESC, motors, props, VTX, camera | $200-280 | The actual quad. **The VTX must be set to 25mW on a legal channel in Denmark** — the budget build's TX800 is rated 800mW, which is illegal to transmit here. See [REGULATIONS.md](./REGULATIONS.md) |
 | Receiver + antenna | $25-35 | ELRS, matches your existing radio |
 | Batteries (3× 1300mAh 4S) | $60-75 | First three packs |
 | (Skip tools if you have them from Stage 3) | -$80 | |

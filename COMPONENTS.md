@@ -64,9 +64,9 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 | Blackbox Logging | Limited | Good | Excellent (high-rate) |
 | PID Loop Rate | **4K practical (CPU-bound)** | 8K comfortable | 32K capable |
 | UART Count | 3-5 | 4-6 | 6-8 |
-| Future-proofing | **Legacy — being phased out** | Good | **Best — buy this in 2026** |
+| Future-proofing | **Legacy — CPU-limited, still supported** | Good | **Best — buy this in 2026** |
 | Price Range | $25-40 | $35-60 | $45-80 |
-| Betaflight Support | Full — 4kHz practical ceiling | Full | Full |
+| Betaflight Support | Supported — no documented cap; 4kHz is the practical CPU ceiling | Full | Full |
 | iNav Support | Full | Full | Full |
 
 ### Key FC Features to Look For
@@ -210,10 +210,10 @@ The ESC must handle the **peak** current your motors pull. Oversizing is cheap i
 | **SpeedyBee BLS 50A** | 50A | BLHeli_S (flash Bluejay) | $30-35 | Cheapest good ESC, flash Bluejay day 1 | Need to flash firmware |
 | **SpeedyBee F405 V4 Stack** | 50A | BL32 | $65-80 | FC+ESC combo, plug and play | More expensive than ESC alone |
 | ~~**Mamba F50 Pro**~~ | 50A | BL32 | — | Was reliable, good thermals | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
-| **T-Motor F55A Pro II** | 55A | BL32 | $55-70 | Premium quality, excellent FETs | Expensive |
+| **T-Motor F55A Pro II** | 55A | BL32 | $70-80 (€69.95 incl. VAT at FlyingMachines) | Premium quality, excellent FETs | Expensive; EU stock intermittent |
 | **Aikon AK32 Pin 35A** | 35A | BL32 | $50-60 | Ultra-clean power, racing focused | Only 35A |
 
-> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **The substitute is the T-Motor F55A Pro II** (30.5×30.5 base variant): BL32 preloaded, nothing to flash. FlyingMachines *lists* it (*T Motor ESC F55A PROII 4in1 BLHeli32*, €69.95 incl. VAT) but every F55A variant was **out of stock when checked in September 2026** — treat it as orderable, not on-shelf. Do **not** buy the *ULTRA F55A PROII* variant for this build: it is **20×20 mm** and will not fit the 30.5 mm stack.
+> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **The substitute is the T-Motor F55A Pro II** (30.5×30.5 base variant, **$70-80** — €69.95 incl. VAT at FlyingMachines): BL32 preloaded, nothing to flash. Be clear-eyed about what this swap buys you: the Mamba F50 Pro was dropped because no EU shop stocks it, and every F55A variant was **also out of stock when checked in September 2026**. So the honest position is that **neither ESC is on an EU shelf right now** — the F55A is the better part and is at least *listed* by an EU shop for backorder, but your realistic options today are backorder from FlyingMachines or AliExpress. Do **not** buy the *ULTRA F55A PROII* variant for this build: it is **20×20 mm** and will not fit the 30.5 mm stack.
 >
 > The **SpeedyBee BLS 50A** below is still an excellent ESC and the cheapest route if you are happy to flash Bluejay — but source it carefully. EU specialty shops do not carry it standalone, and an Amazon search for it mostly returns third-party "kompatibel mit Speedybee" clone stacks rather than the genuine part.
 
@@ -414,7 +414,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Goggles (box) | Eachine EV800D | $60-80 | Diversity receiver, DVR built-in |
 | Goggles (compact) | Skyzone Cobra X V2 | $160-200 | OLED, compact, good optics |
 
-> **⚠️ 5.8GHz power is capped at 25mW e.i.r.p. in the EU — including Denmark — and only inside 5725–5875 MHz.** That is the licence-free limit (ERC Rec 70-03 Annex 1), and it is why every analog VTX sold by an EU shop is listed as 25mW. An amateur radio licence does **not** lift it for bought FPV gear — it licenses the operator, not the equipment. The 800mW and 1.6W figures elsewhere in this guide describe what the hardware *can* emit, not what you may legally transmit here. Select 25mW **and** a channel inside the band — R3–R6, A2–A7, B1–B7 or F1–F6; Raceband R1/R2/R7/R8 and Bands E and L are outside it. Full table in [REGULATIONS.md](./REGULATIONS.md).
+> **⚠️ 5.8GHz power is capped at 25mW e.i.r.p. in the EU — including Denmark — and only inside 5725–5875 MHz.** That is the licence-free limit (ERC Rec 70-03 Annex 1), and it is why every analog VTX sold by an EU shop is listed as 25mW. An amateur licence is not the workaround it sounds like — the amateur 6 cm allocation (5650–5850 MHz) excludes most FPV channels, and running bought FPV gear above 25mW on the rest is a question for the Danish authority, not a given. The 800mW and 1.6W figures elsewhere in this guide describe what the hardware *can* emit, not what you may legally transmit here. Select 25mW **and** a channel inside the band — R3–R6, A2–A7, B1–B7 or F1–F6; Raceband R1/R2/R7/R8 and Bands E and L are outside it. Full table in [REGULATIONS.md](./REGULATIONS.md).
 >
 > This also caps realistic analog video range well below the figures in [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) and [TRADE-OFFS.md](./TRADE-OFFS.md), which are written for the hardware's maximum output.
 

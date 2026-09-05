@@ -10,17 +10,17 @@ Last updated: **September 2026.**
 
 Four months of drift, verified against primary sources on 2026-09-05. The regulatory item is the one that should change what you buy.
 
-### A. Denmark: Remote-ID proposed for all drones over 250 g — from 1 Jan 2027
+### A. Denmark: Remote-ID proposed for all drones of 250 g or more — from 1 Jan 2027
 
 **This supersedes the "no major 2026 changes" line this file used to carry.**
 
-In June 2026 Trafikstyrelsen put an amended drone declaration out to consultation (deadline 21 August 2026, now closed) requiring **Remote-ID or equivalent remote identification on every drone over 250 g**, expected in force **1 January 2027**. Drones under 250 g are caught only when flying in security-critical zones with sensors such as a camera.
+In June 2026 Trafikstyrelsen put an amended drone declaration out to consultation (deadline 21 August 2026, now closed) requiring **Remote-ID or equivalent remote identification on every drone of 250 g or more** (*mindst 250 g*), expected in force **1 January 2027**. Drones under 250 g are caught only when flying in security-critical zones with sensors such as a camera.
 
 A 500–700 g DIY quad is squarely in scope, and the A3 exemption that covers non-C-marked builds today is exactly what the proposal removes. The same draft widens mandatory distances around commercial ports, airports, prisons and certain government facilities, and requires logbooks to be produced **to the police** on demand.
 
-Separately, **the DK-STS-03 droneerklæring expired 1 January 2026** — the transition that let older Danish licences fly heavier non-C-marked drones in urban areas is gone.
+Separately, **the DK-STS-03 droneerklæring expired 1 January 2026** — a *Specific-category* standard scenario used by commercial operators. It never applied to Open-category hobby flying, so it changes nothing for this guide's reader; it is noted because older Danish guidance written for it still circulates. The draft Remote-ID rules also carry an **exemption for model-flying fields, meets and competitions** (§4 stk. 2).
 
-And **EASA's dedicated framework for privately built drones** (C4-like treatment: A3 only, under 25 kg, A1/A3 certificate) had a final rule expected in Q3 2026, with the current transitional treatment expected to end after 2026.
+An earlier version of this section also claimed an **EASA "privately built drones framework"** was due in Q3 2026. No such EASA rulemaking could be found; the claim traced to a blog. The governing rule — `UAS.OPEN.040(4)(a)`, privately built under 25 kg in A3 — is permanent, and the Article 22 transition that did expire (31 Dec 2023) applied to commercial legacy drones, not home builds. Removed.
 
 **Impact on builds:** budget €30–50 for an external Remote ID module (DroneTag Mini, Aerobits) and account for its weight now. See [REGULATIONS.md](./REGULATIONS.md) for the full picture. Still a proposal, not final law — verify at [droneregler.dk](https://www.droneregler.dk).
 
@@ -37,7 +37,7 @@ Supersedes 2025.12 throughout this guide.
 - **Expanded MAVLink** telemetry for QGroundControl
 - **Autopilot and waypoint missions — simulation only, not flight-ready.** Do not plan a build around them.
 
-**Impact on builds:** GPS modules are more worth having than ever. Note that the 2026.6 release notes say **nothing** about F4 boards being capped or deprecated — the old "4kHz cap in BF 2025.12" framing in this guide was wrong and has been corrected to "4kHz practical ceiling, CPU-bound".
+**Impact on builds:** GPS modules are more worth having than ever. The old "4kHz cap in BF 2025.12" framing in this guide asserted a firmware cap; the 2026.6 release notes contain no such cap, so the claim has been reworded to what the evidence supports — no documented cap, with 4kHz as the practical ceiling F4 CPU headroom allows. Absence from the release notes is not positive evidence of full support, and the guide no longer says "Full".
 
 ### C. ExpressLRS 4.1.0 (July 2026)
 

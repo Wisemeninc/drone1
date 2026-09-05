@@ -115,8 +115,8 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 | System | Usable Video Range | EU-legal **equipment**? | Notes |
 |--------|-------------------|-----------|-------|
 | **Analog 25mW** | **200-500m** | ✅ **Yes** | The only licence-free analog setting in the EU — **and only on channels inside 5725–5875 MHz** (R3–R6, A2–A7, B1–B7, F1–F6) |
-| Analog 200mW | 500m-1.5km | ❌ No | Not legal on bought FPV gear — an amateur licence does not cover the equipment |
-| Analog 800mW | 1-3 km | ❌ No | Not legal on bought FPV gear — an amateur licence does not cover the equipment |
+| Analog 200mW | 500m-1.5km | ❌ No | Over the 25mW cap; an amateur licence is not a reliable workaround (see REGULATIONS.md) |
+| Analog 800mW | 1-3 km | ❌ No | Over the 25mW cap; an amateur licence is not a reliable workaround (see REGULATIONS.md) |
 | **Analog 1.6W** | **2-5 km** | ❌ **No — 64× the limit** | Maximum analog, illegal to transmit here |
 | DJI O4 (standard) | 10-13 km (FCC) | ✅ CE mode — **~6 km equipment reach, not a distance you may fly** | Same 25mW on 5.8GHz as everyone; range from link budget + 5.1GHz band |
 | HDZero | 3-5 km | ⚠️ CE-limited — no published CE figure | Lower power digital |

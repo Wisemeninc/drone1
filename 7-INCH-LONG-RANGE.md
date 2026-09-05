@@ -206,7 +206,7 @@ For LR, 900MHz ELRS is the standard. Control link will never be your limiting fa
 
 | System | Range | Latency | Weight | Notes |
 |--------|-------|---------|--------|-------|
-| **Analog 1.6W** (Platy's choice) | 5-10 km | ~10ms | 5-10g | ⚠️ Lightest and cheapest, but **illegal to transmit at that power in the EU** — 25mW is the cap, giving 200-500m, and an amateur licence does not change that for bought gear. Legal EU range comes from a digital system's link budget, and VLOS binds first anyway. |
+| **Analog 1.6W** (Platy's choice) | 5-10 km | ~10ms | 5-10g | ⚠️ Lightest and cheapest, but **illegal to transmit at that power in the EU** — 25mW is the cap, giving 200-500m, and an amateur licence is not a reliable workaround. Legal EU range comes from a digital system's link budget, and VLOS binds first anyway. |
 | **DJI O4** | 10-13 km | 25-38ms | ~35g | Best range + recording, heaviest |
 | **DJI O3** | 8-13 km | 28-40ms | ~36g | Good value (discounted now) |
 | **Walksnail Avatar** | 5-8 km | 22-35ms | ~30g | Middle ground |
@@ -328,7 +328,7 @@ Designed for high-speed multi-km mountain runs. LiPo for punch, analog for laten
 | Props | Tri-blade 7x3.5 | ~$5/set |
 | Battery | 6S 1800mAh LiPo | ~$35 |
 | GPS | BN-880 | ~$15 |
-| VTX | Analog 1.6W | ~$35 |
+| VTX | Analog 1.6W — ⚠️ **run at 25mW on a legal channel in the EU**; see REGULATIONS.md | ~$35 |
 | RX | ELRS 868/900MHz | ~$20 |
 | Firmware | iNav | Free |
 | **Total (quad only)** | | **~$335** |
@@ -366,7 +366,7 @@ Cheapest path to real long range capability.
 | Props | Bi-blade 7x3.5 | ~$5/set |
 | Battery | 6S 18650 Li-Ion (VTC6) | ~$35 |
 | GPS | BN-880 | ~$15 |
-| VTX | Analog 1.6W | ~$35 |
+| VTX | Analog 1.6W — ⚠️ **run at 25mW on a legal channel in the EU**; see REGULATIONS.md | ~$35 |
 | RX | ELRS 900MHz (HappyModel ES900RX) | ~$20 |
 | Firmware | iNav | Free |
 | **Total (quad only)** | | **~$275** |
