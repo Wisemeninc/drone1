@@ -25,8 +25,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | **Soldering kit** | Pinecil V2 + solder + flux + basics | $55-70 |
 | Hardware | Standoffs, zip ties, XT60, heatshrink | $10-15 |
 | | | |
-| **TOTAL** | | **$513-642** |
-| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$293-352* |
+| **TOTAL** | | **$511-643** |
+| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$296-368* |
 
 ### What You Get
 - Reliable control link (ELRS exceeds 10km)
@@ -55,7 +55,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Motors (×4) | iFlight XING2 2306 2555KV (4S) or 1900KV (6S) | $55-65 |
 | Props (×10 sets) | Gemfan 51466 V2 | $22-25 |
 | Receiver | RadioMaster RP1 (ELRS 2.4GHz) | $15-18 |
-| Antenna | Foxeer Lollipop V4 (RHCP) | $12-15 |
+| Antenna | Foxeer Lollipop V4 (RHCP, **SMA**) | $12-15 |
+| Pigtail | TBS u.FL → SMA pigtail (the Unify Nano is u.FL — it will not mate with MMCX) | $6 |
 | Battery (×4) | GNB 1500mAh 6S 120C | $120-140 |
 | **Radio TX** | RadioMaster TX15 Max (ELRS, hall gimbals, color screen) | $130-145 |
 | **Charger** | ToolkitRC M7 (200W) | $45-55 |
@@ -63,15 +64,15 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Hardware | Standoffs, zip ties, XT60, heatshrink, GPS mount | $15-20 |
 | | | |
 | **Video Option A: Analog** | | |
-| VTX | TBS Unify Pro32 Nano V1.1 (switchable — run at 25mW in EU) | $35-38 |
+| VTX | TBS Unify Pro32 Nano V1.1 (switchable — run at 25mW in EU; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V) | $35-38 |
 | Camera | Caddx Ratel 2 | $25-35 |
 | Goggles | Skyzone Cobra X V2 (OLED, compact) | $160-200 |
-| *Subtotal A* | | **$825-1,008** |
+| *Subtotal A* | | **$870-1,052** |
 | | | |
 | **Video Option B: Digital (Walksnail)** | | |
 | VTX + Camera | Walksnail Avatar HD Kit | $70-90 |
 | Goggles | Walksnail Avatar HD Goggles X | $280-350 |
-| *Subtotal B* | | **$955-1,180** |
+| *Subtotal B* | | **$1,000-1,219** |
 
 ### What You Get (over Budget)
 - F7 processor (future-proof, better blackbox)

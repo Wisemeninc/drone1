@@ -123,13 +123,26 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 | Setting | Legal licence-free? | Realistic range |
 |---------|--------------------|-----------------|
 | **25mW** | ✅ **Yes** — the CEPT limit | 200-500m |
-| 200mW / 400mW / 800mW / 1.6W | ❌ No — amateur radio licence required | 1-5 km |
+| 200mW / 400mW / 800mW / 1.6W | ❌ No — and an amateur licence does **not** make bought FPV gear legal (see below) | 1-5 km |
 
 The cap is **25mW e.i.r.p.** for non-specific short-range devices in 5725–5875 MHz under **ERC Recommendation 70-03, Annex 1** (harmonised standard ETSI EN 300 440), and e.i.r.p. means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
 
+**25mW is necessary but not sufficient — the channel matters just as much.** The 25mW allowance exists only inside **5725–5875 MHz**. Standard FPV channel banks spill out of it on both sides, and what lies outside is not "grey": below 5725 MHz is RLAN spectrum where UAS operation is **not permitted** (Decision (EU) 2022/179, as amended by 2022/2307); above 5875 MHz is the **road-safety ITS band** (Decision (EU) 2020/1426). A VTX set to 25mW on Raceband R7 is illegal on two counts.
+
+| Band | ✅ Inside 5725–5875 (usable) | ⚠️ Within ~10 MHz of an edge — avoid | ❌ Outside — prohibited |
+|------|------------------------------|--------------------------------------|-------------------------|
+| **Raceband (R)** | **R3 5732 · R4 5769 · R5 5806 · R6 5843** | — | R1 5658 · R2 5695 (RLAN, UAS not permitted) · R7 5880 · R8 5917 (ITS) |
+| **Band A** | A2 5845 · A3 5825 · A4 5805 · A5 5785 · A6 5765 · A7 5745 | A8 5725 · A1 5865 | — |
+| **Band B** | B1 5733 · B2 5752 · B3 5771 · B4 5790 · B5 5809 · B6 5828 · B7 5847 | B8 5866 | — |
+| **Band E** | — | — | E1–E4 (5645–5705, RLAN) · E5–E8 (5885–5945, ITS) |
+| **Band F / Fatshark** | F1 5740 · F2 5760 · F3 5780 · F4 5800 · F5 5820 · F6 5840 | F7 5860 | F8 5880 (ITS) |
+| **Band L** | — | — | all (5362–5621, RLAN) |
+
+Analog FPV video is roughly 20 MHz wide, so a channel centred within ~10 MHz of a band edge spills over it. **Stick to R3–R6, A2–A7, B1–B7 or F1–F6.** Digital systems (DJI, Walksnail, HDZero) manage this in firmware in CE mode; analog does not — you have to pick the channel yourself.
+
 **Two practical consequences:**
 
-1. **Set your VTX to 25mW and leave it there.** Almost every VTX supports it, usually as the lowest power setting. A licensed amateur may use up to 1W on parts of the band; without that licence, 25mW is your ceiling.
+1. **Set your VTX to 25mW on a channel from the ✅ column, and leave it there.** Almost every VTX supports 25mW, usually as the lowest power setting. **An amateur radio licence does not change this for bought FPV gear.** It licenses the *operator*, not the *equipment*: a commercially sold, CE-marked VTX must itself comply with EN 300 440 (25mW) regardless of who is holding the radio — the Radio Equipment Directive exempts only equipment amateurs build or modify themselves. And the amateur 6 cm allocation (5650–5850 MHz) excludes A1, F7/F8, R7/R8 and upper Band E anyway. Treat "legal with a ham licence" as a myth for this hobby.
 2. **If you want real range legally, buy a good digital system — but understand why it works.** The DJI O4 is held to the **same 25mW on 5.8GHz as everyone else** (DJI's own spec: <14 dBm in CE mode). It reaches roughly 6 km in CE mode anyway, for two reasons neither of which is a power allowance: a far better link budget (OFDM modulation, error correction, receive sensitivity — the same reason a phone gets data where a walkie-talkie gets static), and access to the **5.1GHz band at up to 23 dBm (CE)**, which a bare analog VTX cannot legally use. RED type-approval is what allows a system to be sold using those bands and modes; it does **not** raise the 5.8GHz power cap for anyone. The practical conclusion still holds — digital is the route to legal range here — but it holds because of engineering, not because certification buys an exemption.
 
 Note that **VLOS still applies** regardless of what your video link can do. See the Open category rules above.

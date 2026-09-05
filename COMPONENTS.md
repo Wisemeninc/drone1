@@ -213,7 +213,7 @@ The ESC must handle the **peak** current your motors pull. Oversizing is cheap i
 | **T-Motor F55A Pro II** | 55A | BL32 | $55-70 | Premium quality, excellent FETs | Expensive |
 | **Aikon AK32 Pin 35A** | 35A | BL32 | $50-60 | Ultra-clean power, racing focused | Only 35A |
 
-> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **The substitute is the T-Motor F55A Pro II** ($55-70): BL32 preloaded, nothing to flash, and the only 4-in-1 in this class an EU shop verifiably stocks (FlyingMachines lists *T Motor ESC F55A PROII 4in1 BLHeli32* and *ULTRA F55A PROII 4IN1*).
+> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **The substitute is the T-Motor F55A Pro II** (30.5×30.5 base variant): BL32 preloaded, nothing to flash. FlyingMachines *lists* it (*T Motor ESC F55A PROII 4in1 BLHeli32*, €69.95 incl. VAT) but every F55A variant was **out of stock when checked in September 2026** — treat it as orderable, not on-shelf. Do **not** buy the *ULTRA F55A PROII* variant for this build: it is **20×20 mm** and will not fit the 30.5 mm stack.
 >
 > The **SpeedyBee BLS 50A** below is still an excellent ESC and the cheapest route if you are happy to flash Bluejay — but source it carefully. EU specialty shops do not carry it standalone, and an Amazon search for it mostly returns third-party "kompatibel mit Speedybee" clone stacks rather than the genuine part.
 
@@ -406,7 +406,7 @@ The video system is what you see through while flying. This is the biggest cost 
 
 | Component | Recommended | Price | Notes |
 |-----------|-------------|-------|-------|
-| VTX | TBS Unify Pro32 Nano V1.1 | $35-38 | Switchable power — run at 25mW in EU; SmartAudio, 20x20 |
+| VTX | TBS Unify Pro32 Nano V1.1 | $35-38 | Switchable — run at 25mW on a legal channel; SmartAudio; 20x20; **u.FL antenna**; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V |
 | VTX (budget) | SpeedyBee TX800 | $18-22 | 800mW rated — see the power note below |
 | ~~VTX~~ | ~~Rush Tank Ultimate Plus (1.6W)~~ | — | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
 | Camera | Foxeer Razer Mini | $18-22 | Good low-light, sharp image |
@@ -414,7 +414,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Goggles (box) | Eachine EV800D | $60-80 | Diversity receiver, DVR built-in |
 | Goggles (compact) | Skyzone Cobra X V2 | $160-200 | OLED, compact, good optics |
 
-> **⚠️ 5.8GHz power is capped at 25mW EIRP in the EU — including Denmark.** That is the licence-free CEPT limit, and it is why every analog VTX sold by an EU shop is listed as 25mW. Higher power (up to 1W) is legal only with an amateur radio licence. The 800mW and 1.6W figures elsewhere in this guide describe what the hardware *can* emit, not what you may legally transmit here — most VTXs let you select 25mW, and that is the setting to fly on.
+> **⚠️ 5.8GHz power is capped at 25mW e.i.r.p. in the EU — including Denmark — and only inside 5725–5875 MHz.** That is the licence-free limit (ERC Rec 70-03 Annex 1), and it is why every analog VTX sold by an EU shop is listed as 25mW. An amateur radio licence does **not** lift it for bought FPV gear — it licenses the operator, not the equipment. The 800mW and 1.6W figures elsewhere in this guide describe what the hardware *can* emit, not what you may legally transmit here. Select 25mW **and** a channel inside the band — R3–R6, A2–A7, B1–B7 or F1–F6; Raceband R1/R2/R7/R8 and Bands E and L are outside it. Full table in [REGULATIONS.md](./REGULATIONS.md).
 >
 > This also caps realistic analog video range well below the figures in [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) and [TRADE-OFFS.md](./TRADE-OFFS.md), which are written for the hardware's maximum output.
 

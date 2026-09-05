@@ -8,7 +8,7 @@ How far can you fly a drone? It depends on your build, video system, battery, an
 >
 > **The ranges in this guide are what the hardware can do, not what you may legally transmit in Denmark or the EU.**
 >
-> 5.8GHz video is capped at **25mW e.i.r.p.** for licence-free use — ERC Recommendation 70-03, Annex 1 (ETSI EN 300 440). At 25mW an analog VTX gives roughly **200–500m** of usable range — not the kilometres quoted below. Exceeding it requires an amateur radio licence.
+> 5.8GHz video is capped at **25mW e.i.r.p.** for licence-free use — ERC Recommendation 70-03, Annex 1 (ETSI EN 300 440). At 25mW an analog VTX gives roughly **200–500m** of usable range — not the kilometres quoted below. The allowance applies only inside **5725–5875 MHz** — Raceband R1/R2/R7/R8 and Bands E and L are outside it (channel table in [REGULATIONS.md](./REGULATIONS.md)). An amateur radio licence does not lift the limit for bought FPV gear: it licenses the operator, not the equipment.
 >
 > **That cap applies to everyone, DJI included.** The DJI O4 in CE mode is limited to the same 25mW on 5.8GHz (DJI spec: <14 dBm). It still reaches about **6 km in CE mode** (vs 10 km on FCC firmware) because of a far better link budget — OFDM, error correction, receive sensitivity — and because it also operates on **5.1GHz at up to 23 dBm (CE)**, a band a bare analog VTX cannot legally use. Certification is what lets a system be sold to use those bands and modes; it does not buy a power exemption.
 >

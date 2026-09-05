@@ -54,7 +54,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 2 | SpeedyBee F405 V4 Stack (FC + 50A ESC) | 1 | $70 | SpeedyBee official, n-Factory.de, AliExpress |
 | 3 | Emax Eco II 2306 2400KV motors | 4 | $48 | n-Factory.de, AliExpress |
 | 4 | Gemfan 51466 V2 props (5 pack CW+CCW) | 2 packs | $24 | FPV24, Amazon.de, AliExpress |
-| 5 | SpeedyBee TX800 VTX | 1 | $20 | SpeedyBee official, n-Factory.de, AliExpress |
+| 5 | SpeedyBee TX800 VTX (800mW rated — run at 25mW on a legal channel, see REGULATIONS.md) | 1 | $20 | SpeedyBee official, n-Factory.de, AliExpress |
 | 6 | Foxeer Razer Mini camera | 1 | $20 | n-Factory.de, AliExpress |
 | 7 | RadioMaster RP3 V2 ELRS 2.4GHz receiver (antenna diversity, 2x ext. ant.) | 1 | $20 | Rotorama, BangGood, AliExpress |
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | TBS direct, n-Factory.de |
@@ -108,16 +108,17 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | 1 | $62 | FlyingMachines, Amazon.de, AliExpress |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | iFlight official, n-Factory.de, AliExpress |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | n-Factory.de, AliExpress |
-| 6 | TBS Unify Pro32 Nano V1.1 VTX (run at 25mW in EU) | 1 | $36 | FlyingMachines, FPV24, Amazon.de |
+| 6 | TBS Unify Pro32 Nano V1.1 VTX (run at 25mW on a legal channel; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V) | 1 | $36 | FPV24 (in stock), FlyingMachines (listed), Amazon.de |
 | 7 | Caddx Ratel 2 camera | 1 | $30 | n-Factory.de, BangGood, AliExpress |
 | 8 | RadioMaster RP1 ELRS 2.4GHz receiver | 1 | $16 | RadioMaster official, n-Factory.de |
-| 9 | Foxeer Lollipop V4 antenna (RHCP, MMCX) | 1 | $14 | n-Factory.de, AliExpress |
+| 9 | Foxeer Lollipop V4 antenna (RHCP, **SMA**) | 1 | $14 | n-Factory.de, AliExpress |
+| 9a | TBS u.FL → SMA pigtail (Unify Nano is u.FL, not MMCX) | 1 | $6 | FPV24, FlyingMachines |
 | 10 | GNB 1500mAh 6S 120C (XT60) | 4 | $130 | n-Factory.de, Amazon.de |
 | 11 | Low ESR capacitor (35V 1000uF) | 2 | $4 | Reichelt.de, Amazon.de, AliExpress |
 | 12 | XT60 pigtail + M3 hardware + straps | 1 kit | $15 | n-Factory.de, AliExpress |
 | 13 | BN-220 GPS module (for altitude/position hold) | 1 | $14 | Rotorama, BangGood, AliExpress |
 | 14 | Buzzer (5V, with wire) | 1 | $3 | AliExpress, Amazon.de |
-| | **Subtotal (Quad)** | | **~$505** | |
+| | **Subtotal (Quad)** | | **~$509** | |
 
 ### Support Equipment ($250–370)
 
@@ -146,7 +147,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 29 | Kapton tape (10mm) | 1 | $5 | Amazon.de, AliExpress |
 | | **Subtotal (Solder)** | | **~$129** | |
 
-### **MID-RANGE TOTAL: ~$1,052**
+### **MID-RANGE TOTAL: ~$1,056**
 
 ---
 

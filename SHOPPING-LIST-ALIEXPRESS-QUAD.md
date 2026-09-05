@@ -8,6 +8,8 @@ Just the **flying quad** components, all with direct AliExpress search links. Pi
 > - **Radios & goggles** ship faster and with EU warranty from EU shops
 > - **Soldering kits & chargers** are not worth the 3–4 week AliExpress wait
 >
+> **⚠️ VTX power and channel — read before buying either VTX below.** In Denmark and the EU, 5.8GHz video is capped at **25mW e.i.r.p.** and only on channels inside **5725–5875 MHz** (R3–R6, A2–A7, B1–B7, F1–F6). The 800mW TX800 and the 1.6W Rush Tank listed here are what AliExpress sells; you must run them at **25mW on a legal channel**, and an amateur licence does not change that for bought gear. Full explanation and channel table in [REGULATIONS.md](./REGULATIONS.md).
+>
 > **Shipping to Denmark:** AliExpress orders under €150 include VAT at checkout via the IOSS system — no customs surprises. Shipping typically takes 2–4 weeks.
 
 ---
@@ -22,7 +24,7 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 2 | SpeedyBee F405 V4 Stack (FC + 50A ESC) | 1 | $70 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F405-V4-stack.html) |
 | 3 | Emax Eco II 2306 2400KV motors | 4 | $48 | [AliExpress](https://www.aliexpress.com/w/wholesale-Emax-Eco-II-2306-2400KV.html) |
 | 4 | Gemfan Hurricane 51466 props (5 pack CW+CCW) | 2 packs | $8 | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-Hurricane-51466.html) |
-| 5 | SpeedyBee TX800 VTX | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-TX800-VTX.html) |
+| 5 | SpeedyBee TX800 VTX (800mW rated — **run at 25mW on a legal channel**) | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-TX800-VTX.html) |
 | 6 | Foxeer Razer Mini camera | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Razer-Mini-FPV-camera.html) |
 | 7 | RadioMaster RP3 V2 ELRS 2.4GHz receiver (antenna diversity, 2x ext. ant.) | 1 | $20 | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP3-V2-ELRS-2.4GHz-receiver.html) |
 | 8 | TBS Triumph RHCP antenna (SMA or MMCX) | 1 | $12 | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Triumph-antenna-RHCP-SMA.html) |
@@ -49,7 +51,7 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 3 | Mamba F50 Pro 4-in-1 ESC (50A, BL32) | 1 | $45 | [AliExpress](https://www.aliexpress.com/w/wholesale-Mamba-F50-Pro-50A-ESC.html) |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) |
-| 6 | Rush Tank Ultimate Plus VTX (1.6W) | 1 | $38 | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) |
+| 6 | Rush Tank Ultimate Plus VTX (1.6W rated — **run at 25mW on a legal channel**; 64× over the cap at full power) | 1 | $38 | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) |
 | 7 | Caddx Ratel 2 camera | 1 | $30 | [AliExpress](https://www.aliexpress.com/w/wholesale-Caddx-Ratel-2-FPV-camera.html) |
 | 8 | RadioMaster RP1 ELRS 2.4GHz receiver | 1 | $16 | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP1-ELRS-receiver.html) |
 | 9 | Foxeer Lollipop V4 antenna (RHCP, MMCX) | 1 | $14 | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-MMCX-RHCP.html) |

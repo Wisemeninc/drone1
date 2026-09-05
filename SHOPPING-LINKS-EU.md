@@ -6,17 +6,19 @@ Quick-access shopping links for all components across both budget tiers. Include
 
 ---
 
-> **Note on the EU Shop column:** n-Factory's on-site search is JavaScript-driven and has no linkable URL — a search link silently lands on an unrelated product, so those entries point at the shop front page. Search there using the component name in column 2. Rotorama, CopterFarm and FPV24 search links work and are product-specific — though FPV24's search is fuzzy and will show related items when it has no exact match.
+> **Note on the EU Shop column:** n-Factory's on-site search is JavaScript-driven and has no linkable URL — a search link silently lands on an unrelated product, so those entries point at the shop front page. Search there using the component name in column 2. Rotorama, CopterFarm and FPV24 search links load, but **read the product titles before you trust any of them** — FPV24 shows related items when it has no exact match, CopterFarm matches "BN-220" to 2207 motors, and Rotorama silently rewrites queries (see below).
 
 > **⚠️ Two components were substituted in September 2026** because no EU FPV shop checked (Rotorama, FlyingMachines, CopterFarm, FPV24) still stocks them. Both remain available on AliExpress if you specifically want them.
 >
 > | Was | Now | Why |
 > |-----|-----|-----|
 > | DAL Cyclone T5040C props | **Gemfan 51466 V2** | DAL props still sold (e.g. DAL 4045) but not this model. Gemfan 51466 verified in stock at FPV24 (as *Gemfan Hurricane MCK 51466-3*) and on Amazon.de to Denmark. Budget tier rises ~$5-7. |
-> | Mamba F50 Pro 4-in-1 ESC | **T-Motor F55A Pro II** | Mamba F50 Pro is aging out of the EU market. The F55A Pro II is the only 4-in-1 in this class EU shops verifiably stock — FlyingMachines lists *T Motor ESC F55A PROII 4in1 BLHeli32*. BL32 preloaded, no flashing. Mid-range tier rises ~$15-20. |
-> | Rush Tank Ultimate Plus VTX | **TBS Unify Pro32 Nano V1.1** | No EU shop checked stocks RushFPV — FlyingMachines returns zero for "Rush". Priced from two shops: **€31,90** (FlyingMachines) and **€33,80** (FPV24), so $35-38 — near-identical to the Rush Tank's $35-40. Note it is a 20x20 board, not 30x30, and like every VTX it is switchable — the swap reason is stock, not power; set 25mW as you would on any part. AliExpress still has the Rush Tank. |
+> | Mamba F50 Pro 4-in-1 ESC | **T-Motor F55A Pro II** (30.5×30.5 base variant only) | Mamba F50 Pro is aging out of the EU market. FlyingMachines *lists* the F55A Pro II (€69.95 incl. VAT) but all variants were **out of stock when checked** — orderable, not on-shelf. BL32 preloaded, no flashing. The *ULTRA* variant is 20×20 and does not fit this stack. Mid-range tier rises ~$15-20. |
+> | Rush Tank Ultimate Plus VTX | **TBS Unify Pro32 Nano V1.1** | No EU shop checked stocks RushFPV — FlyingMachines returns zero for "Rush". Priced from two shops: **€31,90** (FlyingMachines) and **€33,80** (FPV24), so $35-38 — near-identical to the Rush Tank's $35-40. Two things the Rush Tank did not make you think about: it is a **20×20** board, not 30×30; and it is **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V — the Rush Tank ran happily on VBAT, this will not. Its antenna connector is **u.FL**, so the MMCX Lollipop in the old list needs a u.FL→SMA pigtail (row 9a). Like every VTX it is switchable — the swap reason is stock, not power; set 25mW on a legal channel as you would on any part. AliExpress still has the Rush Tank. |
 >
 > The AliExpress-only build in [SHOPPING-LIST-ALIEXPRESS-QUAD.md](./SHOPPING-LIST-ALIEXPRESS-QUAD.md) still lists the Mamba F50 Pro, which is correct — AliExpress stocks it.
+
+> **‡ No EU specialty shop checked stocks the BN-220 by name** — Rotorama, FlyingMachines and FPV24 return nothing relevant, and CopterFarm's "3 results" are 2207 brushless motors. Buy it from Amazon.de (verified to return BN-220 GPS modules) or AliExpress.
 
 > **† Amazon.de does not carry the T-Motor F55A Pro II.** Searching for it there returns brushed car ESCs and unrelated motors, so that cell is blank rather than pointing at a search that would mislead you. Buy it from FlyingMachines or AliExpress.
 
@@ -36,7 +38,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | **n-Factory.de** | Germany | Over €100 | Huge selection, daily shipping before 14:00, 1-3 day delivery in DE | [n-factory.de](https://www.n-factory.de) |
 | **Rotorama** | Czech Republic (ships EU) | Varies | Frames, stacks, motors, batteries — loyalty program, beginner tutorials | [rotorama.de](https://www.rotorama.de) |
 | **FlyingMachines.de** | Germany | Over €100 | Large catalog (FPV + DJI), LiPo specialist, fast DE shipping | [flyingmachines.de](https://www.flyingmachines.de) |
-| **CopterFarm** | Germany | Over €120 | Strong on GPS modules, ESCs, frames — honest search, clear stock | [copterfarm.de](https://www.copterfarm.de) |
+| **CopterFarm** | Germany | Over €120 | Small, curated catalogue (one GPS SKU). Search tokenises model numbers loosely — "BN-220" returns 2207 motors — so read the product titles | [copterfarm.de](https://www.copterfarm.de) |
 | **FPV24** | Germany | Varies | Huge catalog, DJI dealer, ships fast — search is fuzzy, check the model number | [fpv24.com](https://www.fpv24.com) |
 | **Team BlackSheep** | Global (EU warehouse) | Varies | TBS products (Crossfire, frames, VTX), Source One frames | [team-blacksheep.com](https://www.team-blacksheep.com) |
 | **Eleshop.eu** | Netherlands | Varies | Pinecil, Pine64 products, soldering tools | [eleshop.eu](https://eleshop.eu) |
@@ -62,7 +64,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 7 | RadioMaster RP3 V2 ELRS receiver (antenna diversity) | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP3-V2-ELRS-2.4GHz-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP3+V2+ELRS) | [Rotorama](https://www.rotorama.de/hledani?q=RadioMaster+RP3) |
 | 8 | TBS Triumph antenna (RHCP SMA) | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Triumph-antenna-RHCP-SMA.html) | [Amazon.de](https://www.amazon.de/s?k=TBS+Triumph+Antenne+RHCP+SMA) | [TBS direct](https://www.team-blacksheep.com/shop/cat:antennas) |
 | 9 | CNHL 1300mAh 4S 100C LiPo (x3) | [AliExpress](https://www.aliexpress.com/w/wholesale-CNHL-1300mAh-4S-100C.html) | [Amazon.de](https://www.amazon.de/s?k=CNHL+1300mAh+4S+100C+XT60) | [n-Factory](https://n-factory.de/) |
-| 10 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [CopterFarm](https://www.copterfarm.de/search?sSearch=BN-220) |
+| 10 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | — ‡ |
 | 11 | Low ESR capacitor 35V 1000uF | [AliExpress](https://www.aliexpress.com/w/wholesale-low-ESR-capacitor-35V-1000uF.html) | [Amazon.de](https://www.amazon.de/s?k=Low+ESR+Kondensator+35V+1000uF) | — |
 | 12 | Buzzer 5V with wire | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-buzzer-5V-drone.html) | [Amazon.de](https://www.amazon.de/s?k=FPV+Buzzer+5V+Drohne) | — |
 
@@ -102,12 +104,13 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | [AliExpress](https://www.aliexpress.com/w/wholesale-T-Motor-F55A-Pro-II-ESC.html) | — † | [FlyingMachines](https://www.flyingmachines.de/search?q=F55A) |
 | 4 | iFlight XING2 2306 1900KV (6S) x4 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) | [Amazon.de](https://www.amazon.de/s?k=iFlight+XING2+2306+1900KV) | [n-Factory](https://n-factory.de/) |
 | 5 | Gemfan 51466 V2 props | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) | [Amazon.de](https://www.amazon.de/s?k=Gemfan+51466+V2+Propeller) | [n-Factory](https://n-factory.de/) |
-| 6 | TBS Unify Pro32 Nano V1.1 VTX (switchable — run at 25mW in EU) | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Unify-Pro32-Nano-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=TBS+Unify+Pro32+Nano+VTX) | [FlyingMachines](https://www.flyingmachines.de/search?q=Unify) |
+| 6 | TBS Unify Pro32 Nano V1.1 VTX (run at 25mW on a legal channel; **5V input only (4.5–5.5V)** — power from the FC's 5V pad, never VBAT or 9V; u.FL) | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Unify-Pro32-Nano-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=TBS+Unify+Pro32+Nano+VTX) | [FlyingMachines](https://www.flyingmachines.de/search?q=Unify) |
 | 7 | Caddx Ratel 2 camera | [AliExpress](https://www.aliexpress.com/w/wholesale-Caddx-Ratel-2-FPV-camera.html) | [Amazon.de](https://www.amazon.de/s?k=Caddx+Ratel+2+FPV+Kamera) | [n-Factory](https://n-factory.de/) |
 | 8 | RadioMaster RP1 ELRS receiver | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP1-ELRS-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP1+ELRS+2.4GHz) | [n-Factory](https://n-factory.de/) |
-| 9 | Foxeer Lollipop V4 antenna (RHCP MMCX) | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-MMCX-RHCP.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Lollipop+V4+MMCX+RHCP) | [n-Factory](https://n-factory.de/) |
+| 9 | Foxeer Lollipop V4 antenna (RHCP **SMA**) | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-SMA-RHCP.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Lollipop+V4+SMA+RHCP) | [n-Factory](https://n-factory.de/) |
+| 9a | TBS u.FL → SMA pigtail (for the Unify Nano) | — | — | [FPV24](https://www.fpv24.com/de/search?search=Unify+Pigtail) |
 | 10 | GNB 1500mAh 6S 120C LiPo (x4) | [AliExpress](https://www.aliexpress.com/w/wholesale-GNB-1500mAh-6S-120C-XT60.html) | [Amazon.de](https://www.amazon.de/s?k=GNB+1500mAh+6S+120C+XT60) | [n-Factory](https://n-factory.de/) |
-| 11 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [CopterFarm](https://www.copterfarm.de/search?sSearch=BN-220) |
+| 11 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | — ‡ |
 | 12 | Low ESR capacitor 35V 1000uF | [AliExpress](https://www.aliexpress.com/w/wholesale-low-ESR-capacitor-35V-1000uF.html) | [Amazon.de](https://www.amazon.de/s?k=Low+ESR+Kondensator+35V+1000uF) | — |
 
 ### Support Equipment

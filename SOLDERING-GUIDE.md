@@ -185,7 +185,7 @@ Tip: Fine conical
 ```
 
 **Connections needed:**
-- 5V or 9V power (check VTX requirements)
+- 5V or 9V power — **check the VTX's input range first, every time.** The TBS Unify Pro32 Nano in the mid-range build is **4.5–5.5V only**: feed it 9V or VBAT and it is dead. Use the FC's 5V pad.
 - GND
 - Video signal (from FC video out pad)
 - Smart Audio / IRC Tramp (for OSD power control) — optional but recommended

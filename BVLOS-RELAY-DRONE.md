@@ -362,7 +362,7 @@ Key EASA docs:
 
 | Region | ISM bands you can use license-free |
 |--------|-----------------------------------|
-| EU | 433 MHz (10 mW), 868 MHz (25–500 mW depending on duty cycle), 2.4 GHz (100 mW EIRP), 5.8 GHz (25–1000 mW depending on sub-band) |
+| EU | 433 MHz (10 mW), 868 MHz (25 mW e.r.p. / 1 % duty cycle for the sub-bands ELRS EU868 uses; 500 mW exists only in 869.4–869.65 MHz), 2.4 GHz (100 mW e.i.r.p.), 5.8 GHz (**25 mW e.i.r.p., 5725–5875 MHz only** — ERC 70-03 Annex 1; the higher allowances in this band belong to other services, not FPV video) |
 | US | 902–928 MHz (1 W), 2.4 GHz (1 W EIRP DSSS), 5.8 GHz (variable) |
 
 [ETSI EN 300 220](https://www.etsi.org/deliver/etsi_en/300200_300299/30022001/) governs EU 433/868 MHz. [ETSI EN 300 328](https://www.etsi.org/deliver/etsi_en/300300_300399/300328/) governs EU 2.4 GHz. Exceeding these makes the link illegal — and unless you've licensed amateur radio frequencies, you're stuck with ISM.
