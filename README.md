@@ -22,7 +22,7 @@ Covers everything from component selection to soldering, budget planning, range 
 | [REGULATIONS.md](./REGULATIONS.md) | Danish and EU EASA drone rules, registration, airspace |
 | [VIDEOS.md](./VIDEOS.md) | Curated YouTube tutorials — soldering, building, flying, iNav |
 | [TEENS.md](./TEENS.md) | Getting started for ages 12-15 — 5-stage path, parent guide, EU under-15 rule |
-| [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — DJI O4, ELRS 4.0, Betaflight 2025.12 |
+| [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — Betaflight 2026.6, ELRS 4.1, TX16S MK3, Danish Remote-ID |
 
 ## Quick Start
 

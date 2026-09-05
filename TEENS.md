@@ -153,7 +153,7 @@ These are 75mm-100mm quads with more power than indoor whoops, designed for outd
 
 - **Real wind matters** — anything over 15 km/h will push a micro around
 - **Range becomes real** — your radio link can fail at distance, so set a failsafe (in BetaFlight: motor stop on signal loss)
-- **GPS Rescue helps** — add a small GPS module ($12-15) and configure return-to-home in BetaFlight 2025.12+
+- **GPS Rescue helps** — add a small GPS module ($12-15) and configure return-to-home in BetaFlight 2026.6+ (GPS Rescue was rebuilt in 2026.6 and is meaningfully more precise than older versions)
 - **Batteries die faster** — outdoor flight uses more power; carry 6+ packs
 
 ### Critical rule for your private land
@@ -509,7 +509,7 @@ Once you're ready for the next level:
 - [VIDEOS.md](./VIDEOS.md) — 115 curated tutorial videos across 21 sections
 - [REGULATIONS.md](./REGULATIONS.md) — Danish/EU drone law (read with parent)
 - [COMPONENTS.md](./COMPONENTS.md) — Every component category explained
-- [2026-UPDATES.md](./2026-UPDATES.md) — Latest 2026 changes — DJI O4, ELRS 4.0, Betaflight 2025.12
+- [2026-UPDATES.md](./2026-UPDATES.md) — Latest 2026 changes — Betaflight 2026.6, ELRS 4.1, TX16S MK3, Danish Remote-ID
 
 ---
 

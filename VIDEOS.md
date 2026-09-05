@@ -159,7 +159,7 @@ These Oscar Liang guides are the **gold standard** reference — more detailed a
 
 | # | Title | What It Covers |
 |---|-------|---------------|
-| 1 | [Betaflight Setup Masterclass](https://oscarliang.com/betaflight-firmware-setup/) | Complete walkthrough of every Betaflight tab — updated Nov 2025 for BF 2025.12 |
+| 1 | [Betaflight Setup Masterclass](https://oscarliang.com/betaflight-firmware-setup/) | Complete walkthrough of every Betaflight tab — last verified as updated Nov 2025 for BF 2025.12; tab layout changed in the modernised 2026.6 app, so expect cosmetic differences |
 | 2 | [How to Flash Betaflight Firmware](https://oscarliang.com/flash-update-betaflight/) | Firmware flashing, Cloud Build, DFU mode, driver troubleshooting |
 | 3 | [Betaflight Tuning In 10 Simple Steps](https://oscarliang.com/fpv-drone-tuning/) | No-blackbox tuning — P/D balance, feedforward, filters, dynamic idle |
 | 4 | [GPS Rescue Setup (Return to Home)](https://oscarliang.com/setup-gps-rescue-mode-betaflight/) | Hardware selection, wiring, config, failsafe, field testing |

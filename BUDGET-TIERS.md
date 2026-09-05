@@ -106,7 +106,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Goggles | DJI Goggles 2 | $280-350 |
 | Battery (×5) | Tattu R-Line V4 1300mAh 6S 130C | $175-200 |
 | GPS | BN-220 GPS module | $12-15 |
-| **Radio TX** | RadioMaster TX16S MKII (ELRS, hall gimbals) | $160-200 |
+| **Radio TX** | RadioMaster TX16S MK3 (ELRS Gemini dual-band, H7, 5" screen) | $160-200 |
 | **Charger** | ISDT D2 Mark II (dual channel, 200W) | $65-80 |
 | **Soldering kit** | TS101 or Hakko + full accessories | $100-130 |
 | Hardware | Premium standoffs, TPU mounts (3D printed), XT60 | $20-30 |

@@ -177,7 +177,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 
 | # | Item | Qty | Est. Price | Where to Buy |
 |---|------|-----|-----------|--------------|
-| 16 | RadioMaster TX16S MKII (ELRS, hall gimbals) | 1 | $180 | RadioMaster official, n-Factory.de |
+| 16 | RadioMaster TX16S MK3 (ELRS Gemini dual-band, H7, hall gimbals) | 1 | $180 | RadioMaster official, n-Factory.de |
 | 17 | DJI Goggles 2 | 1 | $310 | DJI Store (EU), FlyingMachines.de |
 | 18 | ISDT D2 Mark II charger (dual 200W) | 1 | $75 | n-Factory.de, Amazon.de |
 | 19 | Mean Well 24V/15A power supply | 1 | $35 | Reichelt.de, Amazon.de |

@@ -4,6 +4,8 @@ Rules for flying your DIY drone outdoors. These apply regardless of whether you 
 
 Denmark follows the **EU-wide EASA drone regulations** implemented through the Danish Transport Authority (Trafikstyrelsen). The rules are harmonized across all EU/EEA member states.
 
+> **Checked: September 2026.** Two changes since this guide was first written: the DK-STS-03 declaration expired on 1 January 2026, and Denmark has a proposal in flight to require Remote-ID on **all drones over 250 g from 1 January 2027**. Both are covered below. Regulations move faster than this document — always confirm at [droneregler.dk](https://www.droneregler.dk).
+
 ---
 
 ## EU Rules (EASA) — Applied in Denmark
@@ -29,6 +31,10 @@ Most DIY-built drones and older commercial drones do NOT have a C-class marking.
 - **250g–25kg without C-class:** Fly in **A3 only** (150m from residential/commercial/industrial areas, well away from uninvolved people)
 
 This means your DIY 5" quad (no C-class) must follow A3 rules regardless of its weight.
+
+**Danish change — the DK-STS-03 declaration expired January 1, 2026.** That transition previously let pilots holding older Danish drone licences fly heavier, non-C-marked drones in urban areas under rules matching their licence. It is gone. Legacy and privately built drones without a C-marking are now restricted to flying well away from buildings and people unless you complete a specific course *and* obtain permission from Trafikstyrelsen. If you read older Danish guidance that describes flying a DIY drone in town on a legacy licence, that guidance is out of date.
+
+**EASA framework for privately built drones — pending.** EASA has been working on a dedicated framework for privately built drones that would treat them broadly like the C4 class: A3 areas only, under 25 kg, pilot holding at least an A1/A3 certificate. The final rule was expected in Q3 2026, and the current transitional treatment of privately built drones is expected to end after 2026. This underpins the "DIY means A3, no class mark needed" premise of this entire guide, so it is worth re-checking before you buy.
 
 ---
 
@@ -110,18 +116,43 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 
 ---
 
-## Remote Identification (EU)
+## Remote Identification
 
-Starting January 1, 2024, Remote ID requirements apply:
+### In force today (EU)
+
+Since January 1, 2024:
 
 - Drones in class C1, C2, C3 must have **direct remote identification** (broadcast via Wi-Fi/Bluetooth)
-- DIY drones without C-class marking: Remote ID not strictly required in A3 subcategory (but regulations are evolving — check current status)
-- External Remote ID modules are available (€30–50) and recommended for future-proofing
+- DIY drones without C-class marking: Remote ID **not currently required** in the A3 subcategory
 
-**Practical advice for your build:**
-- An external Remote ID module (e.g., DroneTag Mini, Aerobits) can be velcroed to your frame
-- Some flight controllers support broadcast via ESP32 — check Betaflight/iNav compatibility
-- Having Remote ID gives you flexibility if rules tighten
+### Coming January 1, 2027 (Denmark) — this affects your build
+
+**This is the single most important change for anyone building a 5" quad right now.**
+
+In June 2026 Trafikstyrelsen sent an amended drone declaration to public consultation. It requires **Remote-ID or another form of remote identification on every drone over 250 g** — described by the authority as an "electronic number plate" that lets drone operations be detected and identified.
+
+| Detail | Status |
+|--------|--------|
+| **Requirement** | Remote-ID or equivalent remote identification |
+| **Applies to** | **All drones over 250 g** — including privately built, no C-class marking |
+| **Under 250 g** | Only when flying in security-critical drone zones with sensors such as a camera |
+| **Consultation deadline** | August 21, 2026 (now closed) |
+| **Expected in force** | **January 1, 2027** |
+
+**Your 500–700 g DIY quad is over 250 g. It is in scope.** The A3-subcategory exemption that covers you today is what this proposal removes.
+
+The same draft also:
+
+- **Increases mandatory distances** around commercial ports, airports, prisons and certain government facilities
+- **Requires logbooks on demand to the police**, not just to Trafikstyrelsen as before (hobby drones under 250 g stay exempt from the logbook requirement)
+
+**Status caveat:** this went through consultation, not yet final law. The date and the exact thresholds can still move. Verify at [droneregler.dk](https://www.droneregler.dk) before relying on it — but plan your build as though it is coming.
+
+### Practical advice for your build
+
+- Budget **€30–50 for an external Remote ID module** (DroneTag Mini, Aerobits and similar) — velcro it to the frame. Given the January 2027 date, treat this as a near-term purchase rather than optional future-proofing.
+- Some flight controllers can broadcast via an ESP32 — check current Betaflight/iNav compatibility before counting on it instead of a dedicated module.
+- Weight matters: a Remote ID module adds grams to a build that may already be near a category threshold. Account for it now rather than after the fact.
 
 ---
 

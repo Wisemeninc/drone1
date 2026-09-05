@@ -62,11 +62,11 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 | Clock Speed | 168 MHz | 216 MHz | **480 MHz** |
 | Flash Storage | 1 MB | 512 KB–1 MB | 2 MB |
 | Blackbox Logging | Limited | Good | Excellent (high-rate) |
-| PID Loop Rate | **4K max (BF 2025.12 limit)** | 8K comfortable | 32K capable |
+| PID Loop Rate | **4K practical (CPU-bound)** | 8K comfortable | 32K capable |
 | UART Count | 3-5 | 4-6 | 6-8 |
 | Future-proofing | **Legacy — being phased out** | Good | **Best — buy this in 2026** |
 | Price Range | $25-40 | $35-60 | $45-80 |
-| Betaflight Support | Limited (4kHz cap) | Full | Full |
+| Betaflight Support | Full — 4kHz practical ceiling | Full | Full |
 | iNav Support | Full | Full | Full |
 
 ### Key FC Features to Look For
@@ -81,10 +81,10 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 
 | FC | Processor | UARTs | Price | Pros | Cons |
 |----|-----------|-------|-------|------|------|
-| **SpeedyBee F405 V4** | F4 | 6 | $30-35 | Bluetooth config from phone, cheapest | F4 legacy — 4kHz PID cap in BF 2025.12 |
+| **SpeedyBee F405 V4** | F4 | 6 | $30-35 | Bluetooth config from phone, cheapest | F4 legacy — 4kHz practical PID ceiling (CPU headroom, not a firmware cap) |
 | **SpeedyBee F7 V3** | F7 | 6 | $40-50 | WiFi blackbox download, solid | Being surpassed by H7 |
 | **Mamba F722 MK4** | F7 | 5 | $35-45 | Proven reliable, Diatone support | No wireless config |
-| **SpeedyBee F7 H7 stack** | H7 | 7 | $50-65 | Latest gen, full BF 2025.12 features | Newer, fewer build guides |
+| **SpeedyBee F7 H7 stack** | H7 | 7 | $50-65 | Latest gen, full BF 2026.6 features | Newer, fewer build guides |
 | **GEPRC Span F722-BT-HD** | F7 | 6 | $45-55 | DJI connector built-in, Bluetooth | Proprietary connectors |
 
 ### FC+ESC Stacks (Buy Together)
@@ -93,12 +93,12 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 |-------|----------|-------|------|
 | **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Cheapest beginner deal, guaranteed compatibility |
 | **Mamba F722 + F50 Pro** | F7 + BL32 50A | $75-95 | Reliable combo |
-| **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, full BF 2025.12 features |
+| **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, full BF 2026.6 features |
 
 ### Beginner Pick: SpeedyBee F405 V4 Stack (budget) or H7 stack (recommended)
 
 - **If budget is tight:** F405 V4 stack ($65-80) — Bluetooth config, great docs, works fine for learning
-- **If you can spend $20 more:** Get an H7 or F7 stack — unlocks 8K PID loops, altitude/position hold in Betaflight 2025.12, better blackbox logging, and won't need replacing as firmware advances
+- **If you can spend $20 more:** Get an H7 or F7 stack — unlocks 8K PID loops, altitude/position hold and the rebuilt GPS Rescue in Betaflight 2026.6, better blackbox logging, and won't need replacing as firmware advances
 
 ---
 
@@ -320,15 +320,17 @@ The radio link is your control connection to the drone. Range, latency, and reli
 
 ### Why ExpressLRS Wins in 2026
 
-1. **Lowest latency** — 250us at 1000Hz (K1000 mode in ELRS 4.0) vs 4ms for Crossfire
+1. **Lowest latency** — 250us at 1000Hz (K1000 mode, ELRS 4.0+) vs 4ms for Crossfire
 2. **Longest range** — 900MHz ELRS at 1W exceeds Crossfire range
 3. **Cheapest** — $12 receivers vs $50-70 for Crossfire
 4. **Open source** — community-driven updates, no vendor lock-in
 5. **Built into modern radios** — no external module needed
-6. **ELRS 4.0 features** — automatic antenna diversity, adaptive power, direct GPS input on RX
+6. **ELRS 4.x features** — automatic antenna diversity, adaptive power, direct GPS input on RX; **4.1** adds smarter dynamic power, far fewer false "telemetry lost" callouts, bind phrases settable from the handset Lua script (no WiFi), and GPS time sync to the FC
 7. **Massive community** — any problem has a solution online
 
-**Note:** ELRS 4.0 is NOT backward-compatible with 3.x. Both TX and RX must run 4.x. All current RadioMaster/HappyModel/BetaFPV hardware is ESP-based and fully supported.
+**Note:** **ELRS 4.1.0 (July 2026) is the current stable release.** It is compatible with all hardware already running any 4.x version — upgrading 4.0 → 4.1 is routine, with no repeat of the 3.x → 4.x break. ELRS 4.0 remains NOT backward-compatible with 3.x: both TX and RX must be on 4.x to talk to each other. All current RadioMaster/HappyModel/BetaFPV hardware is ESP-based and fully supported.
+
+**On the horizon:** ELRS 4.1 lays the groundwork for Semtech's LR2021 (4th-gen LoRa) — the first chip to handle LoRa, FLRC and FSK on both 2.4GHz and 900MHz. Full support is still landing, so there is nothing to buy yet, but expect dual-band receivers to get simpler over the next year.
 
 ### Radio Transmitters (TX)
 
@@ -337,7 +339,8 @@ The radio link is your control connection to the drone. Range, latency, and reli
 | **BetaFPV LiteRadio 3 Pro** | Gamepad | Yes | Potentiometer | $45-55 | Cheapest entry | Budget gimbals, small |
 | **RadioMaster Pocket** | Compact | Yes | Hall sensor | $60-80 | Great value, portable, good gimbals | Small for large hands |
 | **RadioMaster Zorro** | Gamepad | Yes | Hall sensor | $90-110 | Ergonomic, hall gimbals, EdgeTX | Mid-price |
-| **RadioMaster TX16S MKII** | Full-size | Yes (ELRS version) | Hall sensor (AG optional) | $150-200 | Maximum features, big screen, EdgeTX | Large, heavy |
+| **RadioMaster TX16S MK3** | Full-size | Yes (Gemini dual-band) | Hall sensor (AG optional) | $150-200 | **Current flagship** — H7 CPU, 5" screen, dual-band Gemini ELRS, same price as MKII | Large, heavy |
+| **RadioMaster TX16S MKII** | Full-size | Yes (ELRS version) | Hall sensor (AG optional) | $150-200 | Previous gen — still excellent, often discounted | Superseded by MK3 |
 | **RadioMaster MT12** | Pistol grip | Yes | — | $70-90 | Unique form factor | Unusual ergonomics |
 
 ### Receivers (RX)
@@ -357,7 +360,7 @@ The radio link is your control connection to the drone. Range, latency, and reli
 - Radio: $65 — hall sensor gimbals, built-in ELRS, EdgeTX firmware
 - Receiver: $20 — true antenna diversity (2x external T-antennas) for reliable link in any orientation
 - **Total: $85** for a control link that exceeds 10km range and resists signal dropouts on a 5" quad
-- Can upgrade to TX16S later if you want a bigger radio (same protocol)
+- Can upgrade to the TX16S MK3 later if you want a bigger radio (same protocol). The MK3 (Jan 2026) is the current flagship: H7 processor, 5" screen and dual-band Gemini ELRS at the MKII's old price. Gemini Xrossband transmits on 2.4GHz and 900MHz simultaneously, but only if you also fit a Gemini-capable receiver
 - Avoid the EP2 on a 5" build — its onboard ceramic antenna sacrifices ~30-50% of range vs. RXs with external antennas, and the size/weight savings don't matter on a 5"
 
 ---
@@ -389,6 +392,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Good digital on a budget | **DJI O3 (discounted)** | Previous gen, still excellent, cheaper now |
 | Lowest latency digital | **HDZero** | 15ms, closest to analog feel |
 | Best value digital | **Walksnail** | Cheaper than DJI, good image |
+| Widest VTX choice | **Walksnail** | 1S Lite (7g) through full Pro kit (35g, dual antenna) — fits any airframe |
 | Maximum range | **DJI O4** | 10-13 km reliable link |
 | Open ecosystem | **HDZero** | No vendor lock-in |
 
@@ -411,6 +415,18 @@ The video system is what you see through while flying. This is the biggest cost 
 | **DJI O3 Air Unit** | $80-100 | $230-300 (Goggles 2) | $320-420 | Previous gen, discounted, still excellent |
 | **HDZero Freestyle** | $80-100 | $350-530 (Goggles) | $450-630 | Best latency, most expensive |
 | **Walksnail Avatar HD** | $70-90 | $280-400 (Goggles X) | $370-490 | Good balance of price/quality |
+| **Walksnail Avatar HD Pro** | $90-120 | $280-400 (Goggles X) | $390-520 | **New** — 1080p/100fps feed, onboard 4K/60 recording, 22-28ms |
+
+### The Field Widened in 2026
+
+The three-way DJI / HDZero / Walksnail split is now a five-way one. Two additions worth knowing about before you commit:
+
+- **Walksnail Avatar HD Pro** — the meaningful spec bump: 1080p/100fps to the goggles with 4K/60 recorded onboard, 22-28ms depending on mode. Walksnail also spent 2025-26 fixing its weak spot, firmware stability, and now has the widest VTX range of any system (7g 1S kits up to 35g dual-antenna Pro kits).
+- **OpenIPC and Ascent** — both now appear routinely in 2026 system comparisons alongside the big three. OpenIPC in particular is the open-source option for people who dislike every vendor's lock-in.
+
+**Caveat:** the OpenIPC and Ascent entries here come from 2026 buyer-guide roundups, not from hands-on testing or primary vendor documentation. Treat them as "worth researching", not as a recommendation. Everything else in this section is unchanged and still accurate.
+
+**Unchanged:** DJI O4 remains current-generation — there is no O5. DJI's own O4 Air Unit release notes were still being updated in March 2026. The O4/O3 guidance below stands.
 
 ### Beginner Strategy
 

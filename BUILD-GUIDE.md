@@ -14,7 +14,7 @@ A complete reference for building your own FPV drone from scratch, optimized for
 | [REGULATIONS.md](./REGULATIONS.md) | Danish and EU EASA rules for outdoor flying |
 | [SHOPPING-LIST.md](./SHOPPING-LIST.md) | Copy-paste shopping lists for each budget tier |
 | [VIDEOS.md](./VIDEOS.md) | Curated YouTube tutorials — soldering, building, flying, iNav, Ardupilot, inspiration |
-| [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — DJI O4, ELRS 4.0, Betaflight 2025.12 |
+| [2026-UPDATES.md](./2026-UPDATES.md) | Latest 2026 changes — Betaflight 2026.6, ELRS 4.1, TX16S MK3, Danish Remote-ID |
 
 ---
 
@@ -73,11 +73,11 @@ Buy your radio first, fly the sim for 2-4 weeks while the rest of your parts shi
 
 | Firmware | Best For | GPS Support | Waypoints |
 |----------|----------|-------------|-----------|
-| **Betaflight 2025.12** | Freestyle, racing | **Altitude hold, position hold, GPS rescue** | No |
+| **Betaflight 2026.6** | Freestyle, racing | **Altitude hold, position hold, rebuilt GPS Rescue, optical flow hold** | Simulation only |
 | **iNav** | Long-range, autonomous | Full (RTH, position hold, cruise) | Yes |
 | **Ardupilot** | Mapping, commercial, complex | Full | Yes |
 
-**Note:** Betaflight 2025.12 added altitude hold and position hold — a massive improvement for beginners. Add a GPS module ($12-18) to unlock these safety features. Configure via the new Progressive Web App (no desktop download needed).
+**Note:** Betaflight 2025.12 added altitude hold and position hold; **2026.6** (June 2026) rebuilt GPS Rescue on a new 3D position estimator and made it noticeably more precise. Add a GPS module ($12-18) to unlock these safety features. 2026.6 also adds optical-flow position hold (holds position without GPS lock, needs a supported flow sensor), switchable battery profiles, DroneCAN GPS, and an in-app Blackbox log viewer. The configurator is now a modernised app, and you can flash firmware natively from Android over USB — no desktop needed. Waypoint missions exist in 2026.6 but are **simulation-only and not flight-ready** — don't plan a build around them.
 
 ---
 

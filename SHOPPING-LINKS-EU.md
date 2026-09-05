@@ -91,7 +91,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 
 | # | Component | AliExpress Search | Amazon.de Search | EU Shop Search |
 |---|-----------|------------------|-----------------|----------------|
-| 13 | RadioMaster TX15 Max (ELRS) | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-TX16S-Max-ELRS.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+TX16S+Max+ELRS) | [n-Factory](https://www.n-factory.de/catalogsearch/result/?q=RadioMaster+TX16S) |
+| 13 | RadioMaster TX15 Max (ELRS) | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-TX15-Max-ELRS.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+TX15+Max+ELRS) | [n-Factory](https://www.n-factory.de/catalogsearch/result/?q=RadioMaster+TX15) |
 | 14 | Skyzone Cobra X V2 goggles | [AliExpress](https://www.aliexpress.com/w/wholesale-Skyzone-Cobra-X-V2-goggles.html) | [Amazon.de](https://www.amazon.de/s?k=Skyzone+Cobra+X+V2+FPV+Brille) | [FlyingMachines](https://www.flyingmachines.de/search?q=Skyzone+Cobra) |
 | 15 | ToolkitRC M7 charger (200W) | [AliExpress](https://www.aliexpress.com/w/wholesale-ToolkitRC-M7-charger-200W.html) | [Amazon.de](https://www.amazon.de/s?k=ToolkitRC+M7+Ladeger%C3%A4t+200W) | [n-Factory](https://www.n-factory.de/catalogsearch/result/?q=ToolkitRC+M7) |
 | 16 | 24V/10A DC power supply | — | [Amazon.de](https://www.amazon.de/s?k=24V+10A+Netzteil+DC+XT60) | — |
