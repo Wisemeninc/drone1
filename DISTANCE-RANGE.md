@@ -12,9 +12,9 @@ How far can you fly a drone? It depends on your build, video system, battery, an
 >
 > **That cap applies to everyone, DJI included.** The DJI O4 in CE mode is limited to the same 25mW on 5.8GHz (DJI spec: <14 dBm). It still reaches about **6 km in CE mode** (vs 10 km on FCC firmware) because of a far better link budget — OFDM, error correction, receive sensitivity — and because it also operates on **5.1GHz at up to 23 dBm (CE)**, a band a bare analog VTX cannot legally use. Certification is what lets a system be sold to use those bands and modes; it does not buy a power exemption.
 >
-> **The practical consequence, and it inverts the usual advice:** legal range in the EU comes from a digital system with a strong link budget, not from a high-power analog VTX. A 1.6W analog VTX is 64× over the legal limit here; run at its legal 25mW it is a short-range park system.
+> **The practical consequence, and it inverts the usual advice:** legal range in the EU comes from a digital system with a strong link budget, not from a high-power analog VTX. A 1.6W analog VTX is 64× over the legal limit on conducted power alone — nearer 100× once a typical antenna's gain is counted, since the limit is e.i.r.p.; run at its legal 25mW it is a short-range park system.
 >
-> Every table below now carries an **EU-legal** column. Read that column, not the hardware column, when planning a build to fly in Denmark. See [REGULATIONS.md](./REGULATIONS.md).
+> Every table below now carries an **EU equipment ceiling** column. Read that column, not the hardware column, when planning a build to fly in Denmark — and remember VLOS (~134 m for a 5") binds before either. See [REGULATIONS.md](./REGULATIONS.md).
 
 ## What Limits Your Range
 

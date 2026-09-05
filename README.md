@@ -17,7 +17,7 @@ Covers everything from component selection to soldering, budget planning, range 
 | [SOLDERING-GUIDE.md](./SOLDERING-GUIDE.md) | Tools, techniques, joint types, and beginner tips |
 | [TRADE-OFFS.md](./TRADE-OFFS.md) | Distance vs Speed vs Flight Time decision matrix |
 | [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) | Range limits by build type, video system, and battery |
-| [7-INCH-LONG-RANGE.md](./7-INCH-LONG-RANGE.md) | 7" long range builds — 30–60km range, Li-Ion packs, efficiency |
+| [7-INCH-LONG-RANGE.md](./7-INCH-LONG-RANGE.md) | 7" long range builds — 30–60km hardware range (EU-legal far shorter), Li-Ion packs, efficiency |
 | [BVLOS-RELAY-DRONE.md](./BVLOS-RELAY-DRONE.md) | Relay drone design — BVLOS via aerial signal repeater, mesh radios, regulatory |
 | [REGULATIONS.md](./REGULATIONS.md) | Danish and EU EASA drone rules, registration, airspace |
 | [VIDEOS.md](./VIDEOS.md) | Curated YouTube tutorials — soldering, building, flying, iNav |

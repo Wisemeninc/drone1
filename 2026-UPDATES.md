@@ -8,7 +8,7 @@ Last updated: **September 2026.**
 
 ## What Changed Since May 2026
 
-Four months of drift, verified against primary sources on 2026-09-05. The regulatory item is the one that should change what you buy.
+Four months of drift, checked on 2026-09-05 against vendor release notes and authority pages where they exist; sourcing is noted per item, and items that rest on shop listings or buyer-guide roundups say so. The regulatory item is the one that should change what you buy.
 
 ### A. Denmark: Remote-ID proposed for all drones of 250 g or more — from 1 Jan 2027
 

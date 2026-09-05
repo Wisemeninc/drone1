@@ -1,6 +1,6 @@
 # 7" Long Range Drones — The Distance Machine
 
-Everything you need to know about 7-inch long range FPV builds. The sweet spot between portability and maximum efficiency — routinely achieving 30-60km one-way range and 25-40 minute flight times on Li-Ion packs.
+Everything you need to know about 7-inch long range FPV builds. The sweet spot between portability and maximum efficiency — routinely achieving 30-60km one-way range and 25-40 minute flight times on Li-Ion packs — **as hardware**. In Denmark and the EU the legal ceiling is set by 25mW video and, above all, VLOS (~184 m for a 7"); anything beyond that needs a Specific-category authorisation. See [DISTANCE-RANGE.md](./DISTANCE-RANGE.md).
 
 ---
 
@@ -168,7 +168,7 @@ Same principles as 5" builds, but ensure your FC supports iNav well.
 | Stack | FC + ESC | Price | Notes |
 |-------|----------|-------|-------|
 | **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Budget iNav, proven |
-| ~~**Mamba F722 + F50 Pro**~~ | F7 + BL32 50A | — | ⚠️ F50 Pro no longer stocked in EU (Sept 2026) — AliExpress only |
+| ~~**Mamba F722 + F50 Pro**~~ | F7 + BL32 50A | — | ⚠️ F50 Pro no longer stocked in EU (Sept 2026). **Substitute: Mamba F722 MK4 + T-Motor F55A Pro II** (30.5×30.5, BL32) — see COMPONENTS.md; F55A is backorder-only in the EU too |
 | **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, barometer included |
 | **Matek F722-SE** | F7 (standalone) | $40-50 | iNav community favourite, dual BEC |
 
@@ -237,7 +237,7 @@ For LR, 900MHz ELRS is the standard. Control link will never be your limiting fa
 | 7" + Li-Ion 18650 + Analog | 15-25 km | 30-50 km | Video range |
 | 7" + Li-Ion 21700 + DJI O4 | **30-50 km** | **60-100 km** | Battery |
 | 7" + Li-Ion 21700 + Analog + Patch | 20-40 km | 40-80 km | Video range |
-| **Extreme (optimized)** | **50-75 km** | **100-150 km** | Battery + regulatory |
+| **Extreme (optimized)** | **50-75 km** | **100-150 km** | Battery + regulatory — not legally flyable in the Open category anywhere in the EU |
 
 ### The Distance Formula
 

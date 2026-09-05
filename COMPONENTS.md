@@ -312,7 +312,7 @@ The radio link is your control connection to the drone. Range, latency, and reli
 |---------|-------------------|---------------|--------------|
 | Frequency | 2.4GHz or 900MHz | 900MHz | 2.4GHz |
 | Range (2.4GHz) | 10-30+ km | — | 1-2 km |
-| EU power cap | 100mW EIRP (2.4GHz) / 868MHz duty-cycled | Same | Same |
+| EU power cap | 2.4GHz: 100mW e.i.r.p. · 868MHz: 25 mW e.r.p., duty-cycled | 868MHz: 25 mW e.r.p., duty-cycled | 2.4GHz: 100mW e.i.r.p. (no 868 variant) |
 | Range (900MHz) | 30-100+ km | 30-40+ km | — |
 | Latency | **250us at 1000Hz (best)** | ~4ms | ~9-18ms |
 | Refresh Rate | Up to **1000Hz (K1000 mode)** | 150Hz | 50-100Hz |
@@ -381,7 +381,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Latency | **~10ms (best)** | 25-38ms | 28-40ms | **~15ms** | 22-35ms |
 | Resolution | 480-720p (noisy) | 1080p/100fps | 1080p/100fps | 720p/90fps | 1080p/60fps |
 | Range (hardware) | 1-3 km | **10-13 km** | 8-13 km | 3-5 km | 5-8 km |
-| **Range (EU, CE mode)** | **200-500m** at 25mW | **~6 km** — same 25mW on 5.8GHz; wins on link budget + 5.1GHz | CE-limited | CE-limited, no published figure | CE-limited, no published figure |
+| **Range (EU, CE mode)** | **200-500m** at 25mW | **~6 km** — DJI publishes this CE figure; same 25mW on 5.8GHz, wins on link budget + 5.1GHz | CE-limited — DJI's CE figure for O3 not confirmed | CE-limited, no published figure | CE-limited, no published figure |
 | VTX Weight | 3-8g | ~35g | ~36g | ~25g | ~30g |
 | VTX Price | $15-30 | $100-130 | $80-100 (discounted) | $80-100 | $70-90 |
 | Goggle Price | $50-150 | $250-350 (Goggles 2/3) | $230-300 (Goggles 2) | $350-530 | $280-400 |
@@ -501,7 +501,7 @@ There are two common naming conventions:
 
 | Prop | Blades | Pitch | Price (10 sets) | Pros | Cons |
 |------|--------|-------|-----------------|------|------|
-| **Gemfan 51466 V2** | 3 | 4.6" | $20-25 | Gold standard freestyle, great grip | Slightly power-hungry |
+| **Gemfan 51466 V2** | 3 | 4.6" | $22-25 | Gold standard freestyle, great grip | Slightly power-hungry |
 | **HQProp 5x4.3x3 V2S** | 3 | 4.3" | $20-25 | Smooth, efficient, great all-around | Less aggressive |
 | **Ethix S5 (5x4x3)** | 3 | 4.0" | $25-30 | Smooth, great for freestyle | Premium price |
 | **Gemfan Hurricane 5136** | 3 | 3.6" | $18-22 | Light, efficient, smooth | Less punch |

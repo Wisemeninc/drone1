@@ -95,6 +95,8 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 
 ### **BUDGET TOTAL: ~$669**
 
+> Why this differs from [BUDGET-TIERS.md](./BUDGET-TIERS.md)'s $511-643: this list itemises every consumable and piece of hardware (mesh sleeve, zip ties, standoffs, battery strap, pigtail) at single midpoint prices, whereas BUDGET-TIERS lumps hardware into one line and quotes ranges. Same build, finer granularity.
+
 ---
 
 ## Mid-Range Build Shopping List
