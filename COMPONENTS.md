@@ -213,7 +213,9 @@ The ESC must handle the **peak** current your motors pull. Oversizing is cheap i
 | **T-Motor F55A Pro II** | 55A | BL32 | $55-70 | Premium quality, excellent FETs | Expensive |
 | **Aikon AK32 Pin 35A** | 35A | BL32 | $50-60 | Ultra-clean power, racing focused | Only 35A |
 
-> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **Substitutes:** the **SpeedyBee BLS 50A** ($30-35) flashed with Bluejay gives you bidirectional DShot and software motor direction for less money — the one cost is flashing it yourself on day one. If you would rather not flash anything, the **T-Motor F55A Pro II** ($55-70) ships with BL32 already on it.
+> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **The substitute is the T-Motor F55A Pro II** ($55-70): BL32 preloaded, nothing to flash, and the only 4-in-1 in this class an EU shop verifiably stocks (FlyingMachines lists *T Motor ESC F55A PROII 4in1 BLHeli32* and *ULTRA F55A PROII 4IN1*).
+>
+> The **SpeedyBee BLS 50A** below is still an excellent ESC and the cheapest route if you are happy to flash Bluejay — but source it carefully. EU specialty shops do not carry it standalone, and an Amazon search for it mostly returns third-party "kompatibel mit Speedybee" clone stacks rather than the genuine part.
 
 ### Beginner Pick: SpeedyBee Stack (FC+ESC combo)
 

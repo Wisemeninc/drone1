@@ -105,7 +105,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 |---|------|-----|-----------|--------------|
 | 1 | GEPRC Mark5 Frame (5", HD compatible) | 1 | $50 | n-Factory.de, AliExpress |
 | 2 | SpeedyBee F7 V3 Flight Controller | 1 | $45 | SpeedyBee official, n-Factory.de |
-| 3 | SpeedyBee BLS 50A 4-in-1 ESC (flash Bluejay) | 1 | $32 | FPV24, Amazon.de, AliExpress |
+| 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | 1 | $62 | FlyingMachines, Amazon.de, AliExpress |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | iFlight official, n-Factory.de, AliExpress |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | n-Factory.de, AliExpress |
 | 6 | Rush Tank Ultimate Plus VTX (1.6W) | 1 | $38 | Rotorama, n-Factory.de, AliExpress |

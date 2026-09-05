@@ -51,7 +51,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Category | Component | Price |
 |----------|-----------|-------|
 | Frame | GEPRC Mark5 or Diatone Roma F5 V2 | $45-60 |
-| FC + ESC | SpeedyBee F7 V3 + SpeedyBee BLS 50A (flash Bluejay) | $70-85 |
+| FC + ESC | SpeedyBee F7 V3 + T-Motor F55A Pro II (55A BL32) | $95-120 |
 | Motors (×4) | iFlight XING2 2306 2555KV (4S) or 1900KV (6S) | $55-65 |
 | Props (×10 sets) | Gemfan 51466 V2 | $22-25 |
 | Receiver | RadioMaster RP1 (ELRS 2.4GHz) | $15-18 |
@@ -66,12 +66,12 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | VTX | Rush Tank Ultimate Plus (1.6W) | $35-40 |
 | Camera | Caddx Ratel 2 | $25-35 |
 | Goggles | Skyzone Cobra X V2 (OLED, compact) | $160-200 |
-| *Subtotal A* | | **$800-975** |
+| *Subtotal A* | | **$825-1,010** |
 | | | |
 | **Video Option B: Digital (Walksnail)** | | |
 | VTX + Camera | Walksnail Avatar HD Kit | $70-90 |
 | Goggles | Walksnail Avatar HD Goggles X | $280-350 |
-| *Subtotal B* | | **$930-1,145** |
+| *Subtotal B* | | **$955-1,180** |
 
 ### What You Get (over Budget)
 - F7 processor (future-proof, better blackbox)

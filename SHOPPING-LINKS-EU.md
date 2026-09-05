@@ -13,9 +13,17 @@ Quick-access shopping links for all components across both budget tiers. Include
 > | Was | Now | Why |
 > |-----|-----|-----|
 > | DAL Cyclone T5040C props | **Gemfan 51466 V2** | DAL props still sold (e.g. DAL 4045) but not this model. Gemfan 51466 verified in stock at FPV24 (as *Gemfan Hurricane MCK 51466-3*) and on Amazon.de to Denmark. Budget tier rises ~$5-7. |
-> | Mamba F50 Pro 4-in-1 ESC | **SpeedyBee BLS 50A** | Mamba F50 Pro is aging out of the EU market. The SpeedyBee is cheaper but ships with BLHeli_S — flash Bluejay on day one for bidirectional DShot. Prefer no flashing? Use the T-Motor F55A Pro II ($55-70, BL32 preloaded). Mid-range tier falls ~$10-15. |
+> | Mamba F50 Pro 4-in-1 ESC | **T-Motor F55A Pro II** | Mamba F50 Pro is aging out of the EU market. The F55A Pro II is the only 4-in-1 in this class EU shops verifiably stock — FlyingMachines lists *T Motor ESC F55A PROII 4in1 BLHeli32*. BL32 preloaded, no flashing. Mid-range tier rises ~$15-20. |
+> | Rush Tank Ultimate Plus VTX | *(none yet)* | ⚠️ No EU shop checked stocks RushFPV — FlyingMachines returns zero for "Rush". The EU-shop link points at TBS Unify Pro32 / EVO instead, which are stocked. AliExpress still has the Rush Tank. Not substituted in the build tables: no verified EU price to put in the tier totals. |
 >
 > The AliExpress-only build in [SHOPPING-LIST-ALIEXPRESS-QUAD.md](./SHOPPING-LIST-ALIEXPRESS-QUAD.md) still lists the Mamba F50 Pro, which is correct — AliExpress stocks it.
+
+> **† Amazon.de does not carry the T-Motor F55A Pro II.** Searching for it there returns brushed car ESCs and unrelated motors, so that cell is blank rather than pointing at a search that would mislead you. Buy it from FlyingMachines or AliExpress.
+
+> **Search-relevance caveats (checked September 2026), for the two rows where the shop's own search fights you:**
+>
+> - **Leaded solder (row 21)** — Amazon.de's solder results skew heavily *bleifrei* (lead-free) whatever you search. The query is now `Lötzinn verbleit Sn63Pb37 0,8mm`, which does surface the right product (Rosfix Sn63Pb37), but check the listing actually says **Sn63Pb37** before ordering — several top results are still lead-free.
+> - **Rotorama rewrites queries.** Searching "Rush Tank" there silently becomes "Rush" and returns Emax Avan Rush props and Radiomaster *Crush* radios. If you use Rotorama, check the page hasn't changed your search term — it says so in small print above the results.
 
 ---
 
@@ -75,7 +83,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 18 | Pinecil V2 soldering iron | [AliExpress](https://www.aliexpress.com/w/wholesale-Pinecil-V2-soldering-iron.html) | [Amazon.de](https://www.amazon.de/s?k=Pinecil+V2+L%C3%B6tkolben) | [Eleshop.eu (direct)](https://eleshop.eu/pinecil-smart-mini-portable-soldering-iron.html) |
 | 19 | Pinecil Fine Tip Set | — | — | [Eleshop.eu (direct)](https://eleshop.eu/pinecil-short-soldering-tip-set-fine.html) |
 | 20 | USB-C PD 65W+ power supply | — | [Amazon.de](https://www.amazon.de/s?k=USB-C+PD+65W+Netzteil) | — |
-| 21 | Solder 63/37 0.8mm (leaded) | [AliExpress](https://www.aliexpress.com/w/wholesale-solder-wire-63-37-0.8mm-rosin.html) | [Amazon.de](https://www.amazon.de/s?k=L%C3%B6tzinn+63+37+0%2C8mm) | — |
+| 21 | Solder 63/37 0.8mm (leaded) | [AliExpress](https://www.aliexpress.com/w/wholesale-solder-wire-63-37-0.8mm-rosin.html) | [Amazon.de](https://www.amazon.de/s?k=L%C3%B6tzinn+verbleit+Sn63Pb37+0%2C8mm) | — |
 | 22 | No-clean flux paste | [AliExpress](https://www.aliexpress.com/w/wholesale-no-clean-flux-paste-syringe.html) | [Amazon.de](https://www.amazon.de/s?k=Flussmittel+Paste+no+clean) | — |
 | 23 | Solder wick 2.5mm | [AliExpress](https://www.aliexpress.com/w/wholesale-solder-wick-2.5mm-desoldering.html) | [Amazon.de](https://www.amazon.de/s?k=Entl%C3%B6tlitze+2%2C5mm) | — |
 | 24 | Brass wool tip cleaner | — | [Amazon.de](https://www.amazon.de/s?k=Messing+Wolle+L%C3%B6tspitze+Reiniger) | — |
@@ -91,10 +99,10 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 |---|-----------|------------------|-----------------|----------------|
 | 1 | GEPRC Mark5 Frame (5", HD) | [AliExpress](https://www.aliexpress.com/w/wholesale-GEPRC-Mark5-frame-5-inch.html) | [Amazon.de](https://www.amazon.de/s?k=GEPRC+Mark5+Frame+5+Zoll) | [n-Factory](https://n-factory.de/) |
 | 2 | SpeedyBee F7 V3 Flight Controller | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F7-V3-flight-controller.html) | [Amazon.de](https://www.amazon.de/s?k=SpeedyBee+F7+V3+Flight+Controller) | [n-Factory](https://n-factory.de/) |
-| 3 | SpeedyBee BLS 50A 4-in-1 ESC (flash Bluejay) | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-BLS-50A-ESC.html) | [Amazon.de](https://www.amazon.de/s?k=SpeedyBee+BLS+50A+ESC) | [FPV24](https://www.fpv24.com/de/search?search=SpeedyBee+BLS+50A) |
+| 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | [AliExpress](https://www.aliexpress.com/w/wholesale-T-Motor-F55A-Pro-II-ESC.html) | — † | [FlyingMachines](https://www.flyingmachines.de/search?q=F55A) |
 | 4 | iFlight XING2 2306 1900KV (6S) x4 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) | [Amazon.de](https://www.amazon.de/s?k=iFlight+XING2+2306+1900KV) | [n-Factory](https://n-factory.de/) |
 | 5 | Gemfan 51466 V2 props | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) | [Amazon.de](https://www.amazon.de/s?k=Gemfan+51466+V2+Propeller) | [n-Factory](https://n-factory.de/) |
-| 6 | Rush Tank Ultimate Plus VTX (1.6W) | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=Rush+Tank+Ultimate+Plus+VTX) | [Rotorama](https://www.rotorama.de/hledani?q=Rush+Tank) |
+| 6 | Rush Tank Ultimate Plus VTX (1.6W) ⚠️ | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=Rush+Tank+Ultimate+Plus+VTX) | [FlyingMachines](https://www.flyingmachines.de/search?q=Unify) ⚠️ |
 | 7 | Caddx Ratel 2 camera | [AliExpress](https://www.aliexpress.com/w/wholesale-Caddx-Ratel-2-FPV-camera.html) | [Amazon.de](https://www.amazon.de/s?k=Caddx+Ratel+2+FPV+Kamera) | [n-Factory](https://n-factory.de/) |
 | 8 | RadioMaster RP1 ELRS receiver | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP1-ELRS-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP1+ELRS+2.4GHz) | [n-Factory](https://n-factory.de/) |
 | 9 | Foxeer Lollipop V4 antenna (RHCP MMCX) | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-MMCX-RHCP.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Lollipop+V4+MMCX+RHCP) | [n-Factory](https://n-factory.de/) |
