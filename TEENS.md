@@ -489,7 +489,7 @@ YouTube channels age-appropriate and high-quality:
 - **[UAVfutures](https://www.youtube.com/@uavfutures)** — Stew is energetic, beginner-friendly, big on cheap builds.
 - **[Mr Steele](https://www.youtube.com/@MrSteeleFPV)** — Top freestyle pilot; his "How To FPV" 4-part series is the best intro to the hobby.
 - **[Painless360](https://www.youtube.com/@Painless360)** — Calm, methodical tutorials; perfect for iNav and fixed-wing if you go that direction.
-- **[Drone Camps](https://www.youtube.com/@dronecampsrc)** — Reviews and buyer's guides; great for "what should I buy in 2026" questions.
+- **[Drone Camps](https://www.youtube.com/@dronecamps)** — Reviews and buyer's guides; great for "what should I buy in 2026" questions.
 - **[Rotor Riot](https://www.youtube.com/@rotorriot)** — Group of pro pilots; classic FPV culture content.
 - **[BotGrinder](https://www.youtube.com/@BotGrinder)** — Urban freestyle and FPV philosophy; the channel that defines the vibe.
 
