@@ -63,7 +63,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | Hardware | Standoffs, zip ties, XT60, heatshrink, GPS mount | $15-20 |
 | | | |
 | **Video Option A: Analog** | | |
-| VTX | TBS Unify Pro32 Nano V1.1 (25mW, EU-legal) | $35-38 |
+| VTX | TBS Unify Pro32 Nano V1.1 (switchable — run at 25mW in EU) | $35-38 |
 | Camera | Caddx Ratel 2 | $25-35 |
 | Goggles | Skyzone Cobra X V2 (OLED, compact) | $160-200 |
 | *Subtotal A* | | **$825-1,008** |

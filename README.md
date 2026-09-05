@@ -40,7 +40,7 @@ Covers everything from component selection to soldering, budget planning, range 
 | Prop size | 5 inch |
 | Weight | 500–700g (requires registration) |
 | Flight time | 3–8 min (LiPo) |
-| Range | 1–10+ km hardware; **200–500m legal** on analog in the EU (25mW cap), ~6 km with a CE-certified DJI O4 |
+| Range | 1–10+ km hardware; **200–500m legal** on analog in the EU (25mW cap); ~6 km with DJI O4 at the same cap via link budget + 5.1GHz — VLOS still applies |
 | Flight controller | Betaflight or iNav |
 | Radio protocol | ExpressLRS (ELRS) |
 | EU category | Open A3 (no C-class marking) or A1 (if <900g with C1) |

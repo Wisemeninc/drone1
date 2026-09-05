@@ -381,7 +381,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Latency | **~10ms (best)** | 25-38ms | 28-40ms | **~15ms** | 22-35ms |
 | Resolution | 480-720p (noisy) | 1080p/100fps | 1080p/100fps | 720p/90fps | 1080p/60fps |
 | Range (hardware) | 1-3 km | **10-13 km** | 8-13 km | 3-5 km | 5-8 km |
-| **Range (EU-legal)** | **200-500m** | **~6 km (CE)** | CE-limited | ~200-500m | ~200-500m |
+| **Range (EU, CE mode)** | **200-500m** at 25mW | **~6 km** — same 25mW on 5.8GHz; wins on link budget + 5.1GHz | CE-limited | CE-limited, no published figure | CE-limited, no published figure |
 | VTX Weight | 3-8g | ~35g | ~36g | ~25g | ~30g |
 | VTX Price | $15-30 | $100-130 | $80-100 (discounted) | $80-100 | $70-90 |
 | Goggle Price | $50-150 | $250-350 (Goggles 2/3) | $230-300 (Goggles 2) | $350-530 | $280-400 |
@@ -399,14 +399,14 @@ The video system is what you see through while flying. This is the biggest cost 
 | Lowest latency digital | **HDZero** | 15ms, closest to analog feel |
 | Best value digital | **Walksnail** | Cheaper than DJI, good image |
 | Widest VTX choice | **Walksnail** | 1S Lite (7g) through full Pro kit (35g, dual antenna) — fits any airframe |
-| Maximum range | **DJI O4** | 10-13 km hardware; ~6 km in CE mode — and the only certified route to real legal range in the EU |
+| Maximum range | **DJI O4** | 10-13 km hardware; ~6 km in CE mode at the same 25mW everyone gets on 5.8GHz — its link budget and 5.1GHz band do the work |
 | Open ecosystem | **HDZero** | No vendor lock-in |
 
 ### Analog Components
 
 | Component | Recommended | Price | Notes |
 |-----------|-------------|-------|-------|
-| VTX | TBS Unify Pro32 Nano V1.1 | $35-38 | 25mW (EU-legal), SmartAudio, 20x20 |
+| VTX | TBS Unify Pro32 Nano V1.1 | $35-38 | Switchable power — run at 25mW in EU; SmartAudio, 20x20 |
 | VTX (budget) | SpeedyBee TX800 | $18-22 | 800mW rated — see the power note below |
 | ~~VTX~~ | ~~Rush Tank Ultimate Plus (1.6W)~~ | — | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
 | Camera | Foxeer Razer Mini | $18-22 | Good low-light, sharp image |

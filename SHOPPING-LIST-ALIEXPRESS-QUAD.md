@@ -47,9 +47,6 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 1 | GEPRC Mark5 Frame (5", HD compatible) | 1 | $50 | [AliExpress](https://www.aliexpress.com/w/wholesale-GEPRC-Mark5-frame-5-inch.html) |
 | 2 | SpeedyBee F7 V3 Flight Controller | 1 | $45 | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F7-V3-flight-controller.html) |
 | 3 | Mamba F50 Pro 4-in-1 ESC (50A, BL32) | 1 | $45 | [AliExpress](https://www.aliexpress.com/w/wholesale-Mamba-F50-Pro-50A-ESC.html) |
-
-> **Note (September 2026):** the Mamba F50 Pro is still stocked on AliExpress, which is why it stays in this AliExpress-only list — but no EU FPV shop checked still carries it. The rest of the guide substitutes the T-Motor F55A Pro II (55A, BL32 preloaded). The same applies to the Rush Tank Ultimate Plus VTX below — still on AliExpress, but substituted with the TBS Unify Pro32 Nano V1.1 elsewhere in the guide. See [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md).
-
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) |
 | 6 | Rush Tank Ultimate Plus VTX (1.6W) | 1 | $38 | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) |
@@ -62,6 +59,8 @@ A solid 5" analog 4S build. Most beginner-friendly tier.
 | 13 | Buzzer (5V, with wire) | 1 | $3 | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-buzzer-5V-drone.html) |
 | 14 | PET expandable mesh sleeve assortment (2/4/6/8/10mm) | 1 kit | $6 | [AliExpress](https://www.aliexpress.com/w/wholesale-PET-expandable-braided-sleeve-assortment.html) |
 | | **Mid-Range Quad Subtotal** | | **~$381** | |
+
+> **Note (September 2026):** the Mamba F50 Pro is still stocked on AliExpress, which is why it stays in this AliExpress-only list — but no EU FPV shop checked still carries it. The rest of the guide substitutes the T-Motor F55A Pro II (55A, BL32 preloaded). The same applies to the Rush Tank Ultimate Plus VTX below — still on AliExpress, but substituted with the TBS Unify Pro32 Nano V1.1 elsewhere in the guide. See [SHOPPING-LINKS-EU.md](./SHOPPING-LINKS-EU.md).
 
 ---
 

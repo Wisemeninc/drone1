@@ -125,12 +125,12 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 | **25mW** | ✅ **Yes** — the CEPT limit | 200-500m |
 | 200mW / 400mW / 800mW / 1.6W | ❌ No — amateur radio licence required | 1-5 km |
 
-The cap is **25mW EIRP** under CEPT ECC Recommendation (06)04, and EIRP means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
+The cap is **25mW e.i.r.p.** for non-specific short-range devices in 5725–5875 MHz under **ERC Recommendation 70-03, Annex 1** (harmonised standard ETSI EN 300 440), and e.i.r.p. means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
 
 **Two practical consequences:**
 
 1. **Set your VTX to 25mW and leave it there.** Almost every VTX supports it, usually as the lowest power setting. A licensed amateur may use up to 1W on parts of the band; without that licence, 25mW is your ceiling.
-2. **If you want real range legally, buy certified digital.** The DJI O4 is CE/RED type-approved and legally reaches roughly 6 km in CE mode, because it is certified equipment rather than a bare VTX. No amount of analog power is legal here, but a certified digital system is. This is the strongest practical argument for digital video in the EU — stronger than image quality.
+2. **If you want real range legally, buy a good digital system — but understand why it works.** The DJI O4 is held to the **same 25mW on 5.8GHz as everyone else** (DJI's own spec: <14 dBm in CE mode). It reaches roughly 6 km in CE mode anyway, for two reasons neither of which is a power allowance: a far better link budget (OFDM modulation, error correction, receive sensitivity — the same reason a phone gets data where a walkie-talkie gets static), and access to the **5.1GHz band at up to 23 dBm (CE)**, which a bare analog VTX cannot legally use. RED type-approval is what allows a system to be sold using those bands and modes; it does **not** raise the 5.8GHz power cap for anyone. The practical conclusion still holds — digital is the route to legal range here — but it holds because of engineering, not because certification buys an exemption.
 
 Note that **VLOS still applies** regardless of what your video link can do. See the Open category rules above.
 

@@ -118,11 +118,11 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 | Analog 200mW | 500m-1.5km | ❌ No | Needs an amateur licence |
 | Analog 800mW | 1-3 km | ❌ No | Needs an amateur licence |
 | **Analog 1.6W** | **2-5 km** | ❌ **No — 64× the limit** | Maximum analog, illegal to transmit here |
-| DJI O4 (standard) | 10-13 km (FCC) | ✅ **~6 km in CE mode** | Certified equipment — the legal way to get range |
-| HDZero | 3-5 km | ⚠️ ~200-500m at CE 25mW | Lower power digital |
-| Walksnail | 5-8 km | ⚠️ ~200-500m at CE 25mW | Mid-range digital |
+| DJI O4 (standard) | 10-13 km (FCC) | ✅ **~6 km in CE mode** | Same 25mW on 5.8GHz as everyone; range from link budget + 5.1GHz band |
+| HDZero | 3-5 km | ⚠️ CE-limited — no published CE figure | Lower power digital |
+| Walksnail | 5-8 km | ⚠️ CE-limited — no published CE figure | Mid-range digital |
 
-**If you want legal range in Denmark, it comes from a CE-certified digital system, not from VTX power.** Every uncertified VTX — analog or digital — is limited to 25mW EIRP and therefore to a few hundred metres. The DJI O4 is type-approved and legally does ~6 km. That is the whole argument for digital in the EU, and it is a stronger argument than image quality.
+**If you want legal range in Denmark, it comes from a digital system's link budget, not from VTX power.** Every system — analog or digital, DJI included — is held to 25mW e.i.r.p. on 5.8GHz. The DJI O4 does ~6 km at that cap because of OFDM, error correction, receive sensitivity, and access to the 5.1GHz band at up to 23 dBm (CE) that a bare analog VTX cannot legally use. Certification lets a system be sold to use those bands and modes; it does not raise anyone's power cap. That is the real argument for digital in the EU, and it is stronger than image quality.
 
 **The real range limiter in most builds is the video system, not the radio.** In the EU it is the video system's *legal power cap*, which binds far tighter than the hardware.
 
