@@ -112,19 +112,21 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 
 ### Video System (Maximum Video Range)
 
-| System | Usable Video Range | EU-legal? | Notes |
+| System | Usable Video Range | EU-legal **equipment**? | Notes |
 |--------|-------------------|-----------|-------|
 | **Analog 25mW** | **200-500m** | ✅ **Yes** | The only licence-free analog setting in the EU — **and only on channels inside 5725–5875 MHz** (R3–R6, A2–A7, B1–B7, F1–F6) |
 | Analog 200mW | 500m-1.5km | ❌ No | Not legal on bought FPV gear — an amateur licence does not cover the equipment |
 | Analog 800mW | 1-3 km | ❌ No | Not legal on bought FPV gear — an amateur licence does not cover the equipment |
 | **Analog 1.6W** | **2-5 km** | ❌ **No — 64× the limit** | Maximum analog, illegal to transmit here |
-| DJI O4 (standard) | 10-13 km (FCC) | ✅ **~6 km in CE mode** | Same 25mW on 5.8GHz as everyone; range from link budget + 5.1GHz band |
+| DJI O4 (standard) | 10-13 km (FCC) | ✅ CE mode — **~6 km equipment reach, not a distance you may fly** | Same 25mW on 5.8GHz as everyone; range from link budget + 5.1GHz band |
 | HDZero | 3-5 km | ⚠️ CE-limited — no published CE figure | Lower power digital |
 | Walksnail | 5-8 km | ⚠️ CE-limited — no published CE figure | Mid-range digital |
 
 **If you want legal range in Denmark, it comes from a digital system's link budget, not from VTX power.** Every system — analog or digital, DJI included — is held to 25mW e.i.r.p. on 5.8GHz. The DJI O4 does ~6 km at that cap because of OFDM, error correction, receive sensitivity, and access to the 5.1GHz band at up to 23 dBm (CE) that a bare analog VTX cannot legally use. Certification lets a system be sold to use those bands and modes; it does not raise anyone's power cap. That is the real argument for digital in the EU, and it is stronger than image quality.
 
 **The real range limiter in most builds is the video system, not the radio.** In the EU it is the video system's *legal power cap*, which binds far tighter than the hardware.
+
+**And VLOS binds tighter than either.** The column above is about whether the *equipment* may legally transmit — not how far you may fly. Denmark's Open category requires unaided visual line of sight at all times, which for a 5" quad is on the order of 100–200 m regardless of what the video link can do. A 6 km DJI link is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [DISTANCE-RANGE.md](./DISTANCE-RANGE.md).
 
 ---
 
