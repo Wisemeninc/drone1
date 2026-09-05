@@ -108,7 +108,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | 1 | $62 | FlyingMachines, Amazon.de, AliExpress |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | iFlight official, n-Factory.de, AliExpress |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | n-Factory.de, AliExpress |
-| 6 | Rush Tank Ultimate Plus VTX (1.6W) | 1 | $38 | Rotorama, n-Factory.de, AliExpress |
+| 6 | TBS Unify Pro32 Nano V1.1 VTX (25mW EU) | 1 | $36 | FlyingMachines, FPV24, Amazon.de |
 | 7 | Caddx Ratel 2 camera | 1 | $30 | n-Factory.de, BangGood, AliExpress |
 | 8 | RadioMaster RP1 ELRS 2.4GHz receiver | 1 | $16 | RadioMaster official, n-Factory.de |
 | 9 | Foxeer Lollipop V4 antenna (RHCP, MMCX) | 1 | $14 | n-Factory.de, AliExpress |

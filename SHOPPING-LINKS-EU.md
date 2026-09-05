@@ -14,7 +14,7 @@ Quick-access shopping links for all components across both budget tiers. Include
 > |-----|-----|-----|
 > | DAL Cyclone T5040C props | **Gemfan 51466 V2** | DAL props still sold (e.g. DAL 4045) but not this model. Gemfan 51466 verified in stock at FPV24 (as *Gemfan Hurricane MCK 51466-3*) and on Amazon.de to Denmark. Budget tier rises ~$5-7. |
 > | Mamba F50 Pro 4-in-1 ESC | **T-Motor F55A Pro II** | Mamba F50 Pro is aging out of the EU market. The F55A Pro II is the only 4-in-1 in this class EU shops verifiably stock — FlyingMachines lists *T Motor ESC F55A PROII 4in1 BLHeli32*. BL32 preloaded, no flashing. Mid-range tier rises ~$15-20. |
-> | Rush Tank Ultimate Plus VTX | *(none yet)* | ⚠️ No EU shop checked stocks RushFPV — FlyingMachines returns zero for "Rush". The EU-shop link points at TBS Unify Pro32 / EVO instead, which are stocked. AliExpress still has the Rush Tank. Not substituted in the build tables: no verified EU price to put in the tier totals. |
+> | Rush Tank Ultimate Plus VTX | **TBS Unify Pro32 Nano V1.1** | No EU shop checked stocks RushFPV — FlyingMachines returns zero for "Rush". Priced from two shops: **€31,90** (FlyingMachines) and **€33,80** (FPV24), so $35-38 — near-identical to the Rush Tank's $35-40. Note it is a 20x20 board, not 30x30. AliExpress still has the Rush Tank. |
 >
 > The AliExpress-only build in [SHOPPING-LIST-ALIEXPRESS-QUAD.md](./SHOPPING-LIST-ALIEXPRESS-QUAD.md) still lists the Mamba F50 Pro, which is correct — AliExpress stocks it.
 
@@ -102,7 +102,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32) | [AliExpress](https://www.aliexpress.com/w/wholesale-T-Motor-F55A-Pro-II-ESC.html) | — † | [FlyingMachines](https://www.flyingmachines.de/search?q=F55A) |
 | 4 | iFlight XING2 2306 1900KV (6S) x4 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) | [Amazon.de](https://www.amazon.de/s?k=iFlight+XING2+2306+1900KV) | [n-Factory](https://n-factory.de/) |
 | 5 | Gemfan 51466 V2 props | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) | [Amazon.de](https://www.amazon.de/s?k=Gemfan+51466+V2+Propeller) | [n-Factory](https://n-factory.de/) |
-| 6 | Rush Tank Ultimate Plus VTX (1.6W) ⚠️ | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=Rush+Tank+Ultimate+Plus+VTX) | [FlyingMachines](https://www.flyingmachines.de/search?q=Unify) ⚠️ |
+| 6 | TBS Unify Pro32 Nano V1.1 VTX (25mW) | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Unify-Pro32-Nano-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=TBS+Unify+Pro32+Nano+VTX) | [FlyingMachines](https://www.flyingmachines.de/search?q=Unify) |
 | 7 | Caddx Ratel 2 camera | [AliExpress](https://www.aliexpress.com/w/wholesale-Caddx-Ratel-2-FPV-camera.html) | [Amazon.de](https://www.amazon.de/s?k=Caddx+Ratel+2+FPV+Kamera) | [n-Factory](https://n-factory.de/) |
 | 8 | RadioMaster RP1 ELRS receiver | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP1-ELRS-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP1+ELRS+2.4GHz) | [n-Factory](https://n-factory.de/) |
 | 9 | Foxeer Lollipop V4 antenna (RHCP MMCX) | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-MMCX-RHCP.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Lollipop+V4+MMCX+RHCP) | [n-Factory](https://n-factory.de/) |

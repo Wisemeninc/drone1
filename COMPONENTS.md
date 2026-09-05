@@ -404,12 +404,17 @@ The video system is what you see through while flying. This is the biggest cost 
 
 | Component | Recommended | Price | Notes |
 |-----------|-------------|-------|-------|
-| VTX | Rush Tank Ultimate Plus | $30-40 | 1.6W output, smart audio |
-| VTX (budget) | SpeedyBee TX800 | $18-22 | 800mW, good enough to start |
+| VTX | TBS Unify Pro32 Nano V1.1 | $35-38 | 25mW (EU-legal), SmartAudio, 20x20 |
+| VTX (budget) | SpeedyBee TX800 | $18-22 | 800mW rated — see the power note below |
+| ~~VTX~~ | ~~Rush Tank Ultimate Plus (1.6W)~~ | — | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
 | Camera | Foxeer Razer Mini | $18-22 | Good low-light, sharp image |
 | Camera (upgrade) | Caddx Ratel 2 | $25-35 | Excellent dynamic range |
 | Goggles (box) | Eachine EV800D | $60-80 | Diversity receiver, DVR built-in |
 | Goggles (compact) | Skyzone Cobra X V2 | $160-200 | OLED, compact, good optics |
+
+> **⚠️ 5.8GHz power is capped at 25mW EIRP in the EU — including Denmark.** That is the licence-free CEPT limit, and it is why every analog VTX sold by an EU shop is listed as 25mW. Higher power (up to 1W) is legal only with an amateur radio licence. The 800mW and 1.6W figures elsewhere in this guide describe what the hardware *can* emit, not what you may legally transmit here — most VTXs let you select 25mW, and that is the setting to fly on.
+>
+> This also caps realistic analog video range well below the figures in [DISTANCE-RANGE.md](./DISTANCE-RANGE.md) and [TRADE-OFFS.md](./TRADE-OFFS.md), which are written for the hardware's maximum output.
 
 ### Digital Systems
 
