@@ -126,7 +126,7 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 
 **The real range limiter in most builds is the video system, not the radio.** In the EU it is the video system's *legal power cap*, which binds far tighter than the hardware.
 
-**And VLOS binds tighter than either.** The column above is about whether the *equipment* may legally transmit — not how far you may fly. Denmark's Open category requires unaided visual line of sight at all times, which for a 5" quad is on the order of 100–200 m regardless of what the video link can do. A 6 km DJI link is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [DISTANCE-RANGE.md](./DISTANCE-RANGE.md).
+**And VLOS binds tighter than either.** The column above is about whether the *equipment* may legally transmit — not how far you may fly. Denmark's Open category requires unaided visual line of sight at all times, which for a 5" quad is about **134 m** by Trafikstyrelsen's published formula, regardless of what the video link can do. A 6 km DJI link is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [DISTANCE-RANGE.md](./DISTANCE-RANGE.md).
 
 ---
 

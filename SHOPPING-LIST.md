@@ -161,7 +161,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 |---|------|-----|-----------|--------------|
 | 1 | ImpulseRC Apex 5" HD frame | 1 | $90 | ImpulseRC direct (UK), AliExpress |
 | 2 | Diatone Mamba F722 MK4 FC | 1 | $55 | Rotorama, n-Factory.de, AliExpress |
-| 3 | T-Motor F55A Pro II 4-in-1 ESC (BL32) | 1 | $65 | T-Motor official, n-Factory.de, AliExpress |
+| 3 | T-Motor F55A Pro II 4-in-1 ESC (55A BL32, 30.5×30.5) | 1 | $75 | FlyingMachines (backorder), AliExpress — not n-Factory (stocks the AM32 Pro III) |
 | 4 | T-Motor Velox V2 2306 1900KV motors | 4 | $80 | T-Motor official, n-Factory.de, AliExpress |
 | 5 | HQProp 5x4.3x3 V2S (5 pack) | 3 packs | $25 | n-Factory.de, AliExpress |
 | 6 | Ethix S5 props (5 pack) | 2 packs | $20 | n-Factory.de, AliExpress |
@@ -174,7 +174,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 13 | TPU 3D-printed mounts (antenna, GPS, GoPro) | 1 set | $15 | AliExpress (or print own) |
 | 14 | Premium M3 titanium hardware kit | 1 | $15 | n-Factory.de, AliExpress |
 | 15 | Battery straps (Ethix power strap) | 3 | $9 | n-Factory.de, AliExpress |
-| | **Subtotal (Quad)** | | **~$750** | |
+| | **Subtotal (Quad)** | | **~$760** | |
 
 ### Support Equipment ($500–650)
 
@@ -204,7 +204,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 31 | Smoke stopper (XT60 inline) | 1 | $12 | n-Factory.de, AliExpress |
 | | **Subtotal (Solder)** | | **~$196** | |
 
-### **PREMIUM TOTAL: ~$1,581**
+### **PREMIUM TOTAL: ~$1,591**
 
 ---
 

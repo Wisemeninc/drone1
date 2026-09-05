@@ -195,7 +195,7 @@ Betaflight switched to **calendar-based versioning** (YYYY.M.PATCH) with release
 - **Soldering equipment** — Pinecil V2 still best value
 - **Budget tier pricing** — still approximately $500-600 all-in for a budget build
 - **ExpressLRS dominance** — still the clear winner for radio protocol
-- ~~**Regulations** — no major 2026 EASA/Danish changes confirmed~~ — **superseded, see section A above.** Denmark has a Remote-ID mandate for 250 g+ proposed for 1 Jan 2027, DK-STS-03 expired 1 Jan 2026, and EASA's privately-built framework was due Q3 2026.
+- ~~**Regulations** — no major 2026 EASA/Danish changes confirmed~~ — **superseded, see section A above.** Denmark has a Remote-ID mandate for 250 g+ proposed for 1 Jan 2027, and DK-STS-03 (a Specific-category scenario, irrelevant to hobby flying) expired 1 Jan 2026. The "EASA privately-built framework" once listed here was unsourceable and has been retracted — see section A.
 
 ---
 

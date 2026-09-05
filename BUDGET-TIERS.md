@@ -91,14 +91,14 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 
 ---
 
-## Premium Build (~$1,240-1,560 all-in)
+## Premium Build (~$1,245-1,545 all-in)
 
 **Philosophy:** Best experience possible. Digital HD video, premium components, longest lifespan, 4K recording capability.
 
 | Category | Component | Price |
 |----------|-----------|-------|
 | Frame | ImpulseRC Apex HD or Five33 Switchback | $80-100 |
-| FC + ESC | Diatone Mamba F722 MK4 + T-Motor F55A Pro II (BL32) | $100-140 |
+| FC + ESC | Diatone Mamba F722 MK4 + T-Motor F55A Pro II (BL32) | $105-125 |
 | Motors (×4) | T-Motor Velox V2 2306 1900KV (6S) | $70-90 |
 | Props (×15 sets) | HQProp 5x4.3x3 V2S + Ethix S5 (mixed) | $35-45 |
 | Receiver | RadioMaster RP3 (ELRS 2.4GHz, diversity) | $18-22 |
@@ -112,8 +112,8 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | **Soldering kit** | TS101 or Hakko + full accessories | $100-130 |
 | Hardware | Premium standoffs, TPU mounts (3D printed), XT60 | $20-30 |
 | | | |
-| **TOTAL** | | **$1,240-1,560** |
-| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$635-800* |
+| **TOTAL** | | **$1,245-1,545** |
+| *(Quad only)* | *(without radio/goggles/charger/tools)* | *$640-785* |
 
 ### What You Get (over Mid-Range)
 - 4K onboard recording (DJI O4)
