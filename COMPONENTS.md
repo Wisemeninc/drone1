@@ -92,7 +92,7 @@ The brain of the drone. Runs Betaflight or iNav firmware, reads gyroscope data, 
 | Stack | FC + ESC | Price | Pros |
 |-------|----------|-------|------|
 | **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Cheapest beginner deal, guaranteed compatibility |
-| **Mamba F722 + F50 Pro** | F7 + BL32 50A | $75-95 | Reliable combo |
+| ~~**Mamba F722 + F50 Pro**~~ | F7 + BL32 50A | — | ⚠️ F50 Pro has no EU stock — see note below |
 | **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, full BF 2026.6 features |
 
 ### Beginner Pick: SpeedyBee F405 V4 Stack (budget) or H7 stack (recommended)
@@ -209,9 +209,11 @@ The ESC must handle the **peak** current your motors pull. Oversizing is cheap i
 |-----|------|----------|-------|------|------|
 | **SpeedyBee BLS 50A** | 50A | BLHeli_S (flash Bluejay) | $30-35 | Cheapest good ESC, flash Bluejay day 1 | Need to flash firmware |
 | **SpeedyBee F405 V4 Stack** | 50A | BL32 | $65-80 | FC+ESC combo, plug and play | More expensive than ESC alone |
-| **Mamba F50 Pro** | 50A | BL32 | $40-50 | Reliable, good thermals | Nothing special |
+| ~~**Mamba F50 Pro**~~ | 50A | BL32 | — | Was reliable, good thermals | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
 | **T-Motor F55A Pro II** | 55A | BL32 | $55-70 | Premium quality, excellent FETs | Expensive |
 | **Aikon AK32 Pin 35A** | 35A | BL32 | $50-60 | Ultra-clean power, racing focused | Only 35A |
+
+> **⚠️ Availability note (September 2026):** the Mamba F50 Pro is no longer stocked by any EU FPV shop checked — mostly US/UK stock, often backordered, still on AliExpress. **Substitutes:** the **SpeedyBee BLS 50A** ($30-35) flashed with Bluejay gives you bidirectional DShot and software motor direction for less money — the one cost is flashing it yourself on day one. If you would rather not flash anything, the **T-Motor F55A Pro II** ($55-70) ships with BL32 already on it.
 
 ### Beginner Pick: SpeedyBee Stack (FC+ESC combo)
 
@@ -494,9 +496,11 @@ There are two common naming conventions:
 | **HQProp 5x4.3x3 V2S** | 3 | 4.3" | $20-25 | Smooth, efficient, great all-around | Less aggressive |
 | **Ethix S5 (5x4x3)** | 3 | 4.0" | $25-30 | Smooth, great for freestyle | Premium price |
 | **Gemfan Hurricane 5136** | 3 | 3.6" | $18-22 | Light, efficient, smooth | Less punch |
-| **DAL Cyclone T5040C** | 3 | 4.0" | $15-20 | Budget, very durable | Slightly heavy |
+| ~~**DAL Cyclone T5040C**~~ | 3 | 4.0" | — | Was the budget pick | ⚠️ **No EU stock (Sept 2026)** — AliExpress only |
 | **Gemfan 5125** | 2 | 2.5" | $15-20 | Long range, maximum efficiency | Low thrust |
 | **HQProp 5x4.5** | 2 | 4.5" | $18-22 | Racing bi-blade, fast | Inefficient |
+
+> **⚠️ Availability note (September 2026):** the DAL Cyclone T5040C is no longer stocked by any EU FPV shop checked (Rotorama, FlyingMachines, CopterFarm, FPV24) — it remains available on AliExpress. **Gemfan 51466 V2 is the substitute** used throughout this guide: verified in stock at FPV24 (sold as *Gemfan Hurricane MCK 51466-3*) and on Amazon.de shipping to Denmark.
 
 ### Beginner Pick: Gemfan 51466 V2
 

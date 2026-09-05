@@ -53,7 +53,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 | 1 | Source One V5 Frame Kit (5") | 1 | $35 | TBS direct, AliExpress |
 | 2 | SpeedyBee F405 V4 Stack (FC + 50A ESC) | 1 | $70 | SpeedyBee official, n-Factory.de, AliExpress |
 | 3 | Emax Eco II 2306 2400KV motors | 4 | $48 | n-Factory.de, AliExpress |
-| 4 | DAL Cyclone T5040C props (5 pack CW+CCW) | 2 packs | $16 | Rotorama, AliExpress |
+| 4 | Gemfan 51466 V2 props (5 pack CW+CCW) | 2 packs | $24 | FPV24, Amazon.de, AliExpress |
 | 5 | SpeedyBee TX800 VTX | 1 | $20 | SpeedyBee official, n-Factory.de, AliExpress |
 | 6 | Foxeer Razer Mini camera | 1 | $20 | n-Factory.de, AliExpress |
 | 7 | RadioMaster RP3 V2 ELRS 2.4GHz receiver (antenna diversity, 2x ext. ant.) | 1 | $20 | Rotorama, BangGood, AliExpress |
@@ -105,7 +105,7 @@ Copy-paste shopping lists for each budget tier, restricted to **European and Asi
 |---|------|-----|-----------|--------------|
 | 1 | GEPRC Mark5 Frame (5", HD compatible) | 1 | $50 | n-Factory.de, AliExpress |
 | 2 | SpeedyBee F7 V3 Flight Controller | 1 | $45 | SpeedyBee official, n-Factory.de |
-| 3 | Mamba F50 Pro 4-in-1 ESC (50A, BL32) | 1 | $45 | Rotorama, n-Factory.de, AliExpress |
+| 3 | SpeedyBee BLS 50A 4-in-1 ESC (flash Bluejay) | 1 | $32 | FPV24, Amazon.de, AliExpress |
 | 4 | iFlight XING2 2306 1900KV motors (for 6S) | 4 | $60 | iFlight official, n-Factory.de, AliExpress |
 | 5 | Gemfan 51466 V2 props (5 pack CW+CCW) | 3 packs | $24 | n-Factory.de, AliExpress |
 | 6 | Rush Tank Ultimate Plus VTX (1.6W) | 1 | $38 | Rotorama, n-Factory.de, AliExpress |

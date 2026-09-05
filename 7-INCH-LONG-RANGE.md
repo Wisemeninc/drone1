@@ -168,7 +168,7 @@ Same principles as 5" builds, but ensure your FC supports iNav well.
 | Stack | FC + ESC | Price | Notes |
 |-------|----------|-------|-------|
 | **SpeedyBee F405 V4 + 50A** | F4 + BL32 50A | $65-80 | Budget iNav, proven |
-| **Mamba F722 + F50 Pro** | F7 + BL32 50A | $75-95 | Good iNav support |
+| ~~**Mamba F722 + F50 Pro**~~ | F7 + BL32 50A | — | ⚠️ F50 Pro no longer stocked in EU (Sept 2026) — AliExpress only |
 | **GEPRC Span H7 + 60A** | H7 + BL32 60A | $90-120 | Best future-proofing, barometer included |
 | **Matek F722-SE** | F7 (standalone) | $40-50 | iNav community favourite, dual BEC |
 
