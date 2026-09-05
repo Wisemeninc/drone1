@@ -206,7 +206,7 @@ For LR, 900MHz ELRS is the standard. Control link will never be your limiting fa
 
 | System | Range | Latency | Weight | Notes |
 |--------|-------|---------|--------|-------|
-| **Analog 1.6W** (Platy's choice) | 5-10 km | ~10ms | 5-10g | Lightest, lowest latency, cheapest |
+| **Analog 1.6W** (Platy's choice) | 5-10 km | ~10ms | 5-10g | ⚠️ Lightest and cheapest, but **illegal to transmit in the EU** — 25mW is the licence-free cap, giving 200-500m. Legal EU long range needs a CE-certified digital system or an amateur licence. |
 | **DJI O4** | 10-13 km | 25-38ms | ~35g | Best range + recording, heaviest |
 | **DJI O3** | 8-13 km | 28-40ms | ~36g | Good value (discounted now) |
 | **Walksnail Avatar** | 5-8 km | 22-35ms | ~30g | Middle ground |

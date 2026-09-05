@@ -14,7 +14,7 @@ Three complete build tiers from budget to premium. Each includes the quad itself
 | FC + ESC | SpeedyBee F405 V4 Stack (50A BL32) | $65-80 |
 | Motors (×4) | Emax Eco II 2306 2400KV | $45-55 |
 | Props (×10 sets) | Gemfan 51466 V2 | $22-25 |
-| VTX | SpeedyBee TX800 (800mW) | $18-22 |
+| VTX | SpeedyBee TX800 (800mW rated — run at 25mW in EU) | $18-22 |
 | Camera | Foxeer Razer Mini | $18-22 |
 | Receiver | RadioMaster RP3 V2 (ELRS 2.4GHz, antenna diversity) | $18-22 |
 | Antenna | TBS Triumph (RHCP) | $10-12 |

@@ -112,17 +112,19 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 
 ### Video System (Maximum Video Range)
 
-| System | Usable Video Range | Notes |
-|--------|-------------------|-------|
-| Analog 25mW | 200-500m | Indoor/park only |
-| Analog 200mW | 500m-1.5km | Short range outdoor |
-| Analog 800mW | 1-3 km | Standard outdoor |
-| **Analog 1.6W** | **2-5 km** | Maximum analog |
-| DJI O4 (standard) | 10-13 km | Best digital range, current gen |
-| HDZero | 3-5 km | Lower power digital |
-| Walksnail | 5-8 km | Mid-range digital |
+| System | Usable Video Range | EU-legal? | Notes |
+|--------|-------------------|-----------|-------|
+| **Analog 25mW** | **200-500m** | ✅ **Yes** | The only licence-free analog setting in the EU |
+| Analog 200mW | 500m-1.5km | ❌ No | Needs an amateur licence |
+| Analog 800mW | 1-3 km | ❌ No | Needs an amateur licence |
+| **Analog 1.6W** | **2-5 km** | ❌ **No — 64× the limit** | Maximum analog, illegal to transmit here |
+| DJI O4 (standard) | 10-13 km (FCC) | ✅ **~6 km in CE mode** | Certified equipment — the legal way to get range |
+| HDZero | 3-5 km | ⚠️ ~200-500m at CE 25mW | Lower power digital |
+| Walksnail | 5-8 km | ⚠️ ~200-500m at CE 25mW | Mid-range digital |
 
-**The real range limiter in most builds is the video system, not the radio.**
+**If you want legal range in Denmark, it comes from a CE-certified digital system, not from VTX power.** Every uncertified VTX — analog or digital — is limited to 25mW EIRP and therefore to a few hundred metres. The DJI O4 is type-approved and legally does ~6 km. That is the whole argument for digital in the EU, and it is a stronger argument than image quality.
+
+**The real range limiter in most builds is the video system, not the radio.** In the EU it is the video system's *legal power cap*, which binds far tighter than the hardware.
 
 ---
 

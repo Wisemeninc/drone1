@@ -312,6 +312,7 @@ The radio link is your control connection to the drone. Range, latency, and reli
 |---------|-------------------|---------------|--------------|
 | Frequency | 2.4GHz or 900MHz | 900MHz | 2.4GHz |
 | Range (2.4GHz) | 10-30+ km | — | 1-2 km |
+| EU power cap | 100mW EIRP (2.4GHz) / 868MHz duty-cycled | Same | Same |
 | Range (900MHz) | 30-100+ km | 30-40+ km | — |
 | Latency | **250us at 1000Hz (best)** | ~4ms | ~9-18ms |
 | Refresh Rate | Up to **1000Hz (K1000 mode)** | 150Hz | 50-100Hz |
@@ -379,7 +380,8 @@ The video system is what you see through while flying. This is the biggest cost 
 |---------|--------|-----------|-------------------|--------|-----------------|
 | Latency | **~10ms (best)** | 25-38ms | 28-40ms | **~15ms** | 22-35ms |
 | Resolution | 480-720p (noisy) | 1080p/100fps | 1080p/100fps | 720p/90fps | 1080p/60fps |
-| Range | 1-3 km | **10-13 km** | 8-13 km | 3-5 km | 5-8 km |
+| Range (hardware) | 1-3 km | **10-13 km** | 8-13 km | 3-5 km | 5-8 km |
+| **Range (EU-legal)** | **200-500m** | **~6 km (CE)** | CE-limited | ~200-500m | ~200-500m |
 | VTX Weight | 3-8g | ~35g | ~36g | ~25g | ~30g |
 | VTX Price | $15-30 | $100-130 | $80-100 (discounted) | $80-100 | $70-90 |
 | Goggle Price | $50-150 | $250-350 (Goggles 2/3) | $230-300 (Goggles 2) | $350-530 | $280-400 |
@@ -397,7 +399,7 @@ The video system is what you see through while flying. This is the biggest cost 
 | Lowest latency digital | **HDZero** | 15ms, closest to analog feel |
 | Best value digital | **Walksnail** | Cheaper than DJI, good image |
 | Widest VTX choice | **Walksnail** | 1S Lite (7g) through full Pro kit (35g, dual antenna) — fits any airframe |
-| Maximum range | **DJI O4** | 10-13 km reliable link |
+| Maximum range | **DJI O4** | 10-13 km hardware; ~6 km in CE mode — and the only certified route to real legal range in the EU |
 | Open ecosystem | **HDZero** | No vendor lock-in |
 
 ### Analog Components

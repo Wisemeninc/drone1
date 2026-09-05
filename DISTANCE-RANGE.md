@@ -4,6 +4,18 @@ How far can you fly a drone? It depends on your build, video system, battery, an
 
 ---
 
+> ## ⚠️ Read this before the tables below
+>
+> **The ranges in this guide are what the hardware can do, not what you may legally transmit in Denmark or the EU.**
+>
+> 5.8GHz video is capped at **25mW EIRP** for licence-free use under CEPT ECC Recommendation (06)04. At 25mW, analog and CE-mode digital video both give roughly **200–500m** of usable range — not the kilometres quoted below. Exceeding it requires an amateur radio licence.
+>
+> The exception is a **CE/RED-certified digital system**. The DJI O4 is type-approved and legally reaches about **6 km in CE mode** (vs 10 km on FCC firmware), because it is certified equipment rather than a bare 25mW VTX.
+>
+> **The practical consequence, and it inverts the usual advice:** if you want real legal range in the EU, that comes from certified digital gear, not from a high-power analog VTX. A 1.6W analog VTX is 64× over the legal limit here; run at its legal 25mW it is a short-range park system.
+>
+> Every table below now carries an **EU-legal** column. Read that column, not the hardware column, when planning a build to fly in Denmark. See [REGULATIONS.md](./REGULATIONS.md).
+
 ## What Limits Your Range
 
 Range is limited by whichever system fails first. Ranked by what typically kills range:
@@ -18,18 +30,20 @@ Range is limited by whichever system fails first. Ranked by what typically kills
 
 ## Range by Limiting Factor
 
-| Limiting Factor | Range | What Happens |
-|----------------|-------|--------------|
-| Video link (analog 800mW) | 1-3 km | Screen goes to static |
-| Video link (analog 1.6W) | 2-5 km | Fades and breaks up |
-| Video link (Walksnail) | 5-8 km | Digital feed cuts |
-| Video link (DJI O3) | 8-13 km | Digital feed drops |
-| **Video link (DJI O4)** | **10-13 km** | Best current digital range |
-| Video link (HDZero) | 3-5 km | Lower power digital |
-| Control link (ELRS 2.4GHz 250mW) | 10-15 km | Rarely the bottleneck |
-| Control link (ELRS 2.4GHz 1W) | 20-30 km | Extreme range |
-| **Control link (ELRS 900MHz 1W)** | **50-100+ km** | Essentially unlimited for quads |
-| Control link (TBS Crossfire) | 30-40+ km | Proven long-range |
+| Limiting Factor | Range (hardware max) | **EU-legal range** | What Happens |
+|----------------|---------------------|--------------------|--------------|
+| Video link (analog 800mW) | 1-3 km | **200-500m** — must run 25mW | Screen goes to static |
+| Video link (analog 1.6W) | 2-5 km | **200-500m** — must run 25mW | Fades and breaks up |
+| Video link (Walksnail) | 5-8 km | **~200-500m** in CE mode (25mW) | Digital feed cuts |
+| Video link (DJI O3) | 8-13 km | CE-limited, below the FCC figure | Digital feed drops |
+| **Video link (DJI O4)** | **10-13 km (FCC)** | **~6 km (CE)** — certified, legal | Best current digital range |
+| Video link (HDZero) | 3-5 km | **~200-500m** in CE mode (25mW) | Lower power digital |
+| Control link (ELRS 2.4GHz 250mW) | 10-15 km | Over the 100mW EIRP EU cap | Rarely the bottleneck |
+| Control link (ELRS 2.4GHz 1W) | 20-30 km | Well over the EU cap | Extreme range |
+| **Control link (ELRS 900MHz 1W)** | **50-100+ km** | **Not an EU configuration** — see note | Essentially unlimited for quads |
+| Control link (TBS Crossfire) | 30-40+ km | 868MHz EU versions are duty-cycle limited | Proven long-range |
+
+> **On "900MHz":** the 902-928MHz band ELRS uses at 1W is a US allocation. The EU equivalent is **868MHz at 25-500mW with duty-cycle limits** (ETSI EN 300 220), so EU long-range links are materially shorter than the figures above. 2.4GHz is capped at 100mW EIRP (ETSI EN 300 328). None of this usually matters in practice — the video link fails long before the control link does.
 | Battery (5" freestyle, 1300mAh 4S) | 2-4 km round trip | Need to return before voltage sag |
 | Battery (5" efficient, 1500mAh 6S) | 5-8 km round trip | Low KV cruise extends range |
 | Battery (5" long-range, 1800mAh 6S) | 8-12 km round trip | Purpose-built for distance |
@@ -39,14 +53,16 @@ Range is limited by whichever system fails first. Ranked by what typically kills
 
 ## Real-World Range by Build Type
 
-| Build Type | Realistic Max Distance | Primary Limiter | Approx Cost |
-|------------|----------------------|-----------------|-------------|
-| **Budget 5" (analog video)** | **1-2 km** | Video dies first | $500-600 |
-| **Mid-range 5" (Walksnail)** | **4-6 km** | Battery / video | $900-1,100 |
-| **Mid-range 5" (DJI O4)** | **5-8 km** | Battery is the limit | $1,000-1,300 |
-| **Dedicated 5" long-range** | **10-15 km** | Battery at limits | $800-1,200 |
-| **7" long-range build** | **20-40 km** | Battery / safety margins | $1,000-1,500 |
-| **Extreme long-range (custom)** | **50-100+ km** | Regulatory / battery | $1,500+ |
+| Build Type | Max Distance (hardware) | **EU-legal distance** | Primary Limiter | Approx Cost |
+|------------|------------------------|----------------------|-----------------|-------------|
+| **Budget 5" (analog video)** | **1-2 km** | **200-500m** | Legal VTX power | $500-600 |
+| **Mid-range 5" (Walksnail)** | **4-6 km** | **~200-500m** (CE 25mW) | Legal VTX power | $900-1,100 |
+| **Mid-range 5" (DJI O4)** | **5-8 km** | **~6 km** — certified | Battery | $1,000-1,300 |
+| **Dedicated 5" long-range** | **10-15 km** | ~6 km with DJI O4 | Video certification | $800-1,200 |
+| **7" long-range build** | **20-40 km** | ~6 km with DJI O4 | Video certification | $1,000-1,500 |
+| **Extreme long-range (custom)** | **50-100+ km** | Not legally achievable in the Open category | Regulatory | $1,500+ |
+
+> **VLOS binds before any of this.** Denmark's Open category requires visual line of sight at all times — in practice a few hundred metres, whatever your video link reaches. The EU-legal column above is the *equipment* ceiling; VLOS is the *operational* one, and it is stricter. Flying to 6 km on a DJI O4 is legal equipment used illegally unless you hold a Specific-category authorisation. See [REGULATIONS.md](./REGULATIONS.md) and [BVLOS-RELAY-DRONE.md](./BVLOS-RELAY-DRONE.md).
 
 ---
 

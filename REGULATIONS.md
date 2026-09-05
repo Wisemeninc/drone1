@@ -116,6 +116,26 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 
 ---
 
+## Video Transmitter Power (5.8GHz)
+
+**This catches almost every new FPV builder.** Analog VTXs are sold rated at 400mW, 800mW, 1.6W and higher, but in Denmark and across the EU:
+
+| Setting | Legal licence-free? | Realistic range |
+|---------|--------------------|-----------------|
+| **25mW** | ✅ **Yes** — the CEPT limit | 200-500m |
+| 200mW / 400mW / 800mW / 1.6W | ❌ No — amateur radio licence required | 1-5 km |
+
+The cap is **25mW EIRP** under CEPT ECC Recommendation (06)04, and EIRP means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
+
+**Two practical consequences:**
+
+1. **Set your VTX to 25mW and leave it there.** Almost every VTX supports it, usually as the lowest power setting. A licensed amateur may use up to 1W on parts of the band; without that licence, 25mW is your ceiling.
+2. **If you want real range legally, buy certified digital.** The DJI O4 is CE/RED type-approved and legally reaches roughly 6 km in CE mode, because it is certified equipment rather than a bare VTX. No amount of analog power is legal here, but a certified digital system is. This is the strongest practical argument for digital video in the EU — stronger than image quality.
+
+Note that **VLOS still applies** regardless of what your video link can do. See the Open category rules above.
+
+---
+
 ## Remote Identification
 
 ### In force today (EU)
