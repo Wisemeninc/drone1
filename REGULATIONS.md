@@ -125,20 +125,20 @@ Required if you want to fly 900g–4kg drones closer to people (30m, or 5m in lo
 | **25mW** | ✅ **Yes** — the CEPT limit | 200-500m |
 | 200mW / 400mW / 800mW / 1.6W | ❌ No — and an amateur licence is not the workaround it sounds like (see below) | 1-5 km |
 
-The cap is **25mW e.i.r.p.** for non-specific short-range devices in 5725–5875 MHz under **ERC Recommendation 70-03, Annex 1** (harmonised standard ETSI EN 300 440), and e.i.r.p. means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
+The cap is **25mW e.i.r.p.** for non-specific short-range devices in 5725–5875 MHz under **ERC Recommendation 70-03, Annex 1**, given binding EU effect by **Decision (EU) 2022/180, Annex entry 61** (harmonised standard ETSI EN 300 440), and e.i.r.p. means transmitter power *plus* antenna gain. This is why every analog VTX sold by an EU shop is listed as "25mW" — the shops are selling you the legal configuration.
 
 **25mW is necessary but not sufficient — the channel matters just as much.** The 25mW allowance exists only inside **5725–5875 MHz**. Standard FPV channel banks spill out of it on both sides, and what lies outside is not "grey": the FPV channels that fall below 5725 MHz (R1/R2, low Band E, Band L) sit in **5470–5725 MHz**, an RLAN band in which UAS operation is **not permitted** — Decision (EU) 2022/179 as amended by 2022/2307, which bars UAS from 5250–5350 and 5470–5725 MHz; above 5875 MHz is the **road-safety ITS band** (Decision (EU) 2020/1426). (The same Decision *does* permit UAS in 5170–5250 MHz at up to 23 dBm — that is the 5.1 GHz carve-out a certified DJI O4 uses, see point 2 below. No analog FPV VTX operates there.) A VTX set to 25mW on Raceband R7 is illegal on two counts.
 
-| Band | ✅ ≥10 MHz inside 5725–5875 (usable) | ⚠️ <10 MHz from an edge — avoid | ❌ Outside — prohibited |
+| Band | ✅ Usable | ⚠️ Avoid — <10 MHz from an edge, or shares spectrum with 33 dBm telematics | ❌ Outside — prohibited |
 |------|------------------------------|--------------------------------------|-------------------------|
 | **Raceband (R)** | **R4 5769 · R5 5806 · R6 5843** | R3 5732 (7 MHz) | R1 5658 · R2 5695 (RLAN, UAS not permitted) · R7 5880 · R8 5917 (ITS) |
-| **Band A** | A2 5845 · A3 5825 · A4 5805 · A5 5785 · A6 5765 · A7 5745 | A8 5725 (0 MHz) · A1 5865 (10 MHz, borderline) | — |
-| **Band B** | B2 5752 · B3 5771 · B4 5790 · B5 5809 · B6 5828 · B7 5847 | B1 5733 (8 MHz) · B8 5866 (9 MHz) | — |
+| **Band A** | A2 5845 · A3 5825 · A4 5805 · A5 5785 · A6 5765 · A7 5745 | A8 5725 (0 MHz) · A1 5865 (on the 5855–5875 V2X band) | — |
+| **Band B** | B2 5752 · B3 5771 · B4 5790 · B5 5809 · B6 5828 · B7 5847 | B1 5733 (8 MHz) · B8 5866 (9 MHz; on the V2X band) | — |
 | **Band E** | — | — | E1–E4 (5645–5705, RLAN) · E5–E8 (5885–5945, ITS) |
-| **Band F / Fatshark** | F1 5740 · F2 5760 · F3 5780 · F4 5800 · F5 5820 · F6 5840 · F7 5860 | — | F8 5880 (ITS) |
-| **Band L** | — | — | all (5362–5621, RLAN) |
+| **Band F / Fatshark** | F1 5740 · F2 5760 · F3 5780 · F4 5800 · F5 5820 · F6 5840 | F7 5860 (on the 5855–5875 V2X band) | F8 5880 (ITS) |
+| **Band L** | — | — | all — 5362–5469 is radar / Earth-observation / aeronautical radionavigation spectrum with no civil allocation at all; 5470–5621 is RLAN where UAS operation is not permitted |
 
-Analog FPV video occupies roughly 20 MHz (±10 MHz around the centre), so a channel centred less than 10 MHz from a band edge spills over it — the ⚠️ column applies that one rule uniformly, with each channel's distance from the nearest edge shown. **Stick to R4–R6, A2–A7, B2–B7 or F1–F7.** Digital systems (DJI, Walksnail, HDZero) manage this in firmware in CE mode; analog does not — you have to pick the channel yourself.
+Two things put a channel in the ⚠️ column. First, analog FPV video occupies roughly 20 MHz (±10 MHz around the centre), so a channel centred less than 10 MHz from a band edge spills over it — each such channel shows its distance. Second, the 25 mW SRD allowance **shares** 5725–5875 MHz with much louder licensed users: **5855–5875 MHz is vehicle-to-vehicle telematics at 33 dBm e.i.r.p.** (Decision 2022/180, entries 88–89), so A1, B8 and F7 are legal but will be flattened by any nearby V2X-equipped vehicle. **Stick to R4–R6, A2–A7, B2–B7 or F1–F6.** One more thing to know rather than avoid: **5795–5815 MHz is road tolling at 2 W** (entry 62), which A4, F4, R5 and B5 straddle — fully legal to use, but expect the picture to break up under motorway gantries and don't blame the VTX. Digital systems (DJI, Walksnail, HDZero) manage this in firmware in CE mode; analog does not — you have to pick the channel yourself.
 
 **Two practical consequences:**
 
