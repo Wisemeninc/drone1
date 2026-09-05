@@ -490,7 +490,7 @@ A pragmatic phased build that de-risks as you go:
 - [B.A.T.M.A.N.-adv](https://www.open-mesh.org/projects/batman-adv/wiki/Wiki)
 - [OLSR](https://www.olsr.org/) / [OLSRv2](https://datatracker.ietf.org/doc/html/rfc7181)
 - [Babel routing protocol](https://www.irif.fr/~jch/software/babel/)
-- [LibreMesh](https://libremesh.org/) — community mesh OS
+- [LibreMesh](https://libremesh.github.io/) — community mesh OS
 
 ### Software — ground stations
 

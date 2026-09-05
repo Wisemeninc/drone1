@@ -241,5 +241,5 @@ If you want fewer restrictions (fly in A1 near people, simpler rules), a sub-250
 | Dronezoner (airspace map) | https://www.droneregler.dk/dronezoner |
 | Droneregler (rules info) | https://www.droneregler.dk |
 | EASA Drone Rules | https://www.easa.europa.eu/en/domains/civil-drones |
-| Modelflyvning Danmark | https://www.telemodel.dk |
+| Modelflyvning Danmark | https://www.modelflyvningdanmark.dk |
 | EU Drone Regulation 2019/947 | EUR-Lex (search "Commission Implementing Regulation 2019/947") |
