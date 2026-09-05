@@ -6,7 +6,14 @@ Quick-access shopping links for all components across both budget tiers. Include
 
 ---
 
-> **Note on the EU Shop column:** n-Factory's on-site search is JavaScript-driven and has no linkable URL — a search link silently lands on an unrelated product, so those entries point at the shop front page. Search there using the component name in column 2. Rotorama search links work and are product-specific.
+> **Note on the EU Shop column:** n-Factory's on-site search is JavaScript-driven and has no linkable URL — a search link silently lands on an unrelated product, so those entries point at the shop front page. Search there using the component name in column 2. Rotorama, CopterFarm and FPV24 search links work and are product-specific — though FPV24's search is fuzzy and will show related items when it has no exact match.
+
+> **⚠️ Availability (checked September 2026):** rows marked ⚠️ name a component that **no EU shop I checked still stocks** — Rotorama, FlyingMachines, CopterFarm and FPV24 all return no exact match. The link goes to the nearest in-stock alternatives instead.
+>
+> - **DAL Cyclone T5040C** — DAL props are still sold (e.g. DAL 4045), but not this model. Substitute the HQProp or Gemfan options in [COMPONENTS.md](./COMPONENTS.md).
+> - **Mamba F50 Pro 4-in-1 ESC** — appears to be aging out of the EU market; mostly US/UK stock, often backordered. The Diatone Mamba F722 MK4 + F55 BL32 stack is the current in-stock equivalent and is already the premium pick in [BUDGET-TIERS.md](./BUDGET-TIERS.md).
+>
+> AliExpress and Amazon links on those rows are unaffected.
 
 ---
 
@@ -19,6 +26,8 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | **n-Factory.de** | Germany | Over €100 | Huge selection, daily shipping before 14:00, 1-3 day delivery in DE | [n-factory.de](https://www.n-factory.de) |
 | **Rotorama** | Czech Republic (ships EU) | Varies | Frames, stacks, motors, batteries — loyalty program, beginner tutorials | [rotorama.de](https://www.rotorama.de) |
 | **FlyingMachines.de** | Germany | Over €100 | Large catalog (FPV + DJI), LiPo specialist, fast DE shipping | [flyingmachines.de](https://www.flyingmachines.de) |
+| **CopterFarm** | Germany | Over €120 | Strong on GPS modules, ESCs, frames — honest search, clear stock | [copterfarm.de](https://www.copterfarm.de) |
+| **FPV24** | Germany | Varies | Huge catalog, DJI dealer, ships fast — search is fuzzy, check the model number | [fpv24.com](https://www.fpv24.com) |
 | **Team BlackSheep** | Global (EU warehouse) | Varies | TBS products (Crossfire, frames, VTX), Source One frames | [team-blacksheep.com](https://www.team-blacksheep.com) |
 | **Eleshop.eu** | Netherlands | Varies | Pinecil, Pine64 products, soldering tools | [eleshop.eu](https://eleshop.eu) |
 | **SpeedyBee Official** | China (EU stock on Amazon) | Varies | Direct SpeedyBee FC/ESC, best prices on their products | [speedybee.com](https://www.speedybee.com) |
@@ -37,13 +46,13 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 1 | Source One V5 Frame (5") | [AliExpress](https://www.aliexpress.com/w/wholesale-Source-One-V5-frame-5-inch.html) | [Amazon.de](https://www.amazon.de/s?k=Source+One+V5+Frame+5+Zoll) | [TBS direct](https://www.team-blacksheep.com/shop/cat:sourceone) |
 | 2 | SpeedyBee F405 V4 Stack (FC + ESC) | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F405-V4-stack.html) | [Amazon.de](https://www.amazon.de/s?k=SpeedyBee+F405+V4) | [n-Factory](https://n-factory.de/) |
 | 3 | Emax Eco II 2306 2400KV motors | [AliExpress](https://www.aliexpress.com/w/wholesale-Emax-Eco-II-2306-2400KV.html) | [Amazon.de](https://www.amazon.de/s?k=Emax+Eco+II+2306+2400KV) | [n-Factory](https://n-factory.de/) |
-| 4 | DAL Cyclone T5040C props | [AliExpress](https://www.aliexpress.com/w/wholesale-DAL-Cyclone-T5040C.html) | [Amazon.de](https://www.amazon.de/s?k=DAL+Cyclone+T5040C+Propeller) | [Rotorama](https://www.rotorama.de/hledani?q=DAL+T5040) |
+| 4 | DAL Cyclone T5040C props | [AliExpress](https://www.aliexpress.com/w/wholesale-DAL-Cyclone-T5040C.html) | [Amazon.de](https://www.amazon.de/s?k=DAL+Cyclone+T5040C+Propeller) | [FPV24](https://www.fpv24.com/de/search?search=DAL+Propeller) ⚠️ |
 | 5 | SpeedyBee TX800 VTX | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-TX800-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=SpeedyBee+TX800+VTX) | [n-Factory](https://n-factory.de/) |
 | 6 | Foxeer Razer Mini camera | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Razer-Mini-FPV-camera.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Razer+Mini+FPV+Kamera) | [n-Factory](https://n-factory.de/) |
 | 7 | RadioMaster RP3 V2 ELRS receiver (antenna diversity) | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP3-V2-ELRS-2.4GHz-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP3+V2+ELRS) | [Rotorama](https://www.rotorama.de/hledani?q=RadioMaster+RP3) |
 | 8 | TBS Triumph antenna (RHCP SMA) | [AliExpress](https://www.aliexpress.com/w/wholesale-TBS-Triumph-antenna-RHCP-SMA.html) | [Amazon.de](https://www.amazon.de/s?k=TBS+Triumph+Antenne+RHCP+SMA) | [TBS direct](https://www.team-blacksheep.com/shop/cat:antennas) |
 | 9 | CNHL 1300mAh 4S 100C LiPo (x3) | [AliExpress](https://www.aliexpress.com/w/wholesale-CNHL-1300mAh-4S-100C.html) | [Amazon.de](https://www.amazon.de/s?k=CNHL+1300mAh+4S+100C+XT60) | [n-Factory](https://n-factory.de/) |
-| 10 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [Rotorama](https://www.rotorama.de/hledani?q=GPS+BN-220) |
+| 10 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [CopterFarm](https://www.copterfarm.de/search?sSearch=BN-220) |
 | 11 | Low ESR capacitor 35V 1000uF | [AliExpress](https://www.aliexpress.com/w/wholesale-low-ESR-capacitor-35V-1000uF.html) | [Amazon.de](https://www.amazon.de/s?k=Low+ESR+Kondensator+35V+1000uF) | — |
 | 12 | Buzzer 5V with wire | [AliExpress](https://www.aliexpress.com/w/wholesale-FPV-buzzer-5V-drone.html) | [Amazon.de](https://www.amazon.de/s?k=FPV+Buzzer+5V+Drohne) | — |
 
@@ -80,7 +89,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 |---|-----------|------------------|-----------------|----------------|
 | 1 | GEPRC Mark5 Frame (5", HD) | [AliExpress](https://www.aliexpress.com/w/wholesale-GEPRC-Mark5-frame-5-inch.html) | [Amazon.de](https://www.amazon.de/s?k=GEPRC+Mark5+Frame+5+Zoll) | [n-Factory](https://n-factory.de/) |
 | 2 | SpeedyBee F7 V3 Flight Controller | [AliExpress](https://www.aliexpress.com/w/wholesale-SpeedyBee-F7-V3-flight-controller.html) | [Amazon.de](https://www.amazon.de/s?k=SpeedyBee+F7+V3+Flight+Controller) | [n-Factory](https://n-factory.de/) |
-| 3 | Mamba F50 Pro 4-in-1 ESC (50A BL32) | [AliExpress](https://www.aliexpress.com/w/wholesale-Mamba-F50-Pro-50A-ESC.html) | [Amazon.de](https://www.amazon.de/s?k=Mamba+F50+Pro+50A+ESC) | [Rotorama](https://www.rotorama.de/hledani?q=Mamba+F50) |
+| 3 | Mamba F50 Pro 4-in-1 ESC (50A BL32) | [AliExpress](https://www.aliexpress.com/w/wholesale-Mamba-F50-Pro-50A-ESC.html) | [Amazon.de](https://www.amazon.de/s?k=Mamba+F50+Pro+50A+ESC) | [FPV24](https://www.fpv24.com/de/search?search=Mamba+F50) ⚠️ |
 | 4 | iFlight XING2 2306 1900KV (6S) x4 | [AliExpress](https://www.aliexpress.com/w/wholesale-iFlight-XING2-2306-1900KV.html) | [Amazon.de](https://www.amazon.de/s?k=iFlight+XING2+2306+1900KV) | [n-Factory](https://n-factory.de/) |
 | 5 | Gemfan 51466 V2 props | [AliExpress](https://www.aliexpress.com/w/wholesale-Gemfan-51466-V2-propeller.html) | [Amazon.de](https://www.amazon.de/s?k=Gemfan+51466+V2+Propeller) | [n-Factory](https://n-factory.de/) |
 | 6 | Rush Tank Ultimate Plus VTX (1.6W) | [AliExpress](https://www.aliexpress.com/w/wholesale-Rush-Tank-Ultimate-Plus-VTX.html) | [Amazon.de](https://www.amazon.de/s?k=Rush+Tank+Ultimate+Plus+VTX) | [Rotorama](https://www.rotorama.de/hledani?q=Rush+Tank) |
@@ -88,7 +97,7 @@ These are dedicated FPV shops based in Europe — fast EU shipping, correct stoc
 | 8 | RadioMaster RP1 ELRS receiver | [AliExpress](https://www.aliexpress.com/w/wholesale-RadioMaster-RP1-ELRS-receiver.html) | [Amazon.de](https://www.amazon.de/s?k=RadioMaster+RP1+ELRS+2.4GHz) | [n-Factory](https://n-factory.de/) |
 | 9 | Foxeer Lollipop V4 antenna (RHCP MMCX) | [AliExpress](https://www.aliexpress.com/w/wholesale-Foxeer-Lollipop-V4-MMCX-RHCP.html) | [Amazon.de](https://www.amazon.de/s?k=Foxeer+Lollipop+V4+MMCX+RHCP) | [n-Factory](https://n-factory.de/) |
 | 10 | GNB 1500mAh 6S 120C LiPo (x4) | [AliExpress](https://www.aliexpress.com/w/wholesale-GNB-1500mAh-6S-120C-XT60.html) | [Amazon.de](https://www.amazon.de/s?k=GNB+1500mAh+6S+120C+XT60) | [n-Factory](https://n-factory.de/) |
-| 11 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [Rotorama](https://www.rotorama.de/hledani?q=GPS+BN-220) |
+| 11 | BN-220 GPS module | [AliExpress](https://www.aliexpress.com/w/wholesale-BN-220-GPS-module.html) | [Amazon.de](https://www.amazon.de/s?k=BN-220+GPS+Modul) | [CopterFarm](https://www.copterfarm.de/search?sSearch=BN-220) |
 | 12 | Low ESR capacitor 35V 1000uF | [AliExpress](https://www.aliexpress.com/w/wholesale-low-ESR-capacitor-35V-1000uF.html) | [Amazon.de](https://www.amazon.de/s?k=Low+ESR+Kondensator+35V+1000uF) | — |
 
 ### Support Equipment
