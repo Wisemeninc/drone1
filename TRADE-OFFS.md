@@ -114,7 +114,7 @@ Spending $70 more on a frame for 15 seconds is rarely worth it for beginners. Pu
 
 | System | Usable Video Range | EU-legal **equipment**? | Notes |
 |--------|-------------------|-----------|-------|
-| **Analog 25mW** | **200-500m** | ✅ **Yes** | The only licence-free analog setting in the EU — **and only on channels inside 5725–5875 MHz** (R3–R6, A2–A7, B1–B7, F1–F6) |
+| **Analog 25mW** | **200-500m** | ✅ **Yes** | The only licence-free analog setting in the EU — **and only on channels inside 5725–5875 MHz** (R4–R6, A2–A7, B2–B7, F1–F6) |
 | Analog 200mW | 500m-1.5km | ❌ No | Over the 25mW cap; an amateur licence is not a reliable workaround (see REGULATIONS.md) |
 | Analog 800mW | 1-3 km | ❌ No | Over the 25mW cap; an amateur licence is not a reliable workaround (see REGULATIONS.md) |
 | **Analog 1.6W** | **2-5 km** | ❌ **No — 64× the limit** (conducted; ~100× as e.i.r.p.) | Maximum analog, illegal to transmit here |

@@ -8,7 +8,7 @@ Just the **flying quad** components, all with direct AliExpress search links. Pi
 > - **Radios & goggles** ship faster and with EU warranty from EU shops
 > - **Soldering kits & chargers** are not worth the 3–4 week AliExpress wait
 >
-> **⚠️ VTX power and channel — read before buying either VTX below.** In Denmark and the EU, 5.8GHz video is capped at **25mW e.i.r.p.** and only on channels inside **5725–5875 MHz** (R3–R6, A2–A7, B1–B7, F1–F6). The 800mW TX800 and the 1.6W Rush Tank listed here are what AliExpress sells; you must run them at **25mW on a legal channel**, and an amateur licence does not change that for bought gear. Full explanation and channel table in [REGULATIONS.md](./REGULATIONS.md).
+> **⚠️ VTX power and channel — read before buying either VTX below.** In Denmark and the EU, 5.8GHz video is capped at **25mW e.i.r.p.** and only on channels inside **5725–5875 MHz** (R4–R6, A2–A7, B2–B7, F1–F6). The 800mW TX800 and the 1.6W Rush Tank listed here are what AliExpress sells; you must run them at **25mW on a legal channel**, and an amateur licence does not change that for bought gear. Full explanation and channel table in [REGULATIONS.md](./REGULATIONS.md).
 >
 > **Shipping to Denmark:** AliExpress orders under €150 include VAT at checkout via the IOSS system — no customs surprises. Shipping typically takes 2–4 weeks.
 
