@@ -161,7 +161,7 @@ Flying beyond visual line of sight (BVLOS) requires additional precautions:
 **Legal long-range options:**
 - **EU Specific category:** Authorization via SORA risk assessment (apply to Trafikstyrelsen in Denmark)
 - **PDRA (Pre-Defined Risk Assessment):** Standardized scenarios that simplify Specific category approval
-- **FPV with an observer:** the *only* way FPV is legal in the Open category — `UAS.OPEN.060(4)` / Art. 4(1)(d) of 2019/947. The observer must stand **alongside** the pilot, keep the aircraft in **unaided** visual line of sight, and be able to warn the pilot. This is law, not "accepted practice", and it does **not** extend VLOS — the ~134 m limit above still applies; the observer merely lets you wear the goggles.
+- **FPV with an observer:** the *only* way FPV is legal in the Open category — Art. 4(1)(d) and `UAS.OPEN.060(4)` of 2019/947. By the Art. 2 definition the observer is *"positioned alongside the remote pilot, who, by unaided visual observation of the unmanned aircraft, assists the remote pilot in keeping the unmanned aircraft in VLOS"*, and 060(4) requires *"clear and effective communication"* between the two. This is law, not "accepted practice", and it does **not** extend VLOS — the ~134 m limit above still applies; the observer merely lets you wear the goggles.
 
 **Practical note:** Most long-range FPV pilots fly in remote, unpopulated areas and accept regulatory risk. This is common in the hobby but technically non-compliant without Specific category authorization. In Denmark, enforcement exists — Trafikstyrelsen can issue fines.
 
